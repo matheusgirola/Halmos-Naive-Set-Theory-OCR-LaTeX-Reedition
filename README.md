@@ -1,4 +1,4 @@
-# Halmos Naive Set Thoery Reedition with OCR and LaTEx
+# Halmos Naive Set Thoery Reedition with OCR and LaTeX
 
   In this notebook, we will use Optimal Character Recognition (OCR) with Python to help us "translate" the digitilized book Naive Set Theory by Paul Halmos into a PDF with a new and more interactable format.
 
