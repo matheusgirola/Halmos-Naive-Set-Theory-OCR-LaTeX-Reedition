@@ -1,1 +1,37 @@
-cabbages, and and the but such usage is alweys to be construed aS an illuminating parable only, and not &s & part of the tbat i8 developed. The principal concept of set the one that in completely axiomatic studies is the principal primitive (undefined) concept, is that of belonging If z belongs to A (z is &n element of A, € is contained in 4), we ghall write I € AJ Thig version of the Greek letter epsilon is 80 often used to denote belonging that its use to denote anything else is almost prohibited. Most &uthors relegate to itg set-theoretic use forever and uge when they need the fifth letter of the Greek alphabet: Perhaps & brief digression on alphabetic etiquette in set theory might be helpful. There is no compelling reason for using small and capital letters as in the preceding paragraph we might have written, and often will write, things like € y and BS Whenever possible; however, we shall infor- mally indicate the status of & set in particular hierarchy under considera- tion by means of the convention that letters at the beginning of the alpha- bet denote elements, &nd letters at the end denote sets containing them; similarly letters of & relatively simple kind denote elements, &nd letters of the larger and gaudier fonts denote sets containing them: Examples: A, A X,X possible relation between sets, more elementary than belonging, is equality: The equality of two sets A and B is universally denoted by the familiar symbol B; the fact that A and B are not equal is expressed by writing A # B The most basic property of belonging is its relation to equality, which can be formulated &s follows_ Axiom of extension. Two sets are if and only if have the same elements_ With greater pretentiousnesg and less clarity: & set is determined by its extension_ It is valuable to understand that the axiom of extension is not just logically necessary property of equality but & non-trivial statement about belonging: One way to come to understand the point is to consider & par- tially analogous situation in which the analogue of the axiom of extension Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN kings, like, theory being theory, equal they
+cabbages, and kings, and the like, but such usage is always to be construed as an illuminating parable only, and not as a part of the theory that is being developed. 
+\\
+
+	The principal concept of set thoery, the one that in completely axiomatic studies is the principal primitive (undefined) concept, is that of \textit{belonging}. If $x$ belongs to $A$ ($x$ is an element of $A$, $x$ is \textit{contained} in $A$), we shall write 
+
+\begin{equation*}
+x \in A
+\bend{equation*}
+
+	This version of the Greek letter epsilon is so often used to denote belonging that its use to denote anything else is almost prohibited. Most authors relegate $\in$ to its set-theoretic use forever and use $\epsilon$ when they need the fifth letter of the Greek alphabet. 
+\\
+
+	Perhaps a brief digression on alphabetic etiquette in set theory might be helpful. There is no compelling reason for using small and capital letters as in the preceding paragraph; we might have written, and often will write, things like $x \in y$ and $A \in B$. Whenever possible, however, we shall informally indicate the status of a set in a particular hierarchy under consideration by means of the convention that letters at the beginning of the alphabet denote elements, and letters at the end denote sets containing them; similarly letters of a relatively simple kind denote elements, and letters of the larger and gaudier fonts denote sets containing them. Examples: $x \in A$, $A \in X$, $X \in \mathscr{C}$ % precisa de \usepackage{ mathrsfs }
+\\
+
+	A possible relation between sets, more elementary than belonging, is \textit{equality}. The equality of two sets $A$ and $B$ is universally denoted by the familiar symbol 
+\\
+
+\begin{equation*}
+A = B;
+\end{equation*}
+
+	the fact that $A$ and $B$ are not equal is expressed by writing 
+
+\begin{equation*}
+A \neq B;
+\end{equation*}
+
+	The most basic property of belonging is its relation to equality, which can be formulated as follows. 
+
+\begin{named}[Axiom of extension.] Two sets are equal if and only if they have the same elements.
+\end{named}
+
+	With greater pretentiousness and less clarity: a set is determined by its extension. 
+\\
+
+	It is valuable to understand that the axiom of extension is not just a logically necessary property of equality but a non-trivial statement about belonging. One way to come to understand the point is to consider a partially analogous situation in which the analogue of the axiom of extension
