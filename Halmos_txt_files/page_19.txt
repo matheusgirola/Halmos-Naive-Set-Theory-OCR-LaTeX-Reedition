@@ -1,1 +1,36 @@
-L] Recall that "for gome x (x € A)" means  the game a8  ''for (y € 4)"; it follows that & judicioug change of notation will always lphabetic collisions ) are now ready to formulate the major principle of get often d to by its German name Aussonderungsariom )m of gpecification: To every st A and to every condition S() corresponds a set B whose elements are eractly those elements x of A vhich S(x) holds: dition" here ig just & sentence. The symbolism is intended to indi- at the letter  is free in the sentence S(z) ; that means that € occurs in least once without being introduced by one of the phrases "for some 'for all &. It is an immediate consequence of the axiom of extension e axiom of specification determines the get B uniquely. To indicate y B is obtained from A and from S(x) it is customary to write B {c € A: S(z)} btain an amusing and instructive application of the axiom of consider, in the role of S(z), the sentence not ( € 2). be convenient, here and throughout, to write "x € A" (alternatively ') instead of "not (€ € A)" ; in this notation, the role of S(z) is now by x / %. wS that, whatever the A may be, if B = {r € A:2 & c}, y, if and oly if (y € A and y & y). be that B € We proceed to prove that the answer is no. In- f B e 4, then either B € B also (unlikely, but not obviously impos- or else B & B. If B € B, then, by (*), the assumption B A yields ~& contradiction_ If B & B, by () again, the assumption yields B € B ~a contradiction This completes the proof that is impossible, %0 that we must have B € A. The most interesting this conclusion is that there exists something (namely B) that does to A. The set A in this argument was arbitrary. We roved; in other words, that nothing contains everything, theory, specifi- set tben, y € B A? then, again. quite Jong
+harmless if the letter used has already been used with "for some—." Recall that "for some $x (x \in A)$" means the same as  "for some $ y (y \in A)$"; it follows that a judicious change of notation will always avert alphabetic collisions.)
+
+We are now ready to formulate the major principle of set theory, often referred to by its German name $Aussonderungsaxiom$. 
+
+\begin{named}[Axiom of specification. ] To every set $A$ and to every condition $S(x)$ corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
+\end{named}
+
+A "condition" here is just a sentence. The symbolism is intended to indicate the letter $x$ is /textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
+
+\begin{equation*}
+B  = \{ x \in A: S(x) \} 
+\end{equation*}
+
+To obtain an amusing and instructive application of the axiom of specification, consider, in the role of $S(x)$, the sentence
+
+\begin{equation*}
+not (x \in x)
+\end{equation*}
+
+It will be convenient, here and throughout, to write "$x \in '  A$" (alternatively "$ x \notin A $") instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
+
+\begin{equation*}
+x \in ' x.
+\end{equation*}
+
+It follows that, whatever the set $A$ may be, if $B = {x \in A: x \in ' x}$, then, for all $y$,
+%Preciso saber como botar um asterisco nessa equação pra referenciar ela
+\begin{equation*}
+y \in B if and only if ( y \in A and y \in ' y).
+\end{equation*}
+
+Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \in ' B$. If $B \in B$, then, by (*), the assumption $B \in A$ yields $B \in ' B$—a contradiction. If $B \in ' B$, then, by (*) again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \in ' A$. The most interesting part of this conclusion is that there exists something (namely $B$) that doesnot belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
+
+\begin{equation*}
+nothing contains everything,
+\end{equation*}

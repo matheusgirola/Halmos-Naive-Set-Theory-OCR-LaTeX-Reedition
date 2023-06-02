@@ -1,1 +1,30 @@
-SECTION THE AXIOM OF SPECIFICATION All the basic principles of set theory, except oly the axiom of extension, are designed to make new gets out of old ones. The first and most impor- tant of these basic principles of set manufacture gy8, roughly speaking_ that anything intelligent one can assert about the elements of & set specifies gubset, namely, the subset of those elements about which the assertion is true Before formulating this principle in exact terms, we look at & heuristic example. Let A be the get of all men. The gentence "z is married' is true for gome of the elements > of A and false for otherg. The principle we are illustrating i8 the one that justifies the passage from the given A to the gubset (namely, the set of &ll married men) specified by the given sentence. To indicate the generation of the subset; it is usually denoted by {x < A:x i8 married} . Similarly {x € A:I i8 not married} is the get of all bachelors; {x € A: the father of € i8 Adam} is the set that contains Cain and Abel and nothing else; und {x € A: z is the father of Abel} is the set that contains Adam and nothing else_ Werning: 4 box that con- tains & hat and nothing else is not the 8ame hat, and, in the same way, the last get in this list of examples is not to be confused with Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN set thing
+\chapter{SECTION 2 THE AXIOM OF SPECIFICATION} 
+
+
+All the basic principles of set theory, except only the axiom of extension, are designed to make new sets out of old ones. The first and most important of these basic principles of set manufacture says, roughly speaking, that anything intelligent one can assert about the elements of a set specifies a subset, namely, the subset of those elements about which the assertion is true.
+
+Before formulating this principle in exact terms, we look at a heuristic example. Let $A$ be the set of all men. The sentence "$x$ is married" is true for some of the elements $x$ of $A$ and false for others. The principle we are illustrating is the one that justifies the passage from the given set $A$ to the subset (namely, the set of all married men) specified by the given sentence. To indicate the generation of the subset, it is usually denoted by 
+
+\begin{equation*}
+\{ x \in A: x is married \}.
+\end{equation*}
+
+Similarly 
+
+\begin{equation*}
+\{ x \in A: x is not married \}
+\end{equation*}
+
+is the get of all bachelors; 
+
+\begin{equation*}
+\{ x \in A: the father of x is Adam \} 
+\end{equation*}
+
+is the set that contains Cain and Abel and nothing else, and
+
+\begin{equation*}
+\{ x \in A: x is the father of Abel \}  
+\end{equation*}
+
+is the set that contains Adam and nothing else. Warning: a box that contains a hat and nothing else is not the same thing as a hat, and, in the same way, the last set in this list of examples is not to be confused with

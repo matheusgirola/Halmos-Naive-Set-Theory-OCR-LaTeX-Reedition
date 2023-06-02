@@ -1,1 +1,9 @@
-THE AXIOM OF SPECIFICATION more spectacularly , there i8 no universe Iniverse" here is uscd in the sense of "universe of discourse; meaning, any particular discussion, set that contains all the objects that enter that discussion. In older (pre-axiomatic) approaches to set theory, the existence of iverse was taken for granted, and the argument in the preceding para- ph was known &s the Russell paradoc. The moral is that it is impossi- especially in mathematics, to get something for nothing: To specify et, it is not enough to pronounce some magic words (which may form tence such as "€ & z"); it is necessary also to have at hand a set to ose elements the magic words apply. Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN
+or, more spectacularly
+
+\begin{equation*}
+there is no universe.
+\end{equation*}
+
+"Universe" here is used in the sense of "universe of discourse," meaning, in any particular discussion, a set that contains all the objects that enter into that discussion. 
+
+In older (pre-axiomatic) approaches to set theory, the existence of universe was taken for granted, and the argument in the preceding paragraph was known as the \textit{Russell paradox}. The moral is that it is impossible, especially in mathematics, to get something for nothing. To specify a set, it is not enough to pronounce some magic words (which may form a sentence such as "$x \in ' z$"); it is necessary also to have at hand a set to whose elements the magic words apply. 
