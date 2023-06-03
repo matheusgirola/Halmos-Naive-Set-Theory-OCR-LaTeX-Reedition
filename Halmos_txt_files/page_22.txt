@@ -1,1 +1,35 @@
-UNORDEfED Ffino The get theory developed g0 far i8 still & pretty poor for &ll we Ow there is only one get and that one is empty Are there enough sets engure that every get is an element of gome set? I8 it true that for any sets there is & third oe that they both belong to? What about three four; O any number? We need & new principle of get construction resolve such questions The following principle is & good beginning Ixiom of pairing: For any two sets there exists a set that they both be- ong to. te that this is just the affirmative answer to the gecond question above Co reassure worriers, let us hasten to observe that words guch as "two,' ree, and "four; used above; do not refer to the mathematical concepts ring those names, which will be defined later; at present such words are rely the ordinary linguistic abbreviations for "gomething and then some- ng else" repeated an appropriate number of times Thug, for instance, axiom of pairing, in unabbreviated form, say8 that if a and b are sets, n there exists A such that & € A and b € A. Jne congequence (in fact an equivalent formulation) of the axiom of ring is that for any two sets there exists & set that contains both of and nothing else. Indeed, if and b are and if A is get such t a € A and 4, then we can apply the axiom of specificetion to h the sentence @ 0T I =6," The result is the set {c € A:I = @ 0r * = 6} , 1 that get, clearly, contains just and b. The exiom of extension im- s that there can be only one set with this property. The usual symbol that set i8 {a, 6} ; Bet i8 called the (or, by way of emphatic comparigon with sub- uent concept; the unordered pair) formed by and b. f, temporarily, we refer to the sentence "1 a 0r I 6" as S() , we y express the axiom of pairing by saying that there exists & get B guch I € B if and only if S(z). axiom of specification, applied to & set 4, asserts the existence of & B such that I B if and only if (z € A and S(z)). Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN thing; set sets, b € pair
+The set theory developed so far is still a pretty poor thing; for all we know there is only one set and that one is empty. Are there enough sets to ensure that every set is an element of some set? Is it true that for any two sets there is a third one that they both belong to? What about three sets, or four, or any number? We need a new principle of set construction to resolve such questions. The following principle is a good beginning 
+
+\begin{named}[Axiom of pairing. ]  For any two sets there exists a set that they both belong to.
+\end{named}
+
+
+Note that this is just the affirmative answer to the second question above.
+
+To reassure worriers, let us hasten to observe that words such as "two", "three", and "four," used above, do not refer to the mathematical concepts bearing those names, which will be defined later; at present such words are merely the ordinary linguistic abbreviations for "something and then something else" repeated an appropriate number of times. Thus, for instance, the axiom of pairing, in unabbreviated form, says that if $a$ and $b$ are sets, then there exists a set $A$ such that $a \in A$ and $b \in A$.
+
+One consequence (in fact an equivalent formulation) of the axiom of pairing is that for any two sets there exists a set that contains both of them and nothing else. Indeed, if $a$ and $b$ are sets, and if $A$ is a set such that $a \in A$ and $b \in A$, then we can apply the axiom of specificetion to $A$ whit the sentence "$x = a \text{ \texit{or} } x = b$." The result is the set 
+
+\begin{equation*}
+\{ x \in A: x = a \text{ \textit{or} } x = b \},
+\end{equation*}
+
+and that set, clearly, contains just $a$ and $b$. The axiom of extension implies that there can be only one set with this property. The usual symbol for that set is
+
+\begin{equation*}
+\{ a, b \};
+\end{equation*}
+
+the set is called the \textit{pair} (or, by way of emphatic comparison with a subsequent concept, the \textit{unordered pair}) formed by $a$ and $b$. 
+
+If, temporarily, we refer to the sentence "$x = a \text{ \textit{or} } x = b$."" as $S(x)$ , we may express the axiom of pairing by saying that there exists a set $B$ such that 
+
+\begin{equation}
+x \in B \text{ \textit{if and only if} } S(X). \tag(\ast)
+\end{equation}
+
+The axiom of specification, applied to a set $A$, asserts the existence of a set $B$ such that 
+
+\begin{equation}
+x \in B \text{ \textit{if and only if} } (x \in A \text{ \textit{and} }  S(x)). \tag(\ast \ast)
+\end{equation}

@@ -1,1 +1,18 @@
-SECTION UNORDERED PAIRS For all that bas been gaid 80 far; we might have been operating in vacuum To give the discussion some substance, let u8 nOw officially &s- Bume that there exists a sel; Since later on we shall formulate & and more  ugeful existential assumption, this  asgumption  pleys temporary role only: One conse  quence of this innocuous seeming assumption is that there exists set without any elements at &ll. Indeed, if A is & set, apply the axiom specification to A with the sentence #z" (O1, for that matter, with any other universally false sentence) The result is the set {z € A:z # x}, and that get, clearly, has no elements The axiom of extension implies that there can be only one get with no elements: The usual gymbol for that set is 0; the set is called the empty set. The empty set is subset of every set, O, in other words, $ € A for every A. To establish this, we might argue &s follows It is to be proved that every element in $ belongs to A; since there are no elements in $, the condition is automatically fulfilled: The reasoning is correct but per- haps unsatisfying Since it is & typical example of & frequent phenomenon, condition holding in the '"vacuous'  sense, & word of advice to the inex- perienced reader might be in order_ To prove that something is true about the empty set, prove that it cannot be false: for instance, could it be false that $ € A? It could be false only if $ had an element that did not belong to A_ Since / has no elements at &ll, this is absurd. Conclu- 8ion: 0 C A is not false, and therefore $ € A for Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN deeper "I ` How, overy
+\chapter*{SECTION 3 UNORDERED PAIRS} 
+
+For all that bas been said so far, we might have been operating in a vacuum. To give the discussion some substance, let us now officially assume that
+
+\begin{equation*}
+\text{ \textit{there exists a set} }
+\end{equation*}
+ 
+Since later on we shall formulate a deeper and more useful existential assumption, this  assumption  plays  a temporary role only. One consequence of this innocuous seeming assumption is that there exists a set without any elements at all. Indeed, if $A$ is a set, apply the axiom of specification to $A$ with the sentence "$ x \neq x $"  (or, for that matter, with any other universally false sentence). The result is the set ${x \in A: x \neq x}$, and that set, clearly, has no elements. The axiom of extension implies that there can be only one set with no elements. The usual symbol for that set is 
+
+\begin{equation*}
+\emptyset ;
+\end{equation*}
+
+
+the set is called the \textit{empty set}. 
+
+The empty set is a subset of every set, or, in other words, $ \emptyset \subset A$ for every $A$. To establish this, we might argue as follows. It is to be proved that every element in $ \emptyset $ belongs to $A$; since there are no elements in $ \emptyset $, the condition is automatically fulfilled. The reasoning is correct but perhaps unsatisfying. Since it is a typical example of a frequent phenomenon, a condition holding in the "vacuous" sense, a word of advice to the inexperienced reader might be in order. To prove that something is true about the empty set, prove that it cannot be false. How, for instance, could it be false that $ \emptyset \in  A$? It could be false only if $ \emptyset $ had an element that did not belong to $A$ç Since $ \emptyset $ has no elements at all, this is absurd. Conclusion: $ \emptyset \subset A$ is not false, and therefore $ \emptyset \subset A$ for every $A$.

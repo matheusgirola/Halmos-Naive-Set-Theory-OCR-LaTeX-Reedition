@@ -1,1 +1,15 @@
-UNORDERED PAIRS A is & set and S(c) is an arbitrary sentence, it is permissible to form Ax6A and S(z) } ; this set is the game &s {x A: S(c) } As further ex- nples, we note that {:t #w} =0 d {c:x = a} {a} . case S(c) is (r & 2), or in cage S(r) is (z 2), the gpecified z'8 do not nstitute & set_ Despite the maxim about never getting something nothing; it geems little harsh to be told that certain sets are not really sets and even their mes must never be mentioned_ Some approaches to set theory try to ften the blow by making systematic use of such illegal gets but just not lling them sets; the customary word is "class. A precise explanation what classes really are and how used is irrelevant in the present proach: Roughly speaking, class may be identified with condition ntence) , O, rather; with the "extension of & condition. Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN for they are
+If $A$ is a set and $S(x)$ is an arbitrary sentence, it is permissible to form $ \{ x : x \in A \text{ \textit{and} } S(z) \}$; this set is the same as $\{x \in A: S(x) \}$. As further examples, we note that 
+
+\begin{equation*}
+\{ x : x \neq x \} = \emptyset
+\end{equation*}
+
+and
+
+\begin{equation*}
+\{ x : x = a\neq x \} = \{ a \}.
+\end{equation*}
+
+In case $S(x)$ is $(x \in ' x)$, or in case $S(x)$ is $(x = x)$, the specified $x$'s do not constitute a set. 
+
+Despite the maxim about never getting something for nothing; it seems a little harsh to be told that certain sets are not really sets and even their names must never be mentioned. Some approaches to set theory try to soften the blow by making systematic use of such illegal sets but just not calling them sets; the customary word is "class". A precise explanation of what classes really are and how used is irrelevant in the present approach. Roughly speaking, class may be identified with condition (sentence), or, rather, with the "extension" of a condition.
