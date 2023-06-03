@@ -1,0 +1,107 @@
+%--- CHPATER 3 PAGES 21-24
+%--- MODIFIED LAST IN 03/06/2023 
+
+\chapter*{SECTION 3 UNORDERED PAIRS} 
+
+For all that bas been said so far, we might have been operating in a vacuum. To give the discussion some substance, let us now officially assume that
+
+\begin{equation*}
+\text{ \textit{there exists a set} }
+\end{equation*}
+ 
+Since later on we shall formulate a deeper and more useful existential assumption, this  assumption  plays  a temporary role only. One consequence of this innocuous seeming assumption is that there exists a set without any elements at all. Indeed, if $A$ is a set, apply the axiom of specification to $A$ with the sentence "$ x \neq x $"  (or, for that matter, with any other universally false sentence). The result is the set ${x \in A: x \neq x}$, and that set, clearly, has no elements. The axiom of extension implies that there can be only one set with no elements. The usual symbol for that set is 
+
+\begin{equation*}
+\emptyset ;
+\end{equation*}
+
+
+the set is called the \textit{empty set}. 
+
+The empty set is a subset of every set, or, in other words, $ \emptyset \subset A$ for every $A$. To establish this, we might argue as follows. It is to be proved that every element in $ \emptyset $ belongs to $A$; since there are no elements in $ \emptyset $, the condition is automatically fulfilled. The reasoning is correct but perhaps unsatisfying. Since it is a typical example of a frequent phenomenon, a condition holding in the "vacuous" sense, a word of advice to the inexperienced reader might be in order. To prove that something is true about the empty set, prove that it cannot be false. How, for instance, could it be false that $ \emptyset \in  A$? It could be false only if $ \emptyset $ had an element that did not belong to $A$ç Since $ \emptyset $ has no elements at all, this is absurd. Conclusion: $ \emptyset \subset A$ is not false, and therefore $ \emptyset \subset A$ for every $A$.
+
+The set theory developed so far is still a pretty poor thing; for all we know there is only one set and that one is empty. Are there enough sets to ensure that every set is an element of some set? Is it true that for any two sets there is a third one that they both belong to? What about three sets, or four, or any number? We need a new principle of set construction to resolve such questions. The following principle is a good beginning 
+
+\begin{named}[Axiom of pairing. ]  For any two sets there exists a set that they both belong to.
+\end{named}
+
+
+Note that this is just the affirmative answer to the second question above.
+
+To reassure worriers, let us hasten to observe that words such as "two", "three", and "four," used above, do not refer to the mathematical concepts bearing those names, which will be defined later; at present such words are merely the ordinary linguistic abbreviations for "something and then something else" repeated an appropriate number of times. Thus, for instance, the axiom of pairing, in unabbreviated form, says that if $a$ and $b$ are sets, then there exists a set $A$ such that $a \in A$ and $b \in A$.
+
+One consequence (in fact an equivalent formulation) of the axiom of pairing is that for any two sets there exists a set that contains both of them and nothing else. Indeed, if $a$ and $b$ are sets, and if $A$ is a set such that $a \in A$ and $b \in A$, then we can apply the axiom of specificetion to $A$ whit the sentence "$x = a \text{ \texit{or} } x = b$." The result is the set 
+
+\begin{equation*}
+\{ x \in A: x = a \text{ \textit{or} } x = b \},
+\end{equation*}
+
+and that set, clearly, contains just $a$ and $b$. The axiom of extension implies that there can be only one set with this property. The usual symbol for that set is
+
+\begin{equation*}
+\{ a, b \};
+\end{equation*}
+
+the set is called the \textit{pair} (or, by way of emphatic comparison with a subsequent concept, the \textit{unordered pair}) formed by $a$ and $b$. 
+
+If, temporarily, we refer to the sentence "$x = a \text{ \textit{or} } x = b$."" as $S(x)$ , we may express the axiom of pairing by saying that there exists a set $B$ such that 
+
+\begin{equation}
+x \in B \text{ \textit{if and only if} } S(X). \tag(\ast)
+\end{equation}
+
+The axiom of specification, applied to a set $A$, asserts the existence of a set $B$ such that 
+
+\begin{equation}
+x \in B \text{ \textit{if and only if} } (x \in A \text{ \textit{and} }  S(x)). \tag(\ast \ast)
+\end{equation}
+
+The reletion between (*) and (**) typifies something that occurs quite frequently. All the remaining principles of set construction are pseudo-special cases of the axiom of specification in the sense in which (*) is a pseudo-special case of (**). They all assert the existence of a set specified by a certain condition; if it were known in advance that there exists a set containing all the specified elements, then the existence of a set containing just them would indeed follow as a special case of the axiom of specificetion. 
+
+If $a$ is a set, we may form the unordered pairs ${a, a}$. That unordered pair is denoted by 
+
+\begin{equation*}
+\{ a \}
+\end{equation*}
+
+and is called the \textit{singleton} of $a$; it is uniquely characterized by the statement that it has $a$ as its only element. Thus, for instance, $ \emptyset $ and $ \{ \emptyset \}$ are very different sets; the former has no elements, whereas the latter has the unique element $ \emptyset $. To say that $a \in A$ is equivalent to saying that ${a} \subset A$. 
+
+The axiom of pairing ensures that every set is an element of some set and that any two sets are simultaneously elements of some one and the same set. (The corresponding questions for three and four and more sets will be answered later.) Another pertinent comment is that from the assumptions we have made so far we can infer the existence of very many sets indeed. For examples  consider the sets $ \emptyset, \{ \emptyset \}, \{ \{ \emptyset \} \}, \{ \{ \{ \emptyset \} \} \} $, etc.; consider the pairs, such as  $ \{ \emptyset, \{ \emptyset \} \}$, formed by any two of them; consider the pairs formed by any two such pairs, or else the mixed pairs formed by any singleton and any and pair; proceed so on ad infinitum.
+
+% Temporary: criar um ambiente só pra xercicios
+\begin{named}[EXERCISE. ] Are all the sets obtained in this way distinct from one another? 
+\end{named}
+
+Before continuing our study of set theory, we pause for a moment to discuss a notational matter. It seems natural to denote the set $B$ described in (*) by ${x: S(x)}$; in the special case that was there considered
+
+\begin{equation*}
+\{ x : x = a \text{ \textit{or} } x = b \} = \{ a,b \}.
+\end{equation*}
+
+We shall use this symbolism whenever it is convenient and permissible to do so. If, that is, $S(x)$ is a condition on $x$ such that the $x$'s that $S(x)$ specifies constitute a set, then we may denote that set by 
+
+\begin{equation*}
+\{ x : S(X) \}.
+\end{equation*}
+
+In case $A$ is a set and $S(x)$ is $(x \in A)$, then it is permissible to form ${x: S(x)}$; in fact 
+
+\begin{equation*}
+\{ x : x \in A \} = A
+\end{equation*}
+
+If $A$ is a set and $S(x)$ is an arbitrary sentence, it is permissible to form $ \{ x : x \in A \text{ \textit{and} } S(z) \}$; this set is the same as $\{x \in A: S(x) \}$. As further examples, we note that 
+
+\begin{equation*}
+\{ x : x \neq x \} = \emptyset
+\end{equation*}
+
+and
+
+\begin{equation*}
+\{ x : x = a\neq x \} = \{ a \}.
+\end{equation*}
+
+In case $S(x)$ is $(x \in ' x)$, or in case $S(x)$ is $(x = x)$, the specified $x$'s do not constitute a set. 
+
+Despite the maxim about never getting something for nothing; it seems a little harsh to be told that certain sets are not really sets and even their names must never be mentioned. Some approaches to set theory try to soften the blow by making systematic use of such illegal sets but just not calling them sets; the customary word is "class". A precise explanation of what classes really are and how used is irrelevant in the present approach. Roughly speaking, class may be identified with condition (sentence), or, rather, with the "extension" of a condition.
