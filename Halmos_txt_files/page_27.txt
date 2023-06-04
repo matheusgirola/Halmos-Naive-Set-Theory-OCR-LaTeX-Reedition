@@ -1,1 +1,55 @@
-14 NAIVE SET THEORY SEc  student of mathematics ghould prove these things for himself at least once in his life. The proofs are based On the corresponding elemen- tary properties of the logical operator 0_ An equally gimple but quite suggestive fact is that (a} U {6} {a, b}. Whet this suggests ig the way to generalize pairs.   Specifically, wve write {a, 6, c} {a} U {b} U {c}_ The equation defineg its left gide. The right side should by rights have at least one pair of parentheses in it, but; in view of the associative law, their omission cen lead to no misunderstanding: Since it ig easy to prove that {a, 6,c} {r:z = a 0r I b 0r I = c}, we know now that for every three sets there exists & set that contains them and nothing else; it ig natural to call that uniquely determined set the (unordered) triple formed by them: The extension of the notation and terminology thus introduced to more terms (quadruples, etc ) is obvious The formation of unions hag many points of similarity with another set- theoretic operation: If A and B are sets, the intersection of A and B is the set A 0 B defined by A n B = {ceA:z eB}_ The definition i8 gymmetric in A and B even if it looks otherwise; we have A n B = {z €B:z € A}, and, in fact, Gince < € A 0 B if and oly if z belongs to both A and B, it followg that 4 0 B = {x: r € A and x € B}. The basic facts about intersections, &s well &s their proofs, are similar to the basic facts about unions: 4 0 $ = $, A 0 B = B 0 4, A 0 (B n C) = (A 0 B) 0 C, A n A = 4, A € B if and only if A 0 B = A. Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN Every
+Every student of mathematics should prove these things for himself at least once in his life. The proofs are based on the corresponding elementary properties of the logical operator $or$.
+
+An equally simple but quite suggestive fact is that 
+
+\begin{equation*}
+\{ a \} \cup \{ b \} = \{ a, b \}.
+\end{equation*}
+
+What this suggests is the way to generalize pairs.   Specifically, we write 
+
+\begin{equation*}
+ \{ a, b, c \} = \{ a \} \cup \{ b \} \cup \{ c \}.
+\end{equation*}
+
+The equation defines its left side. The right side should by rights have at least one pair of parentheses in it, but, in view of the associative law, their omission cen lead to no misunderstanding. Since it is easy to prove that 
+
+\begin{equation*}
+ \{ a, b, c \} = \{ x: x = a \: or \: x = b \: or \: x = c},
+\end{equation*}
+
+we know now that for every three sets there exists a set that contains them and nothing else; it is natural to call that uniquely determined set the (\textit{unordered}) \textit{triple} formed by them. The extension of the notation and terminology thus introduced to more terms (\textit{quadruples}, etc.) is obvious.
+
+The formation of unions has many points of similarity with another set-theoretic operation. If $A$ and $B$ are sets, the \textit{intersection} of $A$ and $B$ is the set 
+
+\begin{equation*}
+A \cap B
+\end{equation*}
+
+defined by 
+
+\begin{equation*}
+A \cap B = \{ x \in A: x \in B \}.
+\end{equation*}
+
+The definition is symmetric in $A$ and $B$ even if it looks otherwise; we have 
+
+\begin{equation*}
+A \cap B = \{ x \in B: x \in A \},
+\end{equation*}
+
+and, in fact, since $x \in A \cap B$ if and only if $x$ belongs to both $A$ and $B$, it follows that 
+
+\begin{equation*}
+A \cap B = \{x: x \in A \text{ \textit{and} } x \in B \}.
+\end{equation*}
+
+The basic facts about intersections, as well as their proofs, are similar to the basic facts about unions:
+
+\begin{equation*}
+A \cap \emptyset = \meptyset , \\
+A \cap B =  B \cap A, \\
+A \cap (B \cap C) = (A \cap B) \cap C, \\
+A \cap A = A, \\
+A \subset B \text{ \textit{ if and only if} } A \cap B = A.
+\end{equation*}

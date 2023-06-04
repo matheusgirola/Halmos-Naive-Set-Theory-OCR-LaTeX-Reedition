@@ -1,1 +1,28 @@
-EC: UNIONS AND INTERSECTIONS 15 'airs of sets with an empty intersection occur frequently enough to justify use of special word: if A 0 B = $, the sets A and B are called isjoint. The same word is sometimes applied to & collection of sets dicate that any two distinct sets of the collection are disjoint; alterna- vely we may speak in such & situation of & pairwise disjoint collection. Two useful facts about unions and intersections involve both the opera- iong at the same time: A 0 (B U C) = (A 0 B) U (A n C), A U (B nc (A U B) n (A U C). "hese identitieg are called the distributive laws By way of & sample of t-theoretic proof, we the second one_ If x belongs to the left side, nen x belongs either to A o to both B and C; if € is in A, then € is in both U B and A U C, and if z is in both B and C, then, again, € is in both U B and A U C;it follows that, in any case, I belongs to the right side 'his proves that the right side includes the left_ To prove the reverse in- lusion, just observe that if z belongs to both A U B and A U C, then € elongs either to Or to both B and C The formation of the intergection of two sets A and B, OT, we might as ell say, the formation of the intersection of & (A, B} of sets, is pecial case of & much more general operation: (This is another respect in hich the theory of intersections imitates that of unions.) The existence the general operation of intersection depends on the fact that for each on-empty collection of sets there exists & set that contains exactly those lements that belong to every set of the given collection. In other words: each collection @, other than /, there exists & set such that € € V if nd only if x X for every X in To prove this assertion; let A be any articular set in @ (this is justified by the fact that @ # 0) and rite V = (z € A:€ e X for every X in @} The condition means "for all X (if X € @, then € € X) .") The dependence fV on the arbitrary choice of A is illusory; in fact V {r: I eX for every X in @}. he get V is called the intersection of the collection @ of sets; the axiom extension guarantees its uniqueness. The customary notation is similar the one for unions: instead of the unobjectionable but unpopular Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN prove pair step
+Pairs of sets with an empty intersection occur frequently enough to justify the use of a special word: if $A \cap B =  \emptyset $, the sets $A$ and $B$ are called \textit{disjoint}. The same word is sometimes applied to a collection of sets indicate that any two distinct sets of the collection are disjoint; alternatively we may speak in such a situation of a \textit{pairwise disjoint} collection.
+ 
+Two useful facts about unions and intersections involve both the operations at the same time: 
+
+\begin{equation*}
+A \cap (B \cup C) = (A \cap B) \cup (A \cap C),\\
+A \cup (B \cap C) = (A \cup B) \cap (A \cup C).\\
+\end{equation*}
+
+These identities are called the \textit{distributive laws}. By way of a sample of a set-theoretic proof, we prove the second one. If $x$ belongs to the left side, then $x$ belongs either to $A$ or to both $B$ and $C$; if $x$ is in $A$, then $x$ is in both $A \cup B$ and $A \cup C$, and if $x$ is in both $B$ and $C$, then, again, $x$ is in both $A \cup B$ and $A \cup C$; it follows that, in any case, $x$ belongs to the right side. This proves that the right side includes the left. To prove the reverse inclusion, just observe that if $x$ belongs to both $A \cup B$ and $A \cup C$, then $x$ belongs either to $A$ or to both $B$ and $C$. 
+
+The formation of the intersection of two sets $A$ and $B$, or, we might as well say, the formation of the intersection of a pair $ \{ A, B \} $ of sets, is a special case of a much more general operation. (This is another respect in which the theory of intersections imitates that of unions.) The existence of the general operation of intersection depends on the fact that for each non-empty collection of sets there exists a set that contains exactly those elements that belong to every set of the given collection. In other words: for each collection $\mathcal{C}$, other than $ \emptyset $, there exists a set $V$ such that $x \in V$ if and only if $x \in X$ for every $X$ in $\mathcal{C}$. To prove this assertion, let $A$ be any articular set in $\mathcal{C}$ (this step is justified by the fact that $\mathcal{C} \neq \emptyset$) and write
+
+\begin{equation*}
+V = \{ x \in A: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
+\end{equation*}
+
+(The condition means "\textit{for all $X$ (if $X \in \mathcal{C}$, then $x \in X$)."}) The dependence of $V$ on the arbitrary choice of $A$ is illusory; in fact
+
+\begin{equation*}
+V = \{ x \in X: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
+\end{equation*}
+
+The set $V$ is called the \textit{intersection} of the collection $ \mathcal{C} $ of sets; the axiom of extension guarantees its uniqueness. The customary notation is similar the one for unions: instead of the unobjectionable but unpopular
+
+\begin{equation*}
+\cap \mathcal{C} ,
+\end{equation*}

@@ -1,1 +1,22 @@
-SECTION UNIONS AND INTERSECTIONS If A &nd B are gets, it is gometimes natural to wish to unite their ele- ments into one comprehensive set. One way of describing guch com- prehensive set ig to require it to contain all the elements thet to at least one of the two members of the pair (A, B}. Thig formulation sug- gests 8  sweeping  generalization  of itself; surely imilar  construction should apply to arbitrary collections of sets and not just to pairg of them What is wanted; in other words, is the following principle of get construc- tion. Axiom of uniong: For every collection of sets there exists a set that con- tains all the elements that belong to at least one set of the given collection_ Here it ig for collection @ there exists set U such that if I € X for gome X in @, then € U. (Note that "at least one" is the same a8 " gome ) The comprehensive get U described above may be too comprehensive; it may contain elements that to none of the sets X in the collection @. This is easy to remedy; just apply the axiom of specification to form the Bet {z U:reX for some X in @}_ (The condition here ig & translation into idiomatic usage of the mathemati- cally more acceptable "for some X (€ Xand X € @).") It followg that, for every a necessary and gufficient condition that belong to this set is that-z belong to X for gme X in @. If we ~change notation and call the new set U again, then U = Ir:r Xfor sme X in @}. This set U ig called the union of the collection @ of gets; note that tne 12 Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN belong ~again: every belong
+\chapter*{SECTION 4: UNIONS AND INTERSECTIONS}
+
+If $A$ and $B$ are sets, it is sometimes natural to wish to unite their elements into one comprehensive set. One way of describing such a comprehensive set is to require it to contain all the elements that belong to at least one of the two members of the pair $ \{ A, B \}$. This formulation suggests a sweeping  generalization of itself; surely a similar construction should apply to arbitrary collections of sets and not just to pairs of them. What is wanted, in other words, is the following principle of set construction.
+
+\begin{named}[Axiom of unions. ]  For every collection of sets there exists a set that contains all the elements that belong to at least one set of the given collection.
+\end{named}
+
+Here it is again: for every collection $\mathcal{C}$ there exists a set $U$ such that if $x \in X$ for some $X$ in $\mathcal{C}$, then $ x \in U$. (Note that "at least one" is the same as "some.") 
+
+The comprehensive set $U$ described above may be too comprehensive; it may contain elements that belong to none of the sets $X$ in the collection $\mathcal{C}$. This is easy to remedy; just apply the axiom of specification to form the set 
+
+\begin{equation*}
+\{ x \in U: x \in X \text{ \textit{for some} } X \text{ \textit{in} } \mathcal{C} \}.
+\end{equation*}
+
+The condition here is a translation into idiomatic usage of the mathematically more acceptable "\textit{for some} $X(x \in X \text{ \textit{and} } X \in \mathcal{C})$.") It follows that, for every $x$, a necessary and sufficient condition that $x$ belong to this set is that $x$ belong to $X$ for some $X$ in $\mathcal{C}$. If we change notation and call the new set $U$ again, then
+
+\begin{equation*}
+U = {x: x \in X \text{ \textit{ for some } } X \text{ \textit{in} }
+\end{equation*} \mathcal{C} \}.
+
+This set $U$ is called the \textit{union} of the collection $\mathcal{C}$ of sets; note that the

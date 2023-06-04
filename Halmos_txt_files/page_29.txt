@@ -1,1 +1,14 @@
-16 NAIVE SET THEORY SEc. the set V is usually denoted by 0 (X:Xte} Oxae X: ExERCISE_ A necessary and sufficient condition that (4 0 B) U C = A 0 (B U C) is that C € A. Observe that the condition has nothing to do with the set B. Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN
+the set $V$ is usually denoted by 
+
+\begin{equation*}
+\cap \{ X : X \in \mathcal{C} \}
+\end{equation*}
+
+or
+
+\begin{equation*}
+\cap_{X \in \mathcal{C}} X.
+\end{equation*}
+
+\begin{named}[EXERCISE. ]  A necessary and sufficient condition that $(A \cap B) \cup C = A \cap (B \cup C)$ is that $C \subset A$. Observe that the condition has nothing to do with the set B.
+\end{named}

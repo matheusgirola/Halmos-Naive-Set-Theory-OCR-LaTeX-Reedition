@@ -1,1 +1,66 @@
-UNIONS AND INTERSECTIONS 13 riom of extension guarantees its uniqueness  The simplest symbol for U at is in use at all is not very popular in mathematical circles; it is U e. [ost mathematiciang prefer gomething like U {X:X e @} Uxae X. urther alternatives are available in certain important special cases they ill be described in due course the time being we restrict our study of the of unions to the mplest facts only. The simplest fact of all is that U (X:Xe $} 0, d the next simplest fact is that U (X: X e {A}} = A_ the brutally simple notation mentioned above these facts are expressed Ug = $ U (A} A. he proofs are immediate irom the definitions There is & little more substance in the union of pairs of sets (which is hat started this whole discussion anyway). In that case special notation used: U {X: X e {4,B}} = A U B he general definition of unions implies in the special case that € € 4 U B and only if z belongs to either A Or B or both; it follows that A U B = {z:z € A I€B}. ere are some easily proved facts about the unions of pairs: A U $ = 4, A U B = B U A (commutativity) , 4 U (B U C) = (A U B) U €C (associativity) , A U A = 4 (idempotence) , A € B if and only if 4 U B = B. Original Mom ed by Google UNIVERSITY OF MICHIGAN For theory
+axiom of extension guarantees its uniqueness. The simplest symbol for $U$ that is in use at all is not very popular in mathematical circles; it is 
+
+\begin{equation*}
+\cup \mathcal{C}.
+\end{equation*}
+
+Most mathematicians prefer something like 
+
+\begin{equation*}
+\cup \{ X: X \in \mathcal{C} \}
+\end{equation*}
+
+or
+
+\begin{equation*}
+\cup_{X \in \mathcal{C}} X.
+\end{equation*}
+
+F urther alternatives are available in certain important special cases; they will be described in due course.
+
+For the time being we restrict our study of the theory of unions to the simplest facts only. The simplest fact of all is that
+
+\begin{equation*}
+\cup \{ X: X \in \emptyset \} = \emptyset ,
+\end{equation*}
+
+and the next simplest fact is that 
+
+\begin{equation*}
+\cup \{ X: X \in \{ A \} \} = A.
+\end{equation*}
+
+In the brutally simple notation mentioned above these facts are expressed by
+
+\begin{equation*}
+\cup \emptyset = \emptyset
+\end{equation*}
+
+and
+\begin{equation*}
+\cup \{ A \} = A.
+\end{equation*}
+
+The proofs are immediate from the definitions.
+
+There is a little more substance in the union of pairs of sets (which is what started this whole discussion anyway). In that case special notation is used: 
+
+\begin{equation*}
+\cup \{ X: X \in \{A, B \} \} = A \cup B.
+\end{equation*}
+
+The general definition of unions implies in the special case that $x \in A \cup B$ if and only if $x$ belongs to either $A$ or $B$ or both; it follows that 
+
+\begin{equation*}
+A \cup B = \{x: x \in A \text{ \textit{or} } x \in B \}.
+\end{equation*}
+
+Here are some easily proved facts about the unions of pairs:
+
+\begin{equation*}
+A \cup \emptyset = A, \\
+A \cup B =  B \cup A \: (commutatitivity), \\
+A \cup (B \cup C) = (A \cup B) \cup C \: (associativity), \\
+A \cup A = A \: (idempotence), \\
+A \subset B \text{ \textit{ if and only if} } A \cup B = B.
+\end{equation*}
