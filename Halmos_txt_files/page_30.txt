@@ -1,1 +1,27 @@
-SECTION COMPLEMENTS AND POWERS If A and B are sets, the difference between A and B, more often known the relative complement of B in A, is the set A B defined by A ~ B = {r € A:z / B} te that in this definition it is not necessary to assume that B € A: In ler to record the basic facts about complementation &8 simply &8 possi- we assume nevertheless (in this section only) that all the sets to be ntioned are subsets of one the same set E and that all complements nless otherwise specified) are formed relative to that E In such situa- ng (and they are quite common) it is easier to remember the underlying E than to keep writing it down, end this makes it possible to simplify notation: An often used symbol for the temporarily absolute (as op sed to relative) complement of A is A'. In terms of this symbol the sic facts about complementation can be stated &8 followg: (AY = 4, 0' = E, E = 0, A n A' = $, 4 U A' = E, A € B if and only if B' € A'. e most important statements about complements are the s0-called De organ laws: (A U BY = A' 0 B' , (A n BY = A' U B' Te ghall gee presently that the De Morgan laws hold for the uniong and ersections of larger collections of sets than just pairs ) These facts about Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN and
+\chapter*{SECTION 5: COMPLEMENTS AND POWERS} 
+
+If A and B are sets, the \textit{difference} between $A$ and $B$, more often known as the \textit{relative complement} of $B$ in $A$, is the set $A — B$ defined by 
+
+\begin{equation*}
+A — B = \{ x \in A: x \in ' B \}.
+\end{equation*}
+
+Note that in this definition it is not necessary to assume that $B \subset A$. In order to record the basic facts about complementation as simply as possible, we assume nevertheless (in this section only) that all the sets to be mentioned are subsets of one the same set $E$ and that all complements (unless otherwise specified) are formed relative to that $E$. In such situations (and they are quite common) it is easier to remember the underlying set $E$ than to keep writing it down, and this makes it possible to simplify notation. An often used symbol for the temporarily absolute (as opposed to relative) complement of $A$ is $A'$. In terms of this symbol the basic facts about complementation can be stated as follows:
+
+\begin{center}
+$(A')' = A,$
+
+$\emptyset ' = E, \: E' = \emptyset ,$
+
+$ A \cap A' = \emptyset, \: A \cup A' = E,$
+
+$A \subset B \text{ \textit{ if and only if } } B' \subset A'.$
+\end{center}
+
+The most important statements about complements are the so-called \textit{De Morgan laws}:
+
+\begin{equation*}
+(A \cup B)' = A' \cap B', \: (A \cap B)' = A' \cup B'
+\end{equation*}
+
+(We shall see presently that the De Morgan laws hold for the unions and intersections of larger collections of sets than just pairs.) These facts about

@@ -1,1 +1,26 @@
-c: 5 COMPLEMENTS AND POWERS 19 alificationg and exceptions just because gome set somewhere bome nstruction might turn out to be empty. There is nothing to be done out this; it is just & fact of life. If we restrict our attention to gubsets of & particular get E, &8 we havo mporarily agreed to do, then the unpleasantness described in the pre - paragraph appears to go away The point is that in that case we define the intersection of & collection @ (of subsets of E) to be the set {z E:z e X for every X in @}. is j8 nothing revolutionary ; for each non-empty collection, the new def- tion agrees with the old one_ The difference is in the way the old and 2 new definitions treat the empty collection; according to the new defini Oxa_ is equal to Ej (For which elements z of E can it be false at I € X for every X in $?) The difference is just & matter of language. little reflection reveals that the "new" definition offered for inter- tion of & collection @ of subsets of E is really the game &8 the old defini- n of the intersection of the collection @ U (E}, and the latter ig never pty. We have been considering the subsets of & set E; do those subsets them- ves constitute & set? The following principle guarantees that the answer yes_ Axiom of powers. For each set there ezists a collection of sets that con- ain8 among its elements all the subsets of the given set. other words; if E is & set, then there exists & set (collection) such that X C E, then X € $. The set P described above may be larger than wanted; it may contain ments other than subsets of E. This is easy to remedy; just apply axiom of gpecification to form the set (X e 0: X € E}: (Recall that CE" says the game thing &8 "for all € (if € € X then E).") Since, every X, & necessary and sufficient condition that X belong to this set that X be subset of E, it follows that if we change notation and call set again, then p = {X:XcE}. e set G is called the power set of E; the axiom of extension guarantees its iqueness_ The dependence of on E is denoted by writing P(E) in- ad of just $ Because the set P(E) is very big in comparison with E, it is not easy to examples. If E 0,the situation is clear enough; the set P(D) is Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN along Hing gX the the
+qualifications and exceptions just because some set somewhere along some construction might turn out to be empty. There is nothing to be done about this; it is just a fact of life. 
+
+If we restrict our attention to subsets of a particular set $E$, as we have temporarily agreed to do, then the unpleasantness described in the preceding paragraph appears to go away. The point is that in that case we define the intersection of a collection $ \mathcal{C} $ (of subsets of $E$) to be the set 
+
+\begin{equation*}
+\{ x \in E: x \in X \: for \: every \: X \in \mathcal{C} \}.
+\end{equation*}
+
+This is nothing revolutionary; for each non-empty collection, the new definition agrees with the old one. The difference is in the way the old and the new definitions treat the empty collection; according to the new definition  $\bigcap_{X \in \emptyset} X$ is equal to $E$. (For which elements $x$ of $E$ can it be false that $x \in X$ for every $X in \emptyset $?) The difference is just a matter of language. A little reflection reveals that the "new" definition offered for intersection of a collection $ \mathcal{C} $ of subsets of $E$ is really the same as the old definition of the intersection of the collection $ \mathcal{C} \cup \{ E \} $, and the latter is never empty. 
+
+We have been considering the subsets of a set $E$; do those subsets themselves constitute a set? The following principle guarantees that the answer is yes.
+
+\begin{named}[Axiom of powers.  ]  For each set there exists a collection of sets that contains among its elements all the subsets of the given set. 
+\end{named}
+
+In other words, if $E$ is a set, then there exists a set (collection) $ \mathcal{P} $ such that if $X \subset E$, then $X \in \mathcal{P}$.
+ 
+The set $ \mathcal{P} $ described above may be larger than wanted; it may contain elements other than subsets of $E$. This is easy to remedy; just apply the axiom of specification to form the set $ \{ X \in \mathcal{P}: X \subset E \} $. (Recall that "$ X \subset E $"  says the same thing as "$for \: all \: x \:(if \: x \in X \: then \: x \in E) $.") Since, for every $X$, a necessary and sufficient condition that $X$ belong to this set that $X$ be subset of $E$, it follows that if we change notation and call this set $ \mathcal{P} $ again, then 
+
+\begin{equation*}
+\mathcal{P} = \{ X : X \subset E \} .
+\end{equation*}
+
+The set $ \mathcal{P} $ is called the \textit{power set} of $E$; the axiom of extension guarantees its uniqueness. The dependence of $ \mathcal{P} $ on $E$ is denoted by writing $ \mathcal{P} (E) $ instead of just $ \mathcal{P} $.
+
+Because the set $ \mathcal{P} (E) $ is very big in comparison with $E$, it is not easy to give examples. If $E = \emptyset $, the situation is clear enough; the set $ \mathcal{P} ( \emptyset ) $ is

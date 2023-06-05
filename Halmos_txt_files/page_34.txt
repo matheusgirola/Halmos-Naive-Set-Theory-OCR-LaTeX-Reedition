@@ -1,1 +1,13 @@
-c: 5 COMPLEMENTS AND POWERS find & reasonable interpretation of the notation in which these generaliza- tions were here expressed and then   prove them. Further  elementary facts: Oxa Pc) X = 6, and i E € F,then G(E) € G(F): A curious question concerns the commutativity of the operators and U: Show that E is always equal to UxaG() X (that is E Uc(E)); but that the result of applying P and U to E in the other order is & set that includes E as & subset, typically & proper subset_ Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN
+find a reasonable interpretation of the notation in which these generalizations were here expressed and then prove them. Further  elementary facts: 
+
+\begin{equation*}
+\bigcap_{X \in \mathcal{P} (E)} X = \emptyset ,
+\end{equation*}
+
+and 
+
+\begin{equation*}
+if /: E \subset F , /: then /: \mathcal{P} (E) \subset \mathcal{P} (F).
+\end{equation*}
+
+A curious question concerns the commutativity of the operators $ \mathcal{P} $ and $ \bigcup $. Show that $E$ is always equal $\bigcup_{X \in \mathcal{P} (E)} X $ (that is $ E = \bigcup \mathcal{P} (E) $), but that the result of applying $\mathcal{P} $ and $ \bigcup $ to $E$ in the other order is a set that includes $E$ as a subset, typically a proper subset.

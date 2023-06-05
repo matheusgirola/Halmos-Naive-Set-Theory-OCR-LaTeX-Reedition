@@ -1,1 +1,58 @@
-~2u NAIE SEI MHEOR Y SEC _ the singleton {0}. The power gets of singletons and paira are also easily describable; we have G({a)) {p, {a}} and c((a, 6}) {0, {a}, {6}, {a, 6} } . The power get of & triple hag eight elements. The reader cen probably guess (and is hereby challenged to prove) the generalization that includes all these stetements: the power set of & finite get with, 8Ay, n elements has 2" elements: (Of course concepts like "finite" and "2"" no official standing for us yet; this should not prevent them from unofficially understood ) The occurrence of n &8 an exponent" (the n-th power of 2) has something to do with the reason why power' set bears its name: If @ is & collection of subsets of & set E (that is, @ is & subcollection of P(E)), then write D = {Xt C(E): X' €@}. (To be certain that the condition used in the definition of D i8 & gentence in the precise technical sense, it must be rewritten in gomething like the form for some Y [Y € @ and for all z (x & X if only if (r € E and x & Y))] Similar comments often apply when we wish to use defined abbreviations instead of logical and set-theoretic primitives only. The translation rarely requires any ingenuity end we shall usually omit It is customary to denote the union and the intersection of the collection D by the gymbols Uxae X' and Oxae X': In thig notation the general forms of the De Morgan lawg become (Uxae X)' Oxae X' and (Oxae Xy' UxaeX'. The proofs of these equationg gre immediate consequences of the appro priate definitions ExERCISE_ Prove that P(E) 0 P(F) = P(E n F) end P(E) U P(F) € P(E U F): Thege assertiong can be generalized to e(r) c(OxaeX) and Uxae C(X) € P(UxaeX); Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN have being and it.) Orae
+the singleton $\{ \emptyset \}$. The power sets of singletons and paira are also easily describable; we have 
+
+\begin{equation*}
+\mathcal{P} ( \{ a \} ) = \{ \emptyset, \{ a \} \} 
+\end{equation*}
+
+and 
+
+\begin{equation*}
+\mathcal{P} ( \{ a, b \} ) = \{ \emptyset, \{ a \} , \{ b \} , \{ a,b \} \} .
+\end{equation*}
+
+The power set of a triple has eight elements. The reader cen probably guess (and is hereby challenged to prove) the generalization that includes all these stetements: the power set of a finite set with, say, $n$ elements has $2^{n}$ elements. (Of course concepts like "finite" and "$2^{n}$" have no official standing for us yet; this should not prevent them from being unofficially understood.) The occurrence of $n$ as an exponent (the $n$-th power of 2) has something to do with the reason why power set bears its name. 
+
+If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal $ is a subcollection of $ \mathcal{P} (E) $), then write D = 
+
+\begin{equation*}
+\mathcal{D} = \{ X \in \mathcal{P} (E): X' \in mathcal{C} \} .
+\end{equation*}
+
+(To be certain that the condition used in the definition of $ \mathcal{D} $ is a sentence in the precise technical sense, it must be rewritten in something like the form 
+
+\begin{equation*}
+for /: some /: Y \[ Y \in \mathcal{C} /: and /: for /: all /: x ( x \in X if /: and /: only ? if (x \in E /: and /: x \in ' Y)) \] .  
+\end{equation*}
+
+Similar comments often apply when we wish to use defined abbreviations instead of logical and set-theoretic primitives only. The translation rarely requires any ingenuity and we shall usually omit it.) It is customary to denote the union and the intersection of the collection $ \mathcal{D} $ by the symbols  
+
+\begin{equation*}
+\bigcup_{X \in \mathcal{C}} X' \: and \: \bigcap_{X \in \mathcal{C}} X' .
+\end{equation*}
+
+In this notation the general forms of the De Morgan lawg become 
+
+\begin{equation*}
+( \bigcup_{X \in \mathcal{C}} X)' = \bigcap_{X \in \mathcal{C}} X' .
+\end{equation*}
+
+and 
+
+\begin{equation*}
+( \bigcap_{X \in \mathcal{C}} X)' = \bigcup_{X \in \mathcal{C}} X' .
+\end{equation*}
+
+The proofs of these equationg gre immediate consequences of the appro priate definitions. 
+
+\begin{named}[EXERCISE.  ] Prove that $ \mathcal{P} (E) \cap \mathcal{P} (F) = \mathcal{P}(E \cap F) $ and $ \mathcal{P} (E) \cup \mathcal{P} (F) \subset \mathcal{P}(E \cup F) $ These assertions can be generalized to 
+
+\begin{equation*}
+\bigcap_{X \in \mathcal{C}} \mathcal{P} (X) = \mathcal{P} ( \bigcap_{X \in \mathcal{C}} X) .
+\end{equation*}
+
+and
+
+\begin{equation*}
+\bigcup_{X \in \mathcal{C}} \mathcal{P} (X) \subset \mathcal{P} ( \bigcup_{X \in \mathcal{C}} X) ;
+\end{equation*}
+\end{named}

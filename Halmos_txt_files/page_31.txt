@@ -1,1 +1,34 @@
-18 NAIVE_SET THEORY SEc. complementation imply that the theorems of set usually come in pairs If in an inclusion equation involving unions, intersections, and complements of subsets of E we replace set by its complement, inter- change unions and intersections, and reverse all  inclusions, the result is other theorem. This fact is sometimes referred to as the principle of di ality for sets Here are some easy exercises on complementation. A - B =A n B'. A € B if and only if A - B = $. A _ (A - B) = A n B 4 n (B - C) = (A n B) - (A n C). A 0 B c(A 0 C) U (B 0 C'). (A U C) 0 (B U C) € A U B. If A and B are sets, the symmelric difference (Or Boolean sum) of A and B i8 the get A + B defined by A + B = (A - B) U (B - A): This operation is commutative (A + B = B + 4) and associative (A + (B + C) (A + B) + C), and is such that A + $ = A 4 + A 0_ This may be the right time to straighten out trivial but occasionally puzzling part of the theory of intersections Recall, to begin with, that intersections were defined for non-empty collections only. The reason i8 that the same approach to the empty collection does not define set_ Which z'8 are specified by the sentence I € X jor every X in $? As usual for questions about 0 the answer is easier to see for the corre- sponding negative question_ Which z's do not satisfy the stated condition? If it i8 not true that € X for every X in /, then there must exist an X in such that $ & X; since, however, there do not exist any X's in $ at all, this is absurd. Conclusion: no € fails to gatisfy the stated condition, equivalently, does satisfy it_ In other words, the %'s that the con- dition specifies exhaust the (nonexistent) universe There is no profound problem it is merely a nuisance to be forced always to be making Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN theory each and every here;
+complementation imply that the theorems of set usually come in pairs. If in an inclusion equation involving unions, intersections, and complements of subsets of $E$ we replace each set by its complement, interchange unions and intersections, and reverse all  inclusions, the result is other theorem. This fact is sometimes referred to as the \textit{principle of duality} for sets.
+
+Here are some easy exercises on complementation. 
+
+\begin{center}
+$A — B = A \cap B'.$
+
+$A \subset B \text{ \textit{ if and only if } } A — B = \emptyset .$
+
+$A — (A — B) = A \cap B.$
+
+$A \cap (B — C) = (A \cap B) — (A \cap C).$
+
+$A \cap B  \subset (A \cap C) \cup (B \cap C').$
+
+$(A \cup C) \cap (B \cup C') \subset A \cup B$
+\end{center}
+
+If $A$ and $B$ are sets, the s\textit{symmetric difference} (Or \textit{Boolean sum}) of $A$ and $B$ is the set $A + B$ defined 
+
+\begin{equation*}
+A + B = (A — B) \cup (B — A). 
+\end{equation*}
+
+This operation is commutative $(A + B = B + A)$ and associative $(A + (B + C) =  (A + B) + C)$, and is such that $A + \emptyset = A$ and $A + A = \emptyset$.
+
+This may be the right time to straighten out a trivial but occasionally puzzling part of the theory of intersections. Recall, to begin with, that intersections were defined for non-empty collections only. The reason is that the same approach to the empty collection does not define a set. Which $x'$s are specified by the sentence 
+
+\begin{equation*}
+x \in X \text{ \textit{ for every } } X \: in \: \emptyset ? 
+\end{equation*}
+
+
+As usual for questions about $ \emptyset $ the answer is easier to see for the corresponding negative question. Which $x$'s do \textit{not} satisfy the stated condition? If it is not true that $x \in X$ for every $X$ in $\emptyset$, then there must exist an $X$ in $\emptyset$ such that $x \in ' X$; since, however, there do not exist any $X$'s in $ \emptyset $ at all, this is absurd. Conclusion: no $x$ fails to satisfy the stated condition, or, equivalently, every $x$ does satisfy it. In other words, the $x$'s that the condition specifies exhaust the (nonexistent) universe. There is no profound problem here; it is merely a nuisance to be forced always to be making
