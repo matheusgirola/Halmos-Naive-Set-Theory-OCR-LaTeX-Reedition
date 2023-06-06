@@ -1,1 +1,23 @@
-SECTION ORDERED PAIRS What does it mean to arrange the elements of & set A in gome order? Suppose; for instance; that the get A is the quadruple {a, b, €, d} of distinct elements; and suppose that we want to consider its elements in the order c b d a. Even without & precise definition of what this means  we can do gomething set-theoretically intelligent with it_ We can, namely, consider, for each particular in the ordering, the set of all those elements that occur at Or before that spot; we obtain in this way the sets {c} {c, 6} {c,6, d} {c, 6,d,a}_ We can go on then to consider the set (Or collection, if that goundg better) {{a,b, €, d}, {6,c}, {b, €, 4}, (c}} that hag exactly those sets for its elements In order to emphasize that the intuitively based and possibly unclear concept of order has gucceeded producing something solid and simple, namely plain,  unembellished set @, the elements of @,and their elements, are presented above in & scram- bled manner_ (The lexicographically inclined reader might be able to see method in the manner of scrambling ) Let uS continue to pretend for while that we do know what order means: Suppose that in a hasty glance at the preceding paragraph all we could catch is the set @; can we use it to recapture the order that gave rise to it? The answer is easily geen to be yes. Examine the elements of (they themselves are sets, of course) to find one that is included in all the others; since {c} fills the bill (and nothing else does) we know that must have been the first element_ Look next for the next gmallest element of @, 22 Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN spot
+\chapter{SECTION 6: ORDERED PAIRS}
+
+What does it mean to arrange the elements of a set $A$ in some order? Suppose, for instance, that the set $A$ is the quadruple $ \{a, b, c, d \} $ of distinct elements, and suppose that we want to consider its elements in the order 
+
+\begin{center}
+\textit{c b d a}.
+\end{center}
+
+Even without a precise definition of what this means, we can do something set-theoretically intelligent with it. We can, namely, consider, for each particular spot in the ordering, the set of all those elements that occur at or before that spot; we obtain in this way the sets 
+
+\begin{center}
+\textit{ \{ c \}  \{ c, b \} \{ c, b, d \} \{ c, b, d, a \} }
+\end{center}
+
+We can go on then to consider the set (or collection, if that goundg better) 
+
+\begin{center}
+$\mathcal{C}$  = \textit{ \{ \{ a, b, c, d\} ,\{ b, c\} \,{ b, c, d \} ,\{ c\} \} }
+\end{center}
+
+that has exactly those sets for its elements. In order to emphasize that the intuitively based and possibly unclear concept of order has succeeded producing something solid and simple, namely plain,  unembellished set $ \mathcal{C} $, the elements of $ \mathcal{C} $, and \textit{their} elements, are presented above in a scrambled manner. (The lexicographically inclined reader might be able to see a method in the manner of scrambling.) 
+
+Let us continue to pretend for a while that we do know what order means. Suppose that in a hasty glance at the preceding paragraph all we could catch is the set $\mathcal{C}$; can we use it to recapture the order that gave rise to it? The answer is easily seen to be yes. Examine the elements of $ \mathcal{C} $ (they themselves are sets, of course) to find one that is included in all the others; since $ \{c \}$ fills the bill (and nothing else does) we know that $c$ must have been the first element. Look next for the next smallest element of $ \mathcal{C}$,
