@@ -1,1 +1,42 @@
-FAMILIES 35 bome family. If, indeed, @ is & collection of 8ets, let @ itself play the le of the index get, congider the identity mapping o @ in the role the family. The algebraic laws gatisfied by the operation of union for pairs can be neralized to arbitrary unions   Suppose, for instance, that (T;} is & fam- y of sets with domain J, say; write K U; Ij and let (At} be & family sets with domain K, It is then not difficult to prove that Utak Ax U;aJ (U;el; A;); is ig the generalized version of the associative law for unions Exercise: rmulate and prove & generalized version of the commutative law. An empty union makes gense (and is empty) , but an empty intersection nes not make genge. Except for this triviality, the terminology and nota- On for intergections parallels that for unions in every respect. Thus, for stance, if ( A;} is & non-empty family of sets, the intersection of the range the family is called the intersection of the family {A;}, or the intersec- on of the gets A;; the standard notation for it is Oia A; O: A; cording &8 it is Or is not important to emphasize the index get I. (By & on-empty family' we mean family whose domain [ is not empty ) It llows immediately from the definition of intersections that if I # 0, len 8 necessary and gufficient condition that > to O: A; is that z to A; for all i. The generalized commutative and associative laws for intersections can formulated and proved the game way &8 for unions, alternatively , Morgan'8 laws can be used to derive them from the facts for unions. his ig almost obvious, and, therefore, it is not of much interest_ The in- resting algebraic identities are the ones that involve both unions and tergectiong: Thu8, for instance; if {A;} is & family of subsets of X CX, then B n U: A; = U: (B n 4;) d B U O: A; = O; (B U A;; ese equations are & mild generalization of the distributive lews ExERCIBE: If both (A;} and {B;} are families of sets, then (U; A;) 0 (U;B;) = Uwi (A; 0 B;) and (O; A;) U (O;B;) = Ow; (A; U B;): Original ftom e0 by Google UNIVERSITY OF MICHIGAN end belong elong and
+of some family. If, indeed, $\mathcal{C}$ is a collection of sets, let $\mathcal{C}$ itself play the role of the index set, consider the identity mapping on $\mathcal{C}$ in the role the family. 
+
+The algebraic laws satisfied by the operation of union for pairs can be generalized to arbitrary unions. Suppose, for instance, that $ \{ I_{j} \}$ is a family of sets with domain $J$, say; write $K = \bigcup_{j}I_{j}$, and let $\{ A_{k} \}$ be a family sets with domain $K$. It is then not difficult to prove that 
+
+\begin{equation*}
+\bigcup_{k \in K}A_{k} = \bigcup_{j \in J}(\bigcup_{i \in I_{j}A_{i});
+\end{equation*}
+
+this is the generalized version of the associative law for unions. Exercise: formulate and prove a generalized version of the commutative law. 
+
+An empty union makes gense (and is empty), but an empty intersection does not make sense. Except for this triviality, the terminology and notation for intersections parallels that for unions in every respect. Thus, for instance, if $\{ A_{i} \}$ is a non-empty family of sets, the intersection of the range of the family is called the intersection of the family $\{ A_{i} \}$, or the intersection of the sets $A_{i}$; the standard notation for it is 
+
+\begin{equation*}
+\bigcap{i \in I}A_{i} \: \text{ or } \: \bigcap_{i}A_{i},
+\end{equation*}
+
+according as it is or is not important to emphasize the index set $I$. (By a "non-empty family' we mean family whose domain $I$ is not empty.) It follows immediately from the definition of intersections that if $I \neq \emptyset$, then a necessary and sufficient condition that $x$ belong $\bigcap_{i}A_{i}$ is that $x$ belong to $A_{i}$ for all $i$. 
+
+The generalized commutative and associative laws for intersections can be formulated and proved the same way as for unions, or, alternatively, De Morgan's laws can be used to derive them from the facts for unions. This is almost obvious, and, therefore, it is not of much interest. The interesting algebraic identities are the ones that involve both unions and intersections. Thus, for instance, if $\{ A_{i} \}$ is a family of subsets of $X$ and $B \subset X$, then 
+
+\begin{equation*}
+B \cap \bigcup_{i}A_{i} = \bigcup_{i}(B \cap A_{i})
+\end{equation*}
+and
+\begin{equation*}
+B \cup \bigcap_{i}A_{i} = \bigcap_{i}(B \cup A_{i});
+\end{equation*}
+
+these equations are a mild generalization of the distributive laws.
+
+\begin{named}[EXERCISE. ] If both $\{ A_{i} \}$ and $\{ B_{i} \}$ are families of sets, then 
+\begin{equation*}
+(\bigcup_{i}A_{i}) \cap (\bigcup_{j}B_{j}) = \bigcup_{i,j}(A_{i} \cap B_{j}) 
+\end{equation*}
+
+and
+
+\begin{equation*}
+(\bigcap_{i}A_{i}) \cup (\bigcap_{j}B_{j}) = \bigcap_{i,j}(A_{i} \cup B_{j}). 
+\end{equation*}
+
+Explanation of notation: a symbol such as $\bigcup_{i,j} is an abbreviation for $\bigcup_{(i,j) \in I \times J}$.
