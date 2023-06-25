@@ -1,1 +1,35 @@
-NUMBERS 45 on. Incidentally, the symbol we are using for the set of all natural mbers (w) plurality of the votes of the writers o the subject, but like clear majority_ In this book that symbol will be used sy8- natically exclusively in the gense defined above The slight feeling of discomfort that the reader may experience in con- tion with the definition of natural numbers is common and in st cases temporary. The trouble is that here, once before (in the inition of ordered pairs) , the object defined has gome irrelevant struc- "e, which seems to get in the way (but is in fact harmless). We want be told that the guccessor of 7 is 8, but to be told that 7 i8 & subset of 8 that 7 is an element of 8 i8 disturbing We shall make use of this super- ucture of naturel numbers just long enough to derive their most impor- t' natural properties; after that the superstructure may safely be for- iten family (z;} whose index set is either a natural number O else the set all natural numbers is called sequence (finite or infinite, {A;} is & sequence of sets, where the index is the natural number n the union of the sequence is denoted by U%-o A; Ao U:.U An: the index set i8 W, the notation is Uz-o A; or Ao U 4, U Az U . tersections and Cartesian products of sequences are denoted similarly by Ozzo A; Ao 0..0 An, Xi-o A; Ao Xr"X An Ozo A; Ao 0 A, 0 4z 0.. Xi-o A; Ao X AxX Az X. = word "sequence" is used in few different ways in the mathematical erature, but the differences among them are more notational than con- ptual: The most common alternative starts at 1 instead of 0; in other rds; it refer8 to & family whose index set is w {0} instead of w. Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN has thing and quite respectively}; set
+so on". Incidentally, the symbol we are using for the set of all natural numbers ( $ \omega $) has a plurality of the votes of the writers on the subject, but nothing like a clear majority. In this book that symbol will be used systematically and exclusively in the sense defined above.
+
+The slight feeling of discomfort that the reader may experience in conection with the definition of natural numbers is quite common and in most cases temporary. The trouble is that here, as once before (in the definition of ordered pairs), the object defined has some irrelevant structure, which seems to get in the way (but is in fact harmless). We want to be told that the successor of $7$ is $8$, but to be told that $7$ is a subset of $8$ or that $7$ is an element of $8$ is disturbing. We shall make use of this superstructure of natural numbers just long enough to derive their most important natural properties; after that the superstructure may safely be forgotten.
+
+A family $ \{ x_{i} \} $ whose index set is either a natural number or else the set of all natural numbers is called a \textit{sequence} (\textit{finite} or \textit{infinite}, respectively). If $\{ A_{i} \}$ is a sequence of sets, where the index set is the natural number $n^{+}$, then the union of the sequence is denoted by
+
+\begin{equation*}
+\bigcup_{i = 0}^{n} A_{i} \: \text{ or } \: A_{0}\cup \cdots \cup A_{n}.
+\end{equation*}
+
+If the index set is $ \omega $, the notation is 
+
+\begin{equation*}
+\bigcup_{i = 0}^{n} A_{i} \: \text{ or } \: A_{0} \cup A_{1} \cup A_{2} \cup \cdots .
+\end{equation*}
+
+Intersections and Cartesian products of sequences are denoted similarly by
+
+\begin{equation*}
+\begin{allign}
+\bigcup_{i = 0}^{n} A_{i} &, \: \text{ or } \: A_{0}\cup \cdots \cup A_{n}, \\
+\bigtimes_{i = 0}^{n} A_{i} &, \: \text{ or } \: A_{0}\times \cdots \times A_{n},
+\end{allign}
+\end{equation*}
+
+and
+
+\begin{equation*}
+\begin{allign}
+\bigcup_{i = 0}^{n} A_{i} &, \: \text{ or } \: A_{0} \cup A_{1} \cup A_{2} \cup \cdots , \\
+\bigtimes_{i = 0}^{n} A_{i} &, \: \text{ or } \: A_{0} \times A_{1} \times A_{2} \times \cdots .
+\end{allign}
+\end{equation*} 
+
+The word "sequence" is used in a few different ways in the mathematical literature, but the differences among them are more notational than conceptual. The most common alternative starts at $1$ instead of $0$; in other words, it refers to a family whose index set is $ \omega $ — $\{ 0 \}$ instead of $ \omega $.

@@ -1,1 +1,65 @@
-10 INVERSES AND COMPOSITES dly inconsistent  with our firgt interpretation of f-1 but the double aning i8 not likely to lead to any confusion. The connection between imageg and inverge images is worth 8 moment'$ gideration. f B C Y, then f6f-I(B)) € B. of. If y &f(f-l(B)) , then y f(c) for gome € in f-!(B); this means that f(z) and f(c) € B, therefore y & B. f f maps X onto Y, then f6-'(B)) B of . If y € B, then y = f(c) for some z in X, and therefore for some {~I(B); this means that y ef(-'(B)): f A €X, then A cf-'(f(A))- Jof . If z € A, then f(z) €f(A); this means that € €f-l(f(A)): [f f is one-to-one, then A = f-'(f(A)): of . If < e f-I(f(A)), then f(z) f(A), therefore f(x) f(u) for ne u in A; this implies that z and hence that x The algebraic behavior of f -I jg unexceptionable If {B;} is & family of gets of Y, then f-'(U: B;) U:f-I(B;) f-'(O:B;) = O:f-'(B;). proofs are straightforward: If, for instance, * €f-'(O: B;), then ) B; for all 1, 80 that > €f-I(B;) for all 1, and therefore x Oif-'(B;); the steps in this argument are reversible The formation of inverse ages commutes with complementation also; i.e-, f-'(Y _ B) = X - f-'(B) each subget B of Y. Indeed if x €f-'(Y B), then f(z) € Y _ B, s0 1t I € f-'(B), therefore x f-'(B); the steps are reversible. bserve that the last equation is indeed & kind of commutative law: it y8 that complementation followed by inversion is the same as inversion lowed by complementation ) The discussion of inverses showg that what & function does ean in & cer - Original Mom ed by Google UNIVERSITY OF MICHIGAN and and end
+midly inconsistent with our first interpretation of $f^{-1}$, but the double meaning is not likely to lead to any confusion.
+
+The connection between images and inverse images is worth a moment's consideration. 
+
+If $B \subset Y$, then
+
+\begin{equation*} 
+f(f^{-1}(B)) \subset B.
+\end{equation*}
+
+\begin{proof} 
+If $y \in f(f^{-l}(B))$, then $y = f(x)$ for some $x$ in $f^{-1}(B)$; this means that $y = f(x)$ and $f(x) \in B$, and therefore $y \in B$. 
+\end{proof}
+
+If $f$ maps $X$ onto $Y$, then 
+
+\begin{equation*} 
+f(f^{-1}(B)) = B.
+\end{equation*}
+
+\begin{proof}
+If $y \in B$, then $y = f(x)$ for some $x$ in $X$, and therefore for some $x$ in $f^{-1}(B)$; this means that $y \in f(f^{-1}(B))$. 
+\end{proof}
+
+If $A \subset X$, then 
+
+\begin{equation*}
+A \subset f^{-1}(f(A))
+\end{equation*}
+
+\begin{proof}
+If $x \in A$, then $f(x) \in f(A)$; this means that $x \in f^{-l}(f(A))$.
+\end{proof}
+
+If $f$ is one-to-one, then 
+
+\begin{equation*}
+A = f^{-1}(f(A))
+\end{equation*}
+
+\begin{proof}
+If $x \in f^{-1}(f(A))$, then $f(x) \in f(A)$, and therefore $f(x) = f(u)$ for some $u$ in $A$; this implies that $x = u$ and hence that $x \in A$. 
+\end{proof}
+
+The algebraic behavior of $f^{-1}$ is unexceptionable. If $ \{ B_{i} \} $ is a family of subsets of $Y$, then 
+
+\begin{equation*}
+f^{-1}( \bigcup_{i} B_{i} ) = \bigcup_{i}f^{-1}(B_{i})
+\end{equation*}
+
+and
+
+\begin{equation*}
+f^{-1}( \bigcap_{i} B_{i} ) = \bigcap_{i}f^{-1}(B_{i})
+\end{equation*}
+
+The proofs are straightforward. If, for instance, $x \in f^{-1}( \bigcap_{i} B_{i})$, then $f(x) \in B_{i}$ for all $i$, so that $x \in f^{-1}(B_{i})$ for all $i$, and therefore $x \in \bigcap_{i}f^{-1}(B_{i})$; all the steps in this argument are reversible. The formation of inverse images commutes with complementation also; i.e., 
+
+\begin{equation*}
+f^{1}(Y - B) = X - f^{-1}(B)
+\end{equation*}
+
+for each subset $B$ of $Y$. Indeed: if $x \in f^{-1}(Y - B)$, then $f(x) \in Y - B$, so that $x \notin f^{-1}(B)$, and therefore $x \in X - f^{-1}(B)$; the steps are reversible. (Observe that the last equation is indeed a kind of commutative law: it says that complementation followed by inversion is the same as inversion followed by complementation.) 
+
+The discussion of inverses shows that what a function does ean in a certain

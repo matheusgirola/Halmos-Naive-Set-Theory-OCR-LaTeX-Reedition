@@ -1,1 +1,32 @@
-NANYE SEIWHEORA SEC: I+=I U (z} (The successor of € is frequently denoted by z' .) We are now ready to define the natural numbers: In defining 0 to be & set with zero elements; we beve no choice; we must write (&8 we did) 0 = 0- If natural number j8 to be to the get of its predecegsors, we have no choice in defining 1, Or 2, Or 3 either; We mugt write o+ (= {0H), 2 = 1+ (= {0,1}), 3 = 2+ (= {0,1,2H), etc_ The "etc meang that we hereby adopt the usual notetion, &nd; in what followg, we shall feel free to use numerals guch &s "4" or "956" with- out any further explanation Or epology: From what has been gaid g0 far it does not follow that the construction of succeggors can be carried out &d infinitum within one end the game set_ What we need is & new get-theoretic principle. Axiom of infinity. There exists & get containing 0 and containing the successor 0f each of its elements. The reagon for the name of the axiom ghould be cleer: We have not yet given & precise definition of infinity, but it geemg reasonable that sets such as the ones that the axiom of infinity degcribes deserve to be called infinite We ghall gAy, temporarily, that 8 get A is & successor set if 0 € A and if 2+ A whenever € € A_ In this language the axiom of infnity simply says that there exists & gucceggor &et A Since the intersection of every (non - empty) family of successor set8 is & successor set itself (proof?), the inter- section of all the successor sets included in A i8 & guccegsor set @ The set is & gubset of every succesgor Bet_ If, indeed, B is &n arbitrary successor set, then 80 is A 0 B Since A n B € A, the get A 0 B is one of the sets that entered into the definition of w; it follows that w € A n B,and, consequently, that CB. The   minimality property 80 established uniquely  characterizes W; the axiom of extension guarantees that there can be only one successor set that is included in every other guccessor set_ natural number js, by definition, an element of the minimal guccessor set This definition of naturel numberg is the rigoroug counterpart of the intuitive degcription according to which they consist of 0, 1, 2, 3, "and Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN equal every
+\begin{equation*}
+x^{+} = x \cup \{ x \}.
+\end{equation*}
+
+(The successor of $x$ is frequently denoted by $x'$.) 
+
+We are now ready to define the natural numbers. In defining $0$ to be a set with zero elements, we beve no choice; we must write (as we did) 
+
+\begin{equation*}
+0 = \emptyset
+\end{equation*}
+
+If every natural number is to be equal to the set of its predecessors, we have no choice in defining $1$, or $2$, or $3$ either; we must write
+
+\begin{equation*}
+\begin{allign}
+1 &= 0^{+}(= \{ 0 \} ), \\
+2 &= 1^{+}(= \{ 0, 1 \} ), \\
+3 &= 2^{+}(= \{ 0, 1, 2 \} ),
+\end{allign}
+\end{equation*}
+
+etc. The "etc." means that we hereby adopt the usual notation, and, in what follows, we shall feel free to use numerals such as "$4$" or "$956$" without any further explanation or apology. 
+
+From what has been said so far it does not follow that the construction of successors can be carried out ad infinitum within one and the same set. What we need is a new set-theoretic principle. 
+
+\begin{named}[Axiom of infinity. ] There exists a set containing $0$ and containing the successor of each of its elements.
+\end{named} 
+
+The reason for the name of the axiom should be clear. We have not yet given a precise definition of infinity, but it seems reasonable that sets such as the ones that the axiom of infinity describes deserve to be called infinite.
+
+We shall say, temporarily, that a set $A$ is a \textit{successor set} if $0 \in A$ and if $x^{+} \in A$ whenever $x \in A$. In this language the axiom of infinity simply says that there exists a successor set $A$. Since the intersection of every (non-empty) family of successor sets is a successor set itself (proof?), the intersection of all the successor sets included in $A$ is a successor set $ \omega $. The set $ \omega $ is a subset of every successor set. If, indeed, $B$ is an arbitrary successor set, then so is $A \cap B$. Since $ A \cap B \subset A$, the set $A \cap B$ is one of the sets that entered into the definition of $ \omega $; it follows that $ \omega \subset A \cap B$, and, consequently, that $\omega  \subset B$. The minimality property so established uniquely characterizes $ \omega $; the axiom of extension guarantees that there can be only one successor set that is included in every other successor set. A \textit{natural number} is, by definition, an element of the minimal successor set $ \omega$. This definition of naturel numbers is the rigorous counterpart of the intuitive description according to which they consist of 0, 1, 2, 3, "and 
