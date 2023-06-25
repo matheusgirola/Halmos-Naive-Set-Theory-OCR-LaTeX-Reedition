@@ -1,0 +1,79 @@
+%--- CHPATER 11 PAGES 55-58
+%--- MODIFIED LAST IN 24/06/2023
+
+\chapter{SECTION 11: NUMBERS}
+
+How much is two? How, more generally, are we to define numbers? To prepare for the answer, let us consider a set $X$ and let us form the collection $P$ of all unordered pairs $\{ a, b \}$, with $a$ in $X$, $b$ in $X$, and $a \neq b$. It seems clear that all the sets in the collection $P$ have property in common, namely the property of consisting of two elements. It is tempting to try to define "twoness" as the common property of all the sets in the collection $P$, but the temptation must be resisted; such a definition is, after all, mathematical nonsense. What is "property"? How do we know that there is only one property in common to all the sets in $P$? 
+
+After some cogitation we might hit upon a way of saving the idea behind the proposed definition without using vague expressions such as "the common property". It is ubiquitous  mathematical  practice to identify a property with a set, namely with the set of all objects that possess the property; why not do it here? Why not, in other words, define "two" as the set $P$? Something like this is done at times, but it is not completely satisfying. The trouble is that our present modified proposal depends o $P$, and hence ultimately on X. At best the proposal defines twoness for subsets of $X$; it gives no hint as to when we may attribute twoness to set that is not included in X. 
+
+There are two ways out. One way is to abandon the restriction to a particular set and to consider instead all possible unordered pais $\{ a, b \}$ with $a \neq b$. These unordered pairs do not constitute a set; in order to base the definition of "two" on them, the entire theory under consideration would have to be extended to include the "unsets" (classes) of another theory. This can be done, but it will not be done here; we shall follow a different route. 
+
+How would a mathematician define a meter? The procedure analogous to the one sketched above would involve the following two steps. First, select an object that is one of the intended models of the concept being defined—an object, in other words, such that on intuitive or practical grounds it deserves to be called one meter if anything does. Second, form the set of all objects in the universe that are of the same length as the selected one (note that this does not depend on knowing what a meter is), and define a meter as the set so formed. 
+
+How in fact is a meter defined? The example was chosen so that the answer to this question should suggest an approach to the definition of numbers. The point is that in the customary definition of a meter the second step is omitted. By a more or less arbitrary convention an object is selected and its length is called a meter. If the definition is accused of circularity (what does "length" mean?), it can easily be converted into an unexceptionable demonstrative definition; there is after all nothing to stop from defining a meter as equal to the selected object. If this demonstrative approach is adopted, it is just as easy to explain as before when "one-meter-ness" shall be attributed to some other object, namely, just in case the new object has the same length as the selected standard. We comment again that to det /ermine whether two  objects have the same length depends on a simple act of comparison only, and does not depend on having a precise definition of length. 
+
+Motivated by the considerations described above, we have earlier defined $2$ some particular set with (intuitively speaking) exactly two elements. How was that standard set selected? How should other such standard sets for other numbers be selected? There is no compelling mathematical reason for preferring one answer to this question to another; the whole thing is largely a matter of taste. The selection should presumably be guided by considerations of simplicity and economy. To motivate the particular selection that is usually made, suppose that a number, say $7$, has already been defined as a set (with seven elements). How in this case, should we define $8$? Where, in other words, can we find a set consisting of exactly eight elements? We can find seven elements in the set $7$; what shall we use as an eighth to adjoin to them? A reasonable answer to the last question is the number (set) $7$ itself; the proposal is to define $8$ to be the set consisting of the seven elements of $7$, together with $7$. Note that according to this proposal each number will be equal to the set of its own predecessors. 
+
+The preceding paragraph motivates a set-theoretic construction that makes sense for every set, but that is of interest in the construction of numbers only. For every set $x$ we define the \textit{successor} $x^{+}$ of $x$ to be the set obtained by adjoining $x$ to the elements of $x$; in other words,
+
+\begin{equation*}
+x^{+} = x \cup \{ x \}.
+\end{equation*}
+
+(The successor of $x$ is frequently denoted by $x'$.) 
+
+We are now ready to define the natural numbers. In defining $0$ to be a set with zero elements, we beve no choice; we must write (as we did) 
+
+\begin{equation*}
+0 = \emptyset
+\end{equation*}
+
+If every natural number is to be equal to the set of its predecessors, we have no choice in defining $1$, or $2$, or $3$ either; we must write
+
+\begin{align*}
+1 =& \: 0^{+}(= \{ 0 \} ), \\
+2 =& \: 1^{+}(= \{ 0, 1 \} ), \\
+3 =& \: 2^{+}(= \{ 0, 1, 2 \} ),
+\end{align*}
+
+etc. The "etc." means that we hereby adopt the usual notation, and, in what follows, we shall feel free to use numerals such as "$4$" or "$956$" without any further explanation or apology. 
+
+From what has been said so far it does not follow that the construction of successors can be carried out ad infinitum within one and the same set. What we need is a new set-theoretic principle. 
+
+\begin{named}[Axiom of infinity. ] There exists a set containing $0$ and containing the successor of each of its elements.
+\end{named} 
+
+The reason for the name of the axiom should be clear. We have not yet given a precise definition of infinity, but it seems reasonable that sets such as the ones that the axiom of infinity describes deserve to be called infinite.
+
+We shall say, temporarily, that a set $A$ is a \textit{successor set} if $0 \in A$ and if $x^{+} \in A$ whenever $x \in A$. In this language the axiom of infinity simply says that there exists a successor set $A$. Since the intersection of every (non-empty) family of successor sets is a successor set itself (proof?), the intersection of all the successor sets included in $A$ is a successor set $ \omega $. The set $ \omega $ is a subset of every successor set. If, indeed, $B$ is an arbitrary successor set, then so is $A \cap B$. Since $ A \cap B \subset A$, the set $A \cap B$ is one of the sets that entered into the definition of $ \omega $; it follows that $ \omega \subset A \cap B$, and, consequently, that $\omega  \subset B$. The minimality property so established uniquely characterizes $ \omega $; the axiom of extension guarantees that there can be only one successor set that is included in every other successor set. A \textit{natural number} is, by definition, an element of the minimal successor set $ \omega$. This definition of naturel numbers is the rigorous counterpart of the intuitive description according to which they consist of 0, 1, 2, 3, "and so on". Incidentally, the symbol we are using for the set of all natural numbers ( $ \omega $) has a plurality of the votes of the writers on the subject, but nothing like a clear majority. In this book that symbol will be used systematically and exclusively in the sense defined above.
+
+The slight feeling of discomfort that the reader may experience in conection with the definition of natural numbers is quite common and in most cases temporary. The trouble is that here, as once before (in the definition of ordered pairs), the object defined has some irrelevant structure, which seems to get in the way (but is in fact harmless). We want to be told that the successor of $7$ is $8$, but to be told that $7$ is a subset of $8$ or that $7$ is an element of $8$ is disturbing. We shall make use of this superstructure of natural numbers just long enough to derive their most important natural properties; after that the superstructure may safely be forgotten.
+
+A family $ \{ x_{i} \} $ whose index set is either a natural number or else the set of all natural numbers is called a \textit{sequence} (\textit{finite} or \textit{infinite}, respectively). If $\{ A_{i} \}$ is a sequence of sets, where the index set is the natural number $n^{+}$, then the union of the sequence is denoted by
+
+\begin{equation*}
+\bigcup_{i = 0}^{n} A_{i} \: \text{ or } \: A_{0}\cup \cdots \cup A_{n}.
+\end{equation*}
+
+If the index set is $ \omega $, the notation is 
+
+\begin{equation*}
+\bigcup_{i = 0}^{n} A_{i} \: \text{ or } \: A_{0} \cup A_{1} \cup A_{2} \cup \cdots .
+\end{equation*}
+
+Intersections and Cartesian products of sequences are denoted similarly by
+
+\begin{align*}
+\bigcup_{i = 0}^{n} A_{i} &, \: \: A_{0}\cup \cdots \cup A_{n}, \\
+\bigtimes_{i = 0}^{n} A_{i} &, \: \: A_{0}\times \cdots \times A_{n},
+\end{align*}
+
+and
+
+\begin{align*}
+\bigcup_{i = 0}^{n} A_{i} &, \: \: A_{0} \cup A_{1} \cup A_{2} \cup \cdots , \\
+\bigtimes_{i = 0}^{n} A_{i} &, \:  \: A_{0} \times A_{1} \times A_{2} \times \cdots .
+\end{align*}
+
+The word "sequence" is used in a few different ways in the mathematical literature, but the differences among them are more notational than conceptual. The most common alternative starts at $1$ instead of $0$; in other words, it refers to a family whose index set is $ \omega $ — $\{ 0 \}$ instead of $ \omega $.
