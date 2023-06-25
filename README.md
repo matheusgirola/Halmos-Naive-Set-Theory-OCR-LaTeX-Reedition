@@ -6,8 +6,8 @@
 
   The PDF used is public domain and, so, freely available in the internet. Therefore, the resulting re-edition of the book at the end of this project has no lucrative ends by any means. The final PDF will be written in LaTeX and available for download in the repository.
 
-## Last updated in june 20, 2023.
+## Last updated in june 25, 2023.
 
 Current objective: editing the page's .txt files into chapters .tex format 
 
-Chapters Finished: Preface, Chapters 1-9.
+Chapters Finished: Preface, Chapters 1-11.
