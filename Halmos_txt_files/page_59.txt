@@ -1,1 +1,40 @@
-SECTION 12 THE PEANO AXIOMS We enter now into & minor digression. The purpose of the digression is to make fleeting contact with the erithmetic theory of natural numbers From the set-theoretic of view this is & pleasant luxury. The most important we know about the get of all natural num bers is that it is the unique guccessor that is & gubset of every successor get. To gay that @ is & guccessor &et meang that 0 € W (where, of course, 0 = 0), and that (II) if n € W, then n + €@ (where n + =n U {n}) The minimality property of can be expressed by saying that if & subset S of @ is & guccessor set, then $ Alterna - tively, &nd in more primitive term8, (III) if S C w; if 0 €S, and if n t € 8 whenever n € S, then $ Property (III) is known &8 the principle of mathematical induction: We ghall now add to this list of properties of others (IV) n + 40 jor all n in W, if n and m are in W, and if n+ = mt,then n = m The proof of (IV) is trivial; since n + containg 7, and gince 0 i8 empty, it is clear that n + ig different from 0. The proof of is not triv- ial; it depends on couple of guxiliary propositions_ The first one asserts that something that ought not to happen indeed does not bappen. Even 46 Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN point thing set two and always
+\chapter{SECTION 12 THE PEANO AXIOMS}
+
+We enter now into a minor digression. The purpose of the digression is to make fleeting contact with the arithmetic theory of natural numbers. From the set-theoretic point of view this is a pleasant luxury. 
+
+The most important we know about the set $\omega$ of all natural numbers is that it is the unique successor set that is a subset of every successor get. To say that $\omega$ is a successor set means that
+
+\begin{euqation}
+\label{eq12.1}
+0 \in \omega \tag{$(I)$}
+\end{equation}
+
+(where, of course, $0 = \emptyset$), and that 
+
+\begin{equation}
+\label{eq12.2}
+\text{\textit{if} } n \in\omega, \text{ \textit{then} } n^{+} \in \omega \tag{$(II)$}
+\end{equation}
+
+(where $n^{+} = n \cup \{ n \}). The minimality property of $\omega$ can be expressed by saying that if a subset $S$ of $\omega$ is a successor set, then $S = \omega$. Alternatively, and in more primitive terms,
+
+\begin{equation}
+\label{eq12.3}
+\text{\textit{if} } S \subset \omega, \text{ \textit{if} } 0 \in S, \text{ \textit{and if} } n^{+} \in S \text{ \textit{whenever} } n \in S, \text{ \textit{then} } S = \omega . \tag{$(III)%}
+\end{equation}
+
+Property \eqref{eq12.3} is known as the \textbf{principle of mathematical induction.} We shall now add to this list of properties of $\omega$ two others: 
+
+\begin{equation}
+\label{eq12.4}
+n^{+} \neq 0 \text{ \textit{for all} } n \text{ \textit{in} } \omega , \tag{$(IV)$}
+\end{equation}
+
+and
+
+\begin{equation}
+\label{eq12.5}
+\text{\textit{if} } n \text{ \textit{and} } m \text{ \textit{are in} } \omega , \text{ \textit{and if} } n^{+} = m^{+} , \text{ \textit{then} } n = m.\tag{$(V)$}
+\end{equation}
+
+The proof of \eqref{eq12.4} is trivial; since $n^{+}$ contains n, and since $0$ is empty, it is clear that $n^{+}$ is different from $0$. The proof of \eqref{eq12.5} is not trivial; it depends on couple of auxiliary propositions. The first one asserts that something that ought not to happen indeed does not bappen. Even
