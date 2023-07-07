@@ -1,1 +1,35 @@
-NfNYE DEI Tfbon 1 SEC. recalling thet the most  easily available  well  ordered set  whose  ordinal number js & i8 the ordinal number itself (end similarly for 8) Like addition, multiplication has its and bad properties.   Among the good ones are the identities a0 0, Oa 0, al Ia the associative law a(8y) (aB)y, the left distributive law a(8 + ~) a8 + ay, and the fact that if the product of two ordinal numbers is zero, then one of the factors must be zero. (Note that we use the standard convention about multiplication precedence over addition; a8 + oy denotes (a8) + (av) ) The commutative law for multiplication fails, and 80 do many of its consequences_ Thus, for instance, 2w (think of a0 infinite gequence of  ordered  pairs) , but 02 # (think of an   ordered of infinite 8e- quences). The right distributive lew also fails; that is (a + B)r is in gen- eral different ay + By: Example: (1 + IJw 2w 0, but lw + Io 1 w 62. Just as repeated addition led to the definition of ordinal products, rC - peated multiplication could be used to define ordinal exponents: Alter- natively, exponentiation can be approached via transfinite recursion The precise details are part of an extensive and highly specialized theory of ordinal numbers. At this point we shall be content with hinting &t the definition and mentioning its easiest consequences. To define &8 (where and 8 are ordinal numbers)  use definition by transfinite induction (on 8). Begin by writing and a8 +I aa; if 8 is & limit number, define a8 a8 the supremum of the numbers of the form &", where Y If this sketch of & definition i8 formulated with care, it follows that Oa 0 (a 2 1), 17 = 1, a+y aa" , av = (a)r, Origlnal ftom e0 by Google UNIVERSITY OF MICHIGAN good taking pair from
+recalling that the most easily available well ordered set whose  ordinal number is $\alpha$ is the ordinal number $\alpha$ itself (and similarly for $\beta$). 
+
+Like addition, multiplication has its good and bad properties.   Among the good ones are the identities 
+
+\begin{allign}
+\alpha 0 &= 0,
+0 \alpha &= 0,
+\alpha 1 &= \alpha ,
+1 \alpha &= \alpha ,
+\end{allign}
+
+the associative law 
+
+\begin{equation*}
+\alpha ( \beta \gamma) = ( \alpha \beta ) \gamma , 
+\end{equation*}
+
+the left distributive law
+
+\begin{equation*}
+\alpha ( \beta  +\gamma) = ( \alpha \beta ) + \alpha \gamma , 
+\end{equation*}
+
+and the fact that if the product of two ordinal numbers is zero, then one of the factors must be zero. (Note that we use the standard convention about multiplication precedence over addition; $\alpha \beta + \alpha \gamma$ denotes $(\alpha \beta) + (\alpha \gamma)$.) 
+
+The commutative law for multiplication fails, and so do many of its consequences. Thus, for instance, $2 \omega = \omega$ (think of an infinite sequence of ordered pairs), but $\omega 2 \neq \omega$ (think of an ordered of infinite sequences). The right distributive law also fails; that is $(\alpha + \beta) \gamma$ is in general different from $\alpha \gamma + \beta \gamma$. Example: $(1 + 1) \omega = 2 \omega = \omega$, but $l \omega + 1 \omega = \omega + \omega = \omega 2$. 
+
+Just as repeated addition led to the definition of ordinal products, repeated multiplication could be used to define ordinal exponents. Alternatively, exponentiation can be approached via transfinite recursion. The precise details are part of an extensive and highly specialized theory of ordinal numbers. At this point we shall be content with hinting at the definition and mentioning its easiest consequences. To define $\alpha^{\beta}$ (where $\alpha$ and $\beta$ are ordinal numbers), use definition by transfinite induction (on $\beta$). Begin by writing $\alpha^{0} = 1$ and $\alpha^{\beta + 1} = \alpha^{\beta} \alpha$; if $\beta$ is a limit number, define $\alpha^{\beta}$ as the supremum of the numbers of the form $\alpha^{\gamma}$, where $\gamma < \beta$. If this sketch of a definition is formulated with care, it follows that
+
+\begin{allign}
+0^{\alpha} &= 0(\alpha \ge 1),
+1^{\gamma} &= 1,
+\alpha^{\beta + \gamma} &= \alpha^\beta} \alpha^{\gamma} ,
+\alpha^\beta \gamma} &= (\alpha^{\beta})^{\gamma} .
+\end{allign}
