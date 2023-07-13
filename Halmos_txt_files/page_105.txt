@@ -1,1 +1,26 @@
-NANYD DEI TnLUR1 DEC_ exists & pairwise disjoint family {An} (n w) of infinite subsets of w whose union is to @. One way to prove this is to write down the elements of w in &n infinite array by counting down the diagonals; thus: 10 15 16 8 1 17 19 20 and then to consider the sequence of the rows of this array: Another way is to let Ao consist of 0 the odd number8, let A, be the obtained by doubling each non-zero element of Ao, &nd, inductively, let be the obtained by doubling each element of 21. Either way (and there are many others still) the details are easy to fill in. Conclusion : the union of & countably infinite family of countable sets is countable Proof : given the family (Xa} (n w) of countable set8, find & family {fz} of func- tions guch that, for each the function f, maps An onto Xn, and define function f irom w onto Un Xn by writing f(k) fn(k) whenever k An: This result combined with the result of the preceding paragraph implies that the union of & countable set of countable sets is always countable_ An interesting end useful corollary is that the Cartesian product of two countable gets ig also countable. Since xxY = Uver (XX (y}), since, if X is countable; then, for each fixed y in Y, the set X X {y} is obviously countable (use the one-to-one correspondence (1,y)), the result follows the preceding paragraph: ExERCISE. Prove that the get of &ll finite gubsets of & countable set is countable_ Prove that if countable subset of totally  ordered set X is well ordered, then X itself is well ordered: On the basis of the preceding discussion it would not be unreasonable to guess that every get is countable: We proceed to show that that is not 80; this negative regult is wbat makeg the theory of cardinal numbers interesting Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN equal and set An+l Av set and from every
+exists a pairwise disjoint family $\{ A_{n} \} (n \in \omega)$ of infinite subsets of $\omega$ whose union is equal to $\omega$. One way to prove this is to write down the elements of $\omega$ in an infinite array by counting down the diagonals; thus: 
+
+\begin{tabular}{ccccccc}
+$0$ & $1$ & $2$ & $3$ & $6$ & $10$ & $15$ & $\cdots$  \\
+$2$ & $4$ & $7$ & $11$ & $16$ & $\cdots$ & & \\
+$5$ & $8$ & $12$ & $17$ & $\cdots$ & & & \\
+$9$ & $13$ & $18$ & $\cdots & & & & \\
+$14$ & $19$ & $\cdots$ & & & & & \\
+$20$ & $\cdots$ & & & & & & \\
+$\cdots$ & & & & & & & 
+\end{tabular}
+
+and then to consider the sequence of the rows of this array. Another way is to let $A_{0}$ consist of 0 and the odd numbers, let $A_{1}$, be the set obtained by doubling each non-zero element of $A_{0}$, and, inductively, let $A_{n+1}$ be the set obtained by doubling each element of $A_{n}, n \ge 1$. Either way (and there are many others still) the details are easy to fill in. Conclusion: the union of a countably infinite family of countable sets is countable. Proof: given the family $\{ X_{n} \} (n \in \omega)$ of countable sets, find a family $\{ f_{n} \}$ of functions such that, for each $n$, the function $f_{n}$, maps $A_{n}$ onto $X_{n}$, and define a function $f$ from $\omega$ onto $\bigcup_{n} X_{n}$ by writing $f(k) = f_{n}(k)$ whenever $k \in A_{n}$. This result combined with the result of the preceding paragraph implies that the union of a countable set of countable sets is always countable. 
+
+An interesting and useful corollary is that the Cartesian product of two countable sets is also countable. Since 
+
+\begin{equation*}
+X \times Y = \bigcup_{y \in Y}(X \times \{ y \}),
+\end{equation*}
+
+and since, if $X$ is countable, then, for each fixed $y$ in $Y$, the set $X \times \{ y \}$ is obviously countable (use the one-to-one correspondence $x \rightarrow (x,y)$), the result follows the preceding paragraph. 
+
+\begin{named}[EXERCISE. ] Prove that the set of all finite subsets of a countable set is countable. Prove that if every countable subset of a totally ordered set $X$ is well ordered, then $X$ itself is well ordered. 
+\ned{named}
+
+On the basis of the preceding discussion it would not be unreasonable to guess that every set is countable. We proceed to show that that is not so; this negative result is what makes the theory of cardinal numbers interesting.

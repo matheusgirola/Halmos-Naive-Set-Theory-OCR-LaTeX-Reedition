@@ -1,1 +1,30 @@
-90 NANYE SEl [HEOR 1 SEC_ 24 in I The familiar laws of exponents hold: That i8, if 0, b, and c are car- dinal numbers, then ab+c a';, (ab)c = a%bc, (ab)c. ExERCISE. Prove that if a, b, and c are cardinal numbers such that < b, then a" < b'. Prove that if a and b are finite, greater than 1, if c is infinite, then a" bc. The preceding definitions and their consequences are reasonably straight- forward not at all surprising: If are restricted to finite sets only_ the result is the familiar finite arithmetic The novelty of the subject arises in the formation of gums, products, and powers in which at least one term is infinite. The words "finite" and 'infinite" are used here in very natural sense a cardinal number i8 finite if it i8 the cardinal number of & finite set, and infinite otherwise_ If a and b are cardinal numberg such that a is finite and b is infinite; then a +6 = b_ For the proof; suppose that A and B are disjoint gets such that A is alent to gome natural number k and B is infinite; we are to prove that U B~B Since < B, we may and do assume that w C B_ We de- fine & mapping f from A U B to B as follows: the restriction of f to A is & one-to-one correspondence between A and k, the restriction of f to given by f(n) =n +k all n, and the restriction of f to B w is the identity mapping on Since the result is & one-to-one correspond- ence between A U B and B, the proof is complete: Next: if a i8 an infinite cardinal number, then a + a = @. For the proof; let A be & set with card A = @. Since the set A X 2 is the union of two disjoint sets equivalent to A (namely, A X {0} and A X {1}) , it would be sufficient to prove that A X 2 is equivalent to A. The ap- we shall use will not quite prove that much, but it will come close enough: The idea is to approximate the construction of the desired one-to one correspondence by lerger and larger subsets of Precisely speaking, let $ be the collection of all functions f such that the domain of f is of the form X X 2, for some gubset X of A, and such that f is & one-to-one correspondence between X X 2 and X. If X is & count- Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN and and they equiv- for proach using
+in $I$. The familiar laws of exponents hold. That is, if $a, b$, and $c$ are cardinal numbers, then 
+
+\begin{align*}
+a^{b+c} &= a^{b}c^{c}, \\
+(ab)^{c} &= a^{c}b^{c}, \\
+a^{bc} &= (c^{b})^{c}. 
+\end{align*}
+
+\begin{named}[EXERCISE. ] Prove that if $a, b$, and $c$ are cardinal numbers such that $a \le b$, then $a^{c} \le b^{c}$. Prove that if $a$ and $b$ are finite, greater than 1, and if $c$ is infinite, then $a^{c} = b^{c}$.
+\end{named}
+
+The preceding definitions and their consequences are reasonably straight-forward and not at all surprising. If they are restricted to finite sets only, the result is the familiar finite arithmetic. The novelty of the subject arises in the formation of sums, products, and powers in which at least one term is infinite. The words "finite" and "infinite" are used here in a very natural sense: a cardinal number is \textit{finite} if it is the cardinal number of a finite set, and \textit{infinite} otherwise. 
+
+If $a$ and $b$ are cardinal numbers such that $a$ is finite and $b$ is infinite, then 
+
+\begin{equation*}
+a + b = b.
+\end{equation*}
+
+For the proof, suppose that $A$ and $B$ are disjoint sets such that $A$ is equivalent to some natural number $k$ and $B$ is infinite; we are to prove that $A \cup B \sim B$. Since $\omega \precsim B$, we may and do assume that $\omega \subset B$. We define a mapping $f$ from $A \cup B$ to $B$ as follows: the restriction of $f$ to $A$ is a one-to-one correspondence between $A$ and $k$, the restriction of $f$ to $\omega$ given by $f(n) = n + k$ for all $n$, and the restriction of $f$ to $B - \omega$ is the identity mapping on $B - \omega$. Since the result is a one-to-one correspondence between $A \cup B$ and $B$, the proof is complete. 
+
+Next: if $a$ is an infinite cardinal number, then 
+
+\begin{equation*}
+a + a = a. 
+\end{equation*}
+
+For the proof, let $A$ be a set with card $A = a$. Since the set $A \times 2$ is the union of two disjoint sets equivalent to $A$ (namely, $A \times \{ 0 \}$ and $A \times \{ 1 \}$), it would be sufficient to prove that $A \times 2$ is equivalent to $A$. The approach we shall use will not quite prove that much, but it will come close enough. The idea is to approximate the construction of the desired one-to-one correspondence by using larger and larger subsets of $A$. 
+
+Precisely speaking, let $\mathcal{F}$ be the collection of all functions $f$ such that the domain of $f$ is of the form $X \times 2$, for some subset $X$ of $A$, and such that $f$ is a one-to-one correspondence between $X \times 2$ and $X$. If $X$ is a countably

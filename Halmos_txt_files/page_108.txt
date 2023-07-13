@@ -1,1 +1,27 @@
-C. 24 CARDINAL ARITHMETIC 95 ExERCISE. Prove thet if a, b, C and d cardinal number8 guch that 4b and c & d, then a + c &b + d. There is no difficulty about defining addition for infnitely many 8um- ands_ If {a;} is & family of cardinal numbers, and if {A;} i8 & corre- ondingly indexed family of pairwise disjoint sets such that card A; = a; r each i, then we write, by definition, Eia; cerd (U: 4;). before, the definition is unambiguous To define the product ab of two cardinal numbers & and b, we find gets and B with card A and card B b, and we write ab card (A X B). he replacement of A and B by equivalent sets yields the game value of the oduct. Alternatively , we could have defined ab by "adding to itself b nes" this refers to the formation of the infinite sum Ci:l C;, where the has cardinal number b, &nd where a; for each in [ The ader should have no difficulty in verifying that this proposed alternative finition is indeed equivalent to the one that u8e8 Cartesian  products ardinal multiplication is commutative (ab ba) and associative (a(bc) b)c) , and multiplication distributes over addition (a(b + c) ab + ac); proofs are elementary ExERCISE. Prove that if @, 6, C, and d are cardinal numberg guch that a &b and c & d, then ac < bd. There ig no difficulty about defining multiplication for infinitely many ctors_ If (a;} is & family of cardinal numbers, if {A;} is & correspond- gly indexed  family of sets such that card A; = a; for each :, then we rite, by definition, II:a; card (X; 4,). he definition i8 unambiguous ExERCISE. If {a;} (i & I) {b;} (i  I) are families _of cardinal num- bers such that a; < b; for each in [, then C;a; II;b; We can go from products to exponents the game way 88 we went ms to products_ The definition of a'_ for cardinal numbers and b, i8 ost profitably given directly , but an alternative approach goes via re- ated multiplication For the direct definition, find sets A &nd B with rd and card B and write ab card AB Alternatively , to fine a' "multiply by itself b times_ More precisely: form I ;.l G; nere the index get bas cardinal number b, and where a; for each Origlnal fom e0 by Google UNIVERSITY OF MICHIGAN are 'lex set and and from
+\begin{named}[EXERCISE. ] Prove thet if $a, b, c$ and $d$ are cardinal numbers such that $a \le b$ and $c \le d$, then $a + c \le b + d$. 
+\end{named}
+
+There is no difficulty about defining addition for infinitely many summands. If $\{ a_{i} \}$ is a family of cardinal numbers, and if $\{ A_{i} \}$ is a correspondingly indexed family of pairwise disjoint sets such that card $A_{i} = a_{i}$ for each $i$, then we write, by definition,
+
+\begin{equation*}
+\sum_{i} a_{i} = \text{ card } (\bigcup_{i} A_{i} ).
+
+As before, the definition is unambiguous.
+
+To define the product $ab$ of two cardinal numbers $a$ and $b$, we find sets $A$ and $B$ with card $A = a$ and card $B = b$, and we write $ab =$ card $(A \times B)$. The replacement of $A$ and $B$ by equivalent sets yields the same value of the product. Alternatively, we could have defined $ab$ by "adding $a$ to itself $b$ times"; this refers to the formation of the infinite sum $\sum_{i \in I} a_{i}$, where the indexed set $I$ has cardinal number $b$, and where $a_{i} = a$ for each $i$ in $I$. The reader should have no difficulty in verifying that this proposed alternative definition is indeed equivalent to the one that uses Cartesian products. Cardinal multiplication is commutative $(ab = ba)$ and associative $(a(bc) = (ab)c)$, and multiplication distributes over addition $(a(b + c) = ab + ac)$; proofs are elementary. 
+
+\begin{named}[EXERCISE. ] Prove that if $a$, $b$, $c$, and $d$ are cardinal numbes such that $a \le b$ and $c \le d$, then $ac \le bd$.
+\end{named}
+
+There is no difficulty about defining multiplication for infinitely many factors. If $\{ a_{i} \}$ is a family of cardinal numbers, if $\{ A_{i} \}$ is a correspondingly indexed family of sets such that card $A_{i} = a_{i}$ for each $i$, then we rite, by definition, 
+
+\begin{equation*}
+\prod_{i} a_{i} = \text{ card } ( \bigtimes_{i} A_{i} ).
+\end{equation*}
+
+The definition is unambiguous. 
+
+\begin{named}[EXERCISE. ] If $\{ a_{i} \}$ ($i \in I$) and $\{ b_{i} \}$ ($i \in I$) are families of cardinal numbers such that $a_{i} < b_{i}$ for each $i$ in $I$, then $sum_{i}a_{i} < \prod_{i}b_{i}$. 
+\end{named}
+
+We can go from products to exponents the same way as we went from sums to products. The definition of $a^{b}$, for cardinal numbers $a$ and $b$, is most profitably given directly, but an alternative approach goes via repeated multiplication. For the direct definition, find sets $A$ and $B4 with card $A = a$ and card $B = b$, and write $a^{b} =$ card $A^{B}$. Alternatively, to define $a^{b}$ "multiply $a$ by itself $b$ times." More precisely: form $\prod_{i \in I} a_{i}$, where the index set $I$ has cardinal number $b$, and where $a_{i} = a$ for each $i$
