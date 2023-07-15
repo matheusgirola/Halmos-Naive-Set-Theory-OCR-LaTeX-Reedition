@@ -1,0 +1,68 @@
+%--- CHAPTER 23 PAGES 103-106
+%--- MODIFIED LAST IN 10/07/2023
+
+If $X$ and $Y$ are sets such that $Y$ dominates $X$ and $X$ dominates $Y$, then the Schröder-Bernstein theorem applies and says that $X$ is equivalent to $Y$. If $Y$ dominates $X$ but $X$ does not dominate $Y$, so that $X$ is not equivalent to $Y$, we shall write 
+
+\begin{equation*}
+X \prec Y, 
+\end{equation*}
+
+we shall say that $Y$ \textit{strictly dominates} $X$.
+
+Domination and strict domination can be used to express some of the facts about finite and infinite sets in neat form. Recall that a set $X$ is called finite in case it is equivalent to some natural number; otherwise it is infinite. We know that if $X \precsim Y$ and $Y$ is finite, then $X$ is finite, and we know that $\omega$ is infinite (See \S 13); we know also that if $X$ is infinite, then $\omega \precsim X$ (\S 15). The converse of the last assertion is true and can be proved either directly (using the fact that a finite set cannot be equivalent to proper a subset of itself) or as an application of the Schröder-Bernstein theorem. (If $\omega \precsim X$, then it is impossible that there exists a natural number $n$ such that $X \sim n$, for then we should have $\omega \precsim n$, and that contradicts the fact that $\omega$ is infinite.) 
+
+We have just seen that a set $X$ is infinite if and only if $\omega \precsim X$; next we shall prove that $X$ is finite if only if $X \prec \omega$. The proof depends on the transitivity of strict domination: if $X \precsim Y$ and $Y \precsim Z$, and if at least one of these dominations is strict, then $X \prec Z$. Indeed, clearly, $X \precsim Z$. If we had $Z \precsim X$, then we should have $Y \precsim X$ and $Z \precsim Y$ and hence (by the Schröder-Bernstein theorem) $X \sim Y$ and $Y \sim Z$, in contradiction to the assumption of strict domination. If now $X$ is finite, then $X \sim n$ for some natural number $n$, and, since $\omega$ is infinite, $n \prec \omega$, so that $X \prec \omega$. If, conversely, $X \prec \omega$, then $X$ must be finite, for otherwise we should have $\omega \precsim X$, hence $\omega \prec \omega$, which is absurd. 
+
+A set $X$ is called \textit{countable} (or \textit{denumerable}) in case $X \precsim \omega$ and \textit{countably infinite} in case $X \sim \omega$. Clearly a countable set is either finite or countably infinite. Our main purpose in the immediate sequel is to show that many set-theoretic constructions when performed on countable sets lead again to countable sets. 
+
+We begin with the observation that every subset of $\omega$ is countable, and we go on to deduce that every subset of each countable set is countable. These facts are trivial but useful.
+
+If $f$ is a function from $\omega$ \textit{onto} a set $X$, then $X$ is countable. For the proof, observe that for each $x$ in $X$ the set $f^{-1}(\{ x \})$ is not empty (this is where the \textit{onto} character of $f$ is important), and consequently, for each $x$ in $X$, we may find a natural number $g(x)$ such that $f(g(x)) = x$. Since the function $g$ is a one-to-one mapping from $X$ into $\omega$, this proves that $X \precsim \omega$. The reader who worries about such things might have noticed that this proof made use of the axiom of choice, and he may want to know that there is an alternative proof that does not depend on that axiom. (There is.) The same comment applies on a few other occasions in this section and its successors but we shall refrain from making it.
+
+It follows from the preceding paragraph that a set $X$ is countable if and only if there exists a function from some countable set onto $X$. A closely related result is this: if $Y$ is any particular countably infinite set, then a necessary and sufficient condition that a non-empty set $X$ be countable is that there exist a function $Y$ onto $X$.
+
+The mapping $n \rightarrow 2n$ is a one-to-one correspondence between $\omega$ and the set $A$ of all even numbers, so that $A$ is countably infinite. This implies that if $X$ is a countable set, then there exists a function $f$ that maps $A$ onto $X$. Since, similarly, the mapping $n \rightarrow 2n + 1$ is a one-to-one correspondence between $\omega$ and the set $B$ of all odd numbers, it follows that if $Y$ is a countable set, then there exists a function $g$ that maps $B$ onto $Y$. The function $h$ that agrees with $f$ on $A$ and with $g$ on $B$ (i.e., h(x) = f(x) when $x \in A$ and $h(x) = g(x)$ when $x \in B$) maps $\omega$ onto $X \cup Y$. Conclusion: the union of two countable sets is countable: From here on an easy argument by mathematical induction proves that the union of a finite set of countable sets is countable. The same result can be obtained by imitating the trick that worked for two sets; the bagis of the method is the fact that for each non-zero natural number $n$ there exists a pairwise disjoint family $\{ A_{i} \} (i < n)$ of infinite subsets of $\omega$ whose union is equal to $\omega$.
+
+The same method can be used to prove still more. Assertion: there exists a pairwise disjoint family $\{ A_{n} \} (n \in \omega)$ of infinite subsets of $\omega$ whose union is equal to $\omega$. One way to prove this is to write down the elements of $\omega$ in an infinite array by counting down the diagonals, thus: 
+
+\begin{center}
+\begin{tabular}{cccccccc}
+$0$ & $1$ & $2$ & $3$ & $6$ & $10$ & $15$ & $\cdots$  \\
+$2$ & $4$ & $7$ & $11$ & $16$ & $\cdots$ & & \\
+$5$ & $8$ & $12$ & $17$ & $\cdots$ & & & \\
+$9$ & $13$ & $18$ & $\cdots$ & & & & \\
+$14$ & $19$ & $\cdots$ & & & & & \\
+$20$ & $\cdots$ & & & & & & \\
+$\cdots $ & & & & & & & 
+\end{tabular}
+\end{center}
+
+and then to consider the sequence of the rows of this array. Another way is to let $A_{0}$ consist of 0 and the odd numbers, let $A_{1}$, be the set obtained by doubling each non-zero element of $A_{0}$, and, inductively, let $A_{n+1}$ be the set obtained by doubling each element of $A_{n}, n \ge 1$. Either way (and there are many others still) the details are easy to fill in. Conclusion: the union of a countably infinite family of countable sets is countable. Proof: given the family $\{ X_{n} \} (n \in \omega)$ of countable sets, find a family $\{ f_{n} \}$ of functions such that, for each $n$, the function $f_{n}$, maps $A_{n}$ onto $X_{n}$, and define a function $f$ from $\omega$ onto $\bigcup_{n} X_{n}$ by writing $f(k) = f_{n}(k)$ whenever $k \in A_{n}$. This result combined with the result of the preceding paragraph implies that the union of a countable set of countable sets is always countable. 
+
+An interesting and useful corollary is that the Cartesian product of two countable sets is also countable. Since 
+
+\begin{equation*}
+X \times Y = \bigcup_{y \in Y}(X \times \{ y \}),
+\end{equation*}
+
+and since, if $X$ is countable, then, for each fixed $y$ in $Y$, the set $X \times \{ y \}$ is obviously countable (use the one-to-one correspondence $x \rightarrow (x,y)$), the result follows the preceding paragraph. 
+
+\begin{exercise}[\textsc{Exercise}. ] Prove that the set of all finite subsets of a countable set is countable. Prove that if every countable subset of a totally ordered set $X$ is well ordered, then $X$ itself is well ordered. 
+\end{exercise}
+
+On the basis of the preceding discussion it would not be unreasonable to guess that every set is countable. We proceed to show that that is not so; this negative result is what makes the theory of cardinal numbers interesting.
+
+\begin{named}[Cantor's theorem. ] Every set is strictly dominaled by its power set, or, in other words, 
+
+\begin{equation*}
+X \prec \mathcal{P}(X)
+\end{equation*}
+
+for all $X$. 
+\end{named}
+
+\textsc{Proof}. There is a natural one-to-one mapping $X$ into $\mathcal{P}(X)$, namely, the mapping that associates with each element $x$ of $X$ the singleton $\{ x \}$. The existence of this mapping proves that $X \precsim \mathcal{P}(X)$; it remains to prove that $X$ is not equivalent to $\mathcal{P}(X)$. 
+
+Assume that $f$ is a one-to-one mapping from $X$ onto $\mathcal{P}(X)$; our purpose is to show that this assumption  leads to a contradiction. Write $A = \{ x \in X: x \in ' f(x) \}$; in words, $A$ consists of those elements of $X$ that are not contained in the corresponding set. Since $A \in \mathcal{P}(X)$ and since $f$ maps $X$ onto $\mathcal{P}(X)$, there exists an element $a$ in $X$ such that $f(a) = A$. The element $a$ either belongs to the set $A$ or it does not. If $a \in A$, then, by the definition of $A$, we must have $a \in ' f(a)$, and since $f(a) = A$ this is impossible. If $a \in ' A$, then, again by the definition of $A$, we must have $a \in f(a)$, and this too is impossible. The contradiction has arrived and the proof of Cantor's theorem is complete.
+
+Since $\mathcal{P}(X)$ is always equivalent to $2^{X}$ (where $2^{X}$ is the set of all functions from $X$ into 2), Cantor's theorem implies that $X \prec 2^{X}$ for all $X$. If in particular we take $\omega$ in the role of $X$, then we may conclude that the set of all sets of natural numbers is \textit{uncountable} (i.e., not countable, non-denumerable), or, equivalently, that $2^{\omega}$ is uncountable. Here $2^{\omega}$ is the set of all infinite sequences of 0's and 1's (i.e., functions from $\omega$ into 2). Note that if we interpret $2^{\omega}$ in the sense of ordinal exponentiation, then $2^{\omega}$ is countable (in fact $2^{\omega} = \omega$).

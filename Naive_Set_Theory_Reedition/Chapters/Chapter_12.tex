@@ -1,0 +1,62 @@
+We enter now into a minor digression. The purpose of the digression is to make fleeting contact with the arithmetic theory of natural numbers. From the set-theoretic point of view this is a pleasant luxury. 
+
+The most important we know about the set $\omega$ of all natural numbers is that it is the unique successor set that is a subset of every successor get. To say that $\omega$ is a successor set means that
+
+\begin{equation}
+\label{eq12.1}
+0 \in \omega \tag{I}
+\end{equation}
+
+(where, of course, $0 = \emptyset$), and that 
+
+\begin{equation}
+\label{eq12.2}
+\text{\textit{if} } n \in\omega, \text{ \textit{then} } n^{+} \in \omega \tag{II}
+\end{equation}
+
+(where $n^{+} = n \cup \{ n \}$). The minimality property of $\omega$ can be expressed by saying that if a subset $S$ of $\omega$ is a successor set, then $S = \omega$. Alternatively, and in more primitive terms,
+
+\begin{equation}
+\label{eq12.3}
+\text{\textit{if} } S \subset \omega, \text{ \textit{if} } 0 \in S, \text{ \textit{and if} } n^{+} \in S \text{ \textit{whenever} } n \in S, \text{ \textit{then} } S = \omega . \tag{III}
+\end{equation}
+
+Property \eqref{eq12.3} is known as the \textbf{principle of mathematical induction.} We shall now add to this list of properties of $\omega$ two others: 
+
+\begin{equation}
+\label{eq12.4}
+n^{+} \neq 0 \text{ \textit{for all} } n \text{ \textit{in} } \omega , \tag{IV}
+\end{equation}
+
+and
+
+\begin{equation}
+\label{eq12.5}
+\text{\textit{if} } n \text{ \textit{and} } m \text{ \textit{are in} } \omega , \text{ \textit{and if} } n^{+} = m^{+} , \text{ \textit{then} } n = m.\tag{V}
+\end{equation}
+
+The proof of \eqref{eq12.4} is trivial; since $n^{+}$ contains n, and since $0$ is empty, it is clear that $n^{+}$ is different from $0$. The proof of \eqref{eq12.5} is not trivial; it depends on couple of auxiliary propositions. The first one asserts that something that ought not to happen indeed does not bappen. Even if the considerations that the proof involves seem to be pathological and foreign to the arithmetic spirit that we expect to see in the theory of natural numbers, the end justifies the means. The second proposition refers to behavior thet is quite similar to the one just excluded. This time, however, the apparently artificial considerations end in an affirmative result: something mildly surprising always does happen. The statements are as follows: (i) \textit{no natural number is a subset of any of its elements}, and  (ii) \textit{every element of a natural number is a subset of it}. Sometimes a set with the property that it includes ($\subset$) everything that it contains ($\in$) is called a \textit{transitive} set. More precisely, to say that $E$ is transitive means that if $x \in y$ and $y \in E$, then $x \in E$. (Recall the slightly different use of the word that we encountered in the of relations.) In this language, (ii) says that every natural number is transitive. 
+
+The proof of (i) is a typical application of the principle of mathematical induction. Let $S$ be the set of all those natural numbers that are not included in any of their elements. (Explicitly: $n \in S$ if and only if $n \in \omega$ and $n$ is not a subset of $x$ for any $x$ in $n$.) Since $0$ is not a subset of any of its elements, it follows that $0 \in S$.  Suppose now that $n \in S$. Since $n$ is a subset of $n$, we may infer that $n$ is not an element of $n$, and hence that $n^{+}$ is not a subset of $n$. What can $n^{+}$ be a subset of? If $n^{+} \subset x$,then $n \subset x$, and therefore (since $n \in S$) $x \in ' n$. It follows that $n^{+}$ cannot be a subset of $n$, and $n^{+}$ cannot be a subset of any element of $n$. This means that $n^{+}$ cannot be a subset of any element of $n^{+}$, and hence that $n^{+} \in S$. The desired conclusion (i) is now a consequence of \eqref{eq12.3}. 
+
+The proof of (ii) is also inductive. This time let $S$ be the set of all transitive natural numbers. (Explicitly: $n \in S$ if and only if $n \in \omega$ and $x$ is a subset of $n$ for every $x$ in $n$.) The requirement that $0 \in S$ is vacuously satisfied.  Suppose now that $n \in S$. If $x \in n^{+}$, then either $x \in n$ or $x = n$. In the first case $x \subset n$ (since $n \in S$) and therefore $x \subset n^{+}$; in the second case $x \subset n^{+}$ for even more trivial reasons. It follows that every element of $n^{+}$ is a subset of $n^{+}$, or, in other words, that $n^{+} \in S$. The desired conclusion (ii) is a consequence of \eqref{eq12.3}. 
+
+We are now ready to prove \eqref{eq12.5}. Suppose indeed that $n$ and $m$ are natural numbers and that $n^{+} = m^{+}$. Since $n \in n^{+}$ it follows that $n \in m^{+}$, and hence that either $n \in m$ or $n = m$. Similarly, either $m \in n$ or $m = n$. If $n \neq m$, then we must have $n \in m$ and $m \in n$. Since, by (ii), $n$ is transitive, it follows that $n \in n$. Since, however, $n \subset n$, this contradicts (i), and the proof is complete. 
+
+The assertions \eqref{eq12.1}—\eqref{eq12.4} are known as the Peano axioms; they used to be considered as the fountainhead of all mathematical knowledge. From them (together with the set-theoretic principles we have already met) it is possible to define integers, rational numbers, real numbers, and complex numbers, and to derive their usual arithmetic and analytic  properties. Such program is not within the scope of this book; the interested reader should have no difficulty in locating and studying it elsewhere.
+
+Induction is often used not only to prove things but also to define things. Suppose, to be specific, that $f$ is a function from a set $X$ into the same set $X$, and suppose that $a$ is an element of $X$. It seems natural to try to define an infinite sequence ${u(n)}$ of elements of $X$ (that is, a function $u$ from $\omega$ to $X$) in some such way as this: write $u(0) = a$, $u(1) = f(u(0))$, $u(2) = f(u(1))$, and so on. If the would-be definer were pressed to explain the "and so on," he might lean on induction. What it all means, he might say, is that we define $u(0)$ as $a$, and then, inductively, we define $u(n^{+})$ as $f(u(n))$ for every $n$. This may sound plausible, but, as justification for an existential assertion, it is insufficient. The principle of mathematical induction does indeed prove, easily, that there can be at most one function satisfying all the stated conditions, but it does not establish the existence of such a function. What is needed is the following result.
+
+\begin{named}[Recursion theorem. ] If $a$ is an element of a set $X$, and if $f$ is a function from $X$ into $X$, then there exists a function $u$ from $\omega$ into $X$ such that $u(0) = a$ and such that $u(n^{+}) = f(u(n))$ for all $n$ in $\omega$. 
+\end{named}
+
+Proof. Recall that a function from $\omega$ to $X$ is a certain kind of subset of $ \omega \times X$; we shall construct $u$ explicitly as a set of ordered  pairs. Consider, for this purpose, the collection $\mathcal{C}$ of all those subsets $A$ of $\omega \times X$ for which $(0, a) \in A$ and for which $(n^{+}, f(x)) \in A$ whenever $(n, x) \in A$. Since $ \omega \times X$ has these properties, the collection $\mathcal{C}$ is not empty. We may, therefore, form the intersection of all the sets of the collection $\mathcal{C}$. Since it is easy to see that $u$ itself belongs to $\mathcal{C}$, it remains only to prove that $u$ is a function. We are to prove, in other words, that for each natural number $n$ there exists at most one element $x$ of $X$ such that $(n, x) \in u$. (Explicitly : if both $(n, x)$ and $(n, y)$ belong to $u$, then $x = y$.) The proof is inductive. Let $S$ be the set of all those natural numbers $n$ for which it is indeed true that $(n, x) \in u$ for at most one $x$. We shall prove that $0 \in S$ and that if $n \in S$,then $n^{+} \in S$.
+
+Does $0$ belong to $S$? If not, then $(0,b) \in u$ for some $b$ distinct from $a$. Consider, in this case, the set $u - \{ (0, b) \}$. Observe that this diminished set still contains $(0, a)$ (since $a \neq b$), and that if the diminished set contains $(n, x)$, then it contains $(n^{+}, f(x))$ also. The reason for the second assertion is that since $n^{+} \neq 0$, the discarded element not equal to $(n^{+}, f(x))$. In other words, $u - \{ (0, b) \} \in \mathcal{C}$. This contradicts the fact that $u$ is the smallest set in $\mathcal{C}$, and we may conclude that $0 \in S$. 
+
+Suppose now that $n \in S$; this means that there exists a unique element $x$ in $X$ such that $(n, x) \in u$. Since $(n, x) \in u$, it follows that $(n^{+}, f(x)) \in u$. If $n^{+}$ does not belong to $S$, then $(n^{+}, y) \in u$ for some $y$ different from $f(x)$. Consider, in this case, the set $u - \{ (n^{+}, y) \}$. Observe that this diminished set contains $(0, a)$ (since $n^{+} \neq 0$), and that if the diminished set contains $(m, t)$, say, then it contains $(m^{+}, f(t))$ also. Indeed, if $m = n$, then $t$ must be $x$, and the reason the diminished set contains $(n^{+}, f(x))$ is that $f(x) \neq y$; if, on the other hand, $m \neq n$, then the reason the diminished set contains $(m^{+}, f(t))$ is that $m^{+} \neq n^{+}$. In other words, $u - \{ ( n^{+}, y) \} \in \mathcal{C}$. This again contradicts the fact that $u$ is the smallest set in $\mathcal{C}$, and we may conclude that $n^{+} \in S$. 
+
+The proof of the recursion theorem is complete. An application of the recursion theorem is called \textit{definition by induction}. 
+
+\begin{exercise}[\textsc{Exercise}. ] Prove that if $n$ is a natural number, then $n \neq n^{+}$; if $n \neq 0$, then $n = m^{+}$ for some natural number $m$. Prove that $ \omega $ is transitive. Prove that if $E$ is a non-empty subset of some natural number, then there exists an element $k$ in $E$ such that $k \in m$ whenever $m$ is an element of $E$ distinct from $k$.
+\end{exercise}

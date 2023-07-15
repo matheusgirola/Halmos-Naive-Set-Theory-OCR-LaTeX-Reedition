@@ -1,0 +1,71 @@
+%--- CHPATER 5 PAGES 35-38
+%--- MODIFIED LAST IN 06/06/2023 
+
+
+What does it mean to arrange the elements of a set $A$ in some order? Suppose, for instance, that the set $A$ is the quadruple $ \{a, b, c, d \} $ of distinct elements, and suppose that we want to consider its elements in the order 
+
+\begin{center}
+\textit{c b d a}.
+\end{center}
+
+Even without a precise definition of what this means, we can do something set-theoretically intelligent with it. We can, namely, consider, for each particular spot in the ordering, the set of all those elements that occur at or before that spot; we obtain in this way the sets 
+
+\begin{center}
+ \{ $c$ \}  \{ $c, b$ \} \{ $c, b, d$ \} \{ $c, b, d, a$ \} 
+\end{center}
+
+We can go on then to consider the set (or collection, if that goundg better) 
+
+\begin{center}
+$\mathcal{C} = $ \{ \{ $a, b, c, d$ \}, \{ $b, c$ \}, \{ $b, c, d$ \}, \{ $c$ \} \} 
+\end{center}
+
+that has exactly those sets for its elements. In order to emphasize that the intuitively based and possibly unclear concept of order has succeeded producing something solid and simple, namely plain,  unembellished set $ \mathcal{C} $, the elements of $ \mathcal{C} $, and \textit{their} elements, are presented above in a scrambled manner. (The lexicographically inclined reader might be able to see a method in the manner of scrambling.) 
+
+Let us continue to pretend for a while that we do know what order means. Suppose that in a hasty glance at the preceding paragraph all we could catch is the set $\mathcal{C}$; can we use it to recapture the order that gave rise to it? The answer is easily seen to be yes. Examine the elements of $ \mathcal{C} $ (they themselves are sets, of course) to find one that is included in all the others; since $ \{c \}$ fills the bill (and nothing else does) we know that $c$ must have been the first element. Look next for the next smallest element of $ \mathcal{C}$, i.e., the one that is included in all the ones that remain after $ \{ c \} $ is removed; since $ \{ b, c \} $ fills the bill (and nothing else does), we know that $b$ must have been the second element. Proceeding thus (only two more steps are needed) we pass from the set $ \mathcal{C} $ to the given ordering of the given set $A$. 
+
+The moral is this: we may not know precisely what it means to order the elements of a set $A$, but with each order we can associate a set $ \mathcal{C} $ of subsets of $A$ in such a way that the given order can be uniquely recaptured from $ \mathcal{C} $. (Here is a non-trivial exercise: find an intrinsic characterization of those sets of subsets of $A$ that correspond to some order in $A$. Since "order" has no official meaning for us yet, the whole problem is officially meaningless. Nothing that follows depends on the solution, but the reader would learn something valuable by trying to find it.) The passage from an order in $A$ to the set $ \mathcal{C} $, and back, was illustrated above for a quadruple; for a pair everything becomes at least twice as simple. If $ A = \{ a,b \}$ and if, in the desired ordera $a$ comes first, then $ \mathcal{C} = \{ \{ a \} , \{ a,b \} \}$; if, however $b$ comes first, then $ \mathcal{C} = \{ \{ b \}, \{a, b \}\}$. 
+
+The \textit{ordered pair} of $a$ and $b$, with \textit{first coordinate a} and \textit{second coordinat b}, is the set $(a, b)$ defined by 
+
+\begin{equation*}
+(a, b) = \{ \{a \} , \{ a, b \} \}.
+\end{equation*}
+
+However convincing the motivation of this definition may be, we must strill prove that the result has the main property that an ordered must have to deserve its name. We must show that if $(a,b)$ and $(x, y)$ are ordered pairs and if $(a,b) = (x,y)$, then $ a = x $ and $b = y$. To prove this, we note first that if $a$ and $b$ happen to be equal, then the ordered pair $(a,b)$ is the same as the singleton $ \{ \{ a \} \} $. If, conversely, $(a,b)$ is a singleton, then $ \{ a \} =  \{ a , b \}$, so that $ b \in \{ a \} $, and therefore $a = b$. Suppose now that $ (a, b) = (x, y)$. If $ a = b $, then both $(a, b)$ and $(x,y)$ are singletons, so that $ x = y $; since $ \{ x \} \in (a,b)$ and $ \{ a \} \in (x,y)$, it follows that \textit{a, b, x,} and $y$ are all equal. If $a \neq b$, then both $(a, b)$ and $(x, y)$ contain exactly one singleton, namely $ \{a \}$ and $ \{ x \} $ respectively, so that $a = x$. Since in this case it is also true that both $(a,b)$ and $(x, y)$ contain exactly one unordered pair that is not a singleton, namely $ \{a, b \}$ and $ \{ x, y \}$. respectively, it follows that $ \{ a, b \} = \{ x,y \} $, and therefore, in particular, $b \in \{ x,y \} $. Since $b$ cannot be $x$ (for then we should have $ a = x $ and $ b = x $, and, therefore, $ a = b $), we must have $b = y $, and the proof is complete. 
+
+If $A$ and $B$ are sets, does there exist a set that contains all the ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$? It is quite easy to see that the answer is yes. Indeed, if $a \in A$ and $b \in B$, then $ \{ a \} \subset A$ and $ \{ b \}  \subset B$, and therefore $ \{ a, b \} \subset A \cup B$. Since also $ \{ a \} \subset A \cup B$, it follows that both $ \{ a \}$ and $ \{ a, b \} $ are elements of $ \mathcal{P} (A \cup B)$. This implies that $ \{ \{ a \}, \{ a,b \} \} $ is a subset of $ \mathcal{P} (A \cup B) $, and hence that it is an element of $ \mathcal{P} ( \mathcal{P} (A \cup B))$; in other words $(a, b) \in \mathcal{P} ( \mathcal{P} (A \cup B))$ whenever $ a \in  A$ and $ b \in B$. Once this is known, it is a routine matter to apply the axiom of specification and the axiom of extension to produce the unique set $A \times B$ that consists exactly of the ordered pairs $(a, b)$ with $a$ in $A$ and $b$ in $B$. This set is called the \textit{Cartesian product} of $A$ and $B$; it is characterized by the fact that 
+
+\begin{equation*}
+A \times B = \{ x: x = (a,b) \text{ \textit{for some $a$ in $A$ and for some $b$ in $B$} } \}.
+\end{equation*}
+
+The Cartesian product of two sets is a set of ordered pairs (that is, a set each of whose elements is an ordered pair), and the same is true of every subset of a Cartesian product. It is of technical importance to know that we can go in the converse direction also: every set of ordered pairs is a subset of the Cartesian product of two sets. In other words: if $R$ is a set such that every element of $R$ is an ordered pair, then there exist two sets $A$ and $B$ such that $R \subset A \times B $. The proof is elementary. Suppose indeed that $ x \in R$, so that $ x = \{ \{ a \}, \{ a, b \} \}$ for some $a$ and for some $b$. The problem is to dig out $a$ and $b$ from under the braces. Since the elements of $R$ are sets, we can form the union of the sets in $R$; since $x$ is one of the sets in $R$, the elements of $x$ belong to that union. Since $\{ a,b \}$ is one of the elements of $x$, we may in what has been called the brutal notation above, $ \{a,b \} \in \bigcup R$. One set of braces has disappeared; let us do the same thing again to make the other set go away. Form the union of the sets in $ \bigcup R$. Since $ \{ a, b \}$ is one of those sets, it follows that the elements of $ \{ a,b \}$ belong to that union, and hence both $a$ and $b$ belong to $ \bigcup \bigcup R$. This fulfills the promise made above; to exhibit $R$ as a subset of some $A \times B$, we may take both $A$ and $B$ to be $ \bigcup \bigcup R$. It is often desirable to take $A$ and $B$ as small as possible. To do so, just apply the axiom of specification to produce the sets
+
+\begin{equation*}
+A = \{ a : \: for \: some \: b ((a,b) \in R) \}
+\end{equation*}
+
+and 
+
+\begin{equation*}
+B = \{ b : \: for \: some \: a ((a,b) \in R) \}
+\end{equation*}
+
+These sets are called the \textit{projections} of $R$ onto the first and second coordinates respectively.
+
+However important set theory may be now, when it began some scholars considered it a disease from which, it was to be hoped, mathematics would soon recover. For this reason many set-theoretic considerations were called pathological, and the word lives on in mathematical usage; it often refers to something the speaker does not like. The explicit definition of an ordered pair $((a,b) = \{ \{ a \}, \{ a, b \} \})$ is frequently relegated to pathological set theory. For the benefit of those who think that in this case the name is deserved, we note that the definition has served its purpose by now and willnever be used again. We need to know that ordered pairs are determined by and uniquely determine their first and second coordinates, that Cartesian products can be formed, and that every set of ordered pairs is a subset of some Cartesian product; which particular approach is used to achieve these ends is immaterial. 
+
+It is easy to locate the source of the mistrust and suspicion that many mathematicians feel toward the explicit definition of ordered given above. The trouble is not that there is anything wrong or anything missing; the relevant properties of the concept we defined are all correct (that is, in accord with the demands of intuition) and all the correct properties are present. The trouble is that the concept has some irrelevant properties that are accidental and  distracting. The theorem that $(a, b) = (x, y)$ if and only if $a = x$ and $b = y$ is the sort of thing we expect to learn about ordered pairs. The fact that $\{ a, b \} \in (a,b) $, on the other hand, seems accidental; it is a freak property of the definition rather than an intrinsic property of the concept.
+
+The charge of artificiality is true; but it is not too high a price to pay for conceptual economy. The concept of an ordered pair could have been introduced as an additional primitive, axiomatically endowed with just the right properties, no more and no less. In some theories this is done. The mathematician's choice is between having to remember a few more axioms and having to forget a few accidental facts; the choice is pretty clearly a matter of taste. Similar choices occur frequently in mathematics; in this book, for instance, we shall encounter them again in connection with the definitions of numbers of various kinds. 
+
+\begin{exercise}[\textsc{Exercise}. ] If $A$, $B$, $X$, and $Y$ are sets, then 
+\begin{align*} 
+(i)& \: (A \cup B) \times X = ( A \times X ) \cup ( B \times X), \\
+(ii)& \:  (A \cap B ) \times ( X \cap Y) = (A \times X) \cap ( B \times Y),\\
+(iii)& \: (A - B ) \times X = (A \times X) - (B \times X).
+\end{align*}
+
+If either $A = \emptyset $ or $B = \emptyset $, then $ A \times B = \emptyset $, and conversely. If $ A \subset X $ and $B \subset Y$, then $A \times B \subset X \times Y$, and (provided $A \times B \neq \emptyset $ ) conversely. 
+\end{exercise}

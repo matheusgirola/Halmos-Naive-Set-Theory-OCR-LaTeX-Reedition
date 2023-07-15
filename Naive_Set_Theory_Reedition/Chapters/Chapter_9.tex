@@ -1,0 +1,64 @@
+There are occasions when the range of a function is deemed to be more important than the function itself. When that is the case, both the terminology and the notation undergo radical alterations. Suppose, for instance, that $x$ is a function from a set $I$ to a set $X$. (The very choice of letters indicates that something strange is afoot.) An element of the domain $I$ is called an \textit{index}, $I$ is called the \textit{index set}, the range of the function is called an \textit{indexed set}, the function itself is called a \textit{family}, and the value of the function $x$ at an index $i$, called a \textit{term} of the family, is denoted by $x_{i}$. (This terminology is not absolutely established, but it is one of the standard choices among related slight veriants; in the sequel it and it alone will be used.) An unacceptable but generally accepted way of communicating the notation and indicating the emphasis is to speak of a family $\{ x_{i}  \}$ in $X$, or of a family $\{ x_{i} \}$ of whatever the elements of $X$ may be; when necessary, the index set $I$ is indicated by some such parenthetical expression as $(i \in I)$. Thus, for instance, the phrase "a family $\{ A_{i} \}$ of subsets of $X$" is usually understood to refer to a function $A$, from some set $I$ of indices, into $\mathcal{P}(X)$. 
+
+If $ \{ A_{i} \}$ is a family of subsets of $X$, the union of the range of the family is called the union of the family $\{ A_{I} \}$, or the union of the sets $A_{i}$; the standard notation for it is
+
+\begin{equation*}
+\bigcup_{i \in I} \: \text{ or } \: U_{i}A_{i},
+\end{equation*}
+
+according as it is or is not important to emphasize the index set $I$. It follows immediately from the definition of unions that $x \in \bigcup_{i} A_{i}$ if and only if $x$ belongs to $A_{i}$ for at least one $i$. If $I = 2$, so that the range of the family $\{ A_{i} \}$ is the unordered $\{ A_{0}, A_{i} \} $, then $\bigcup_{i}A_{i} =  A_{0} \cup A_{1}$. Observe that there is no loss of generality in considering families of sets instead of arbitrary collections of sets; every collection of sets is the range of some family. If, indeed, $\mathcal{C}$ is a collection of sets, let $\mathcal{C}$ itself play the role of the index set, consider the identity mapping on $\mathcal{C}$ in the role the family. 
+
+The algebraic laws satisfied by the operation of union for pairs can be generalized to arbitrary unions. Suppose, for instance, that $ \{ I_{j} \}$ is a family of sets with domain $J$, say; write $K = \bigcup_{j}I_{j}$, and let $\{ A_{k} \}$ be a family sets with domain $K$. It is then not difficult to prove that 
+
+\begin{equation*}
+\bigcup_{k \in K}A_{k} = \bigcup_{j \in J}(\bigcup_{i} \in I_{j}A_{i});
+\end{equation*}
+
+this is the generalized version of the associative law for unions. Exercise: formulate and prove a generalized version of the commutative law. 
+
+An empty union makes gense (and is empty), but an empty intersection does not make sense. Except for this triviality, the terminology and notation for intersections parallels that for unions in every respect. Thus, for instance, if $\{ A_{i} \}$ is a non-empty family of sets, the intersection of the range of the family is called the intersection of the family $\{ A_{i} \}$, or the intersection of the sets $A_{i}$; the standard notation for it is 
+
+\begin{equation*}
+\bigcap{i \in I}A_{i} \: \text{ or } \: \bigcap_{i}A_{i},
+\end{equation*}
+
+according as it is or is not important to emphasize the index set $I$. (By a "non-empty family' we mean family whose domain $I$ is not empty.) It follows immediately from the definition of intersections that if $I \neq \emptyset$, then a necessary and sufficient condition that $x$ belong $\bigcap_{i}A_{i}$ is that $x$ belong to $A_{i}$ for all $i$. 
+
+The generalized commutative and associative laws for intersections can be formulated and proved the same way as for unions, or, alternatively, De Morgan's laws can be used to derive them from the facts for unions. This is almost obvious, and, therefore, it is not of much interest. The interesting algebraic identities are the ones that involve both unions and intersections. Thus, for instance, if $\{ A_{i} \}$ is a family of subsets of $X$ and $B \subset X$, then 
+
+\begin{equation*}
+B \cap \bigcup_{i}A_{i} = \bigcup_{i}(B \cap A_{i})
+\end{equation*}
+and
+\begin{equation*}
+B \cup \bigcap_{i}A_{i} = \bigcap_{i}(B \cup A_{i});
+\end{equation*}
+
+these equations are a mild generalization of the distributive laws.
+
+\begin{exercise}[\textsc{Exercise}. ] If both $\{ A_{i} \}$ and $\{ B_{i} \}$ are families of sets, then 
+\begin{equation*}
+(\bigcup_{i}A_{i}) \cap (\bigcup_{j}B_{j}) = \bigcup_{i,j}(A_{i} \cap B_{j}) 
+\end{equation*}
+
+and
+
+\begin{equation*}
+(\bigcap_{i}A_{i}) \cup (\bigcap_{j}B_{j}) = \bigcap_{i,j}(A_{i} \cup B_{j}). 
+\end{equation*}
+\end{exercise}
+
+Explanation of notation: a symbol such as $\bigcup_{i,j}$ is an abbreviation for $\bigcup_{(i,j) \in I \times J}$.
+
+The notation of families is the one normally used in generalizing the concept of Cartesian product. The Cartesian product of two sets $X$ and $Y$ was defined as the set of all ordered pairs $(x, y)$ with $x$ in $X$ and $y$ in $Y$. There is a natural one-to-one correspondence between this set and a certain set of families. Consider, indeed, any  particular unordered ppair $\{ a,b \}$, with $a \neq b$, and consider the set $Z$ of all families $z$, indexed by $\{ a,b \}$, such that $ z_{a} \in X$ and $z_{b} \in Y$. If the function $f$ from $Z$ to $X \times Y$ is defined by $f(z) = (z_{a}, z_{b})$, then $f$ is the promised one-to-one correspondence. The difference between $Z$ and $X \times Y$ is merely matter of notation. The generalization of Cartesian products generalizes $Z$ rather than $X \times Y$ itself. (As a consequence there is little terminological friction in the passage from the special case to the general. There is no help for it; that is how mathematical language is in fact used nowadays.) The generalization is now straightforward. If $\{ X_{i} \}$ is a family of sets $(i \in I)$, the \textit{Cartesian product} of the family is, by definition, the set of all families $\{ x_{i} \}$ with $x_{i} \in X_{i}$ for each $i$ in $I$. There are several symbols for the Cartesian product in more or less current usage; in this book we shall denote it by 
+
+\begin{equation*}
+\bigtimes_{i \in I}X_{i} \: \text{ or } \: \bigtimes_{i}X_{i}.
+\end{equation*}
+
+It is clear that if every $X_{i}$ is equal to one and the same set $X$, then $\bigtimes_{i}X_{i} = X^{I}$. If $I$ is a pair $\{ a,b \}$, with a \neq b, then it is customary to identify $\bigtimes_{i \in I}X_{i}$ with the Cartesian product $X_{a} \times X_{b}$ as defined earlier, and if $I$ is a singleton $\{ a \}$, the, similarly, we identify $\bigtimes_{i \in I}X_{i}$ with $X_{a}$ itself. \textit{Ordered triples, ordered quadruples}, etc., may be defined as families whose index sets are unordered triples, quadruples, etc. 
+
+Suppose that $\{ X_{i} \}$ is a family of sets $(i \in I)$ and let $X$ be its Cartesian product. If $J$ is a subset of $I$, then to each element of $X$ there corresponds in a natural way an element of the partial Cartesian product $\bigtimes_{i \in J}X_{i}$. To define the correspondence, recall that each element $x$ of $X$ is itself a family $\{ x_{i} \}$, that is, in the last analysis, a function on $I$; the corresponding element, say $y$, of $\bigtimes_{i \in J}X_{i}$ is obtained by simply restricting that function to $J$. Explicitly, we write $y_{i} = x_{i}$ whenever $i \in J$. The correspondence $x \rightarrow y$ is called the projection from $X$ onto $\bigtimes_{i \in J}X_{i}$; we shall temporarily denote it by $f_{J}$. If, in particular, $J$ is a singleton, say $J = \{ j \}$, then we shall write $f_{j}$ (instead of $f_{ \{j \} }$) for $f_{J}$. The word "projection" has a multiple use; if $x \in X$, the value of $f_{j}$ at $x$, that is $x_{j}$, is also called the projection of $x$ onto $X_{j}$, or, alternatively, the \textit{$j$-coordinate} of $x$. A function on Cartesian product such as $X$ is called a function of \textit{several variables}, and, in particular, a function on a Cartesian product $X_{a} \times X_{b}$ is called a function of two variables. 
+
+\begin{exercise}[\textsc{Exercise}. ] Prove that $(\bigcup_{i}A_{i}) \times (\bigcup_{j}B_{j}) = \bigcup_{i,j}(A_{i} \times B_{j})$, and that the same equation holds for intersections (provided that the domains of the families involved are not empty). Prove also (with appropriate provisos about empty femilies) that $\bigcap_{i}X_{i} \subset X_{j} \subset \bigcup_{i}X_{i}$ for each index $j$ and that intersection and union can in fact be characterized as the extreme solutions of these inclusions. This means that if $X_{j} \subset Y$ for each index $j$, then $\bigcup_{i}X_{i} \subset Y$, and that $\bigcup_{i}X_{i}$ is the only set satisfying this minimality condition; the formulation for intersections is similar.
+\end{exercise}

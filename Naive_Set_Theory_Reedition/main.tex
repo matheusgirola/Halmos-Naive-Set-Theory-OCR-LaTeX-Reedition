@@ -1,0 +1,196 @@
+\documentclass[fontsize=12pt,b5paper,
+pagesize=auto]{book}
+
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0 pt}{-10.5\baselineskip}{8 pt}
+\usepackage[Conny]{fncychap}
+
+\usepackage[colorlinks = true,
+            linkcolor = black,
+            urlcolor  = blue,
+            citecolor = black,
+            anchorcolor = black]{hyperref}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\frenchspacing
+
+%---- create the axioms enviroment -%
+
+\newtheoremstyle{axiom} % name
+    {\topsep}                    % Space above
+    {\topsep}                    % Space below
+    {\itshape}                   % Body font
+    {}                           % Indent amount
+    {\bfseries}                   % Theorem head font
+    {}                          % Punctuation after theorem head
+    {.5em}                       % Space after theorem head
+    {#3}  % Theorem head spec (can be left empty, meaning ‘normal’)
+
+\theoremstyle{axiom}
+\newtheorem*{named}{}
+
+\newtheoremstyle{exc} % name
+    {\topsep}                    % Space above
+    {\topsep}                    % Space below
+    {}                   % Body font
+    {}                           % Indent amount
+    {\bfseries}                   % Theorem head font
+    {}                          % Punctuation after theorem head
+    {.5em}                       % Space after theorem head
+    {#3}  % Theorem head spec (can be left empty, meaning ‘normal’)
+
+\theoremstyle{exc}
+\newtheorem*{exercise}{}
+
+%---- Package to create the C for collection of sets - %
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
+\setmathfont{STIX Two Math}[range={scr,bfscr},StylisticSet=01]
+% ---------------------------------------------------- %
+
+
+%---- Custom lists ----------------------------------- %
+\usepackage{enumitem}
+% ---------------------------------------------------- %
+\usepackage{emptypage}
+%---- Set up Header----------------------------------- %
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead[R]{\leftmark}
+\fancyhead[L]{\thepage}
+\renewcommand{\headrulewidth}{0.1pt}
+% ---------------------------------------------------- %
+
+%------------------------------%
+\begin{document}
+
+\begin{titlepage}
+ \vspace*{1cm}
+ {\huge\raggedright Naive Set Theory\par}
+ \noindent\hrulefill\par
+ {\LARGE\raggedleft Paul R. Halmos\textsuperscript{\textdagger}\par}
+ \vfill
+ {\Large\raggedright\textsuperscript{\textdagger}Professor of Mathematics, University of Michigan\par}
+\end{titlepage}
+
+\setlength{\headheight}{14.49998pt}
+
+% PREFACES
+\chapter*{PREFACE BY THE EDITOR} 
+\input{Chapters/Editor_Preface}
+
+\chapter*{PREFACE BY THE AUTHOR} 
+\input{Chapters/Preface}
+
+\tableofcontents
+
+% CHAPTER 1
+\chapter{THE AXIOM OF EXTENSION}
+\input{Chapters/Chapter_1}
+
+% CHAPTER 2
+\chapter{THE AXIOM OF SPECIFICATION}
+\input{Chapters/Chapter_2}
+
+% CHAPTER 3
+\chapter{UNORDERED PAIRS}
+\input{Chapters/Chapter_3}
+
+% CHAPTER 4
+\chapter{UNIONS AND INTERSECTIONS}
+\input{Chapters/Chapter_4}
+
+% CHAPTER 5
+\chapter{COMPLEMENTS AND POWERS} 
+\input{Chapters/Chapter_5}
+
+% CHAPTER 6
+\chapter{ORDERED PAIRS}
+\input{Chapters/Chapter_6}
+
+% CHAPTER 7
+\chapter{RELATIONS}
+\input{Chapters/Chapter_7}
+
+% CHAPTER 8
+\chapter{FUNCTIONS}
+\input{Chapters/Chapter_8}
+
+% CHAPTER 9
+\chapter{FAMILIES}
+\input{Chapters/Chapter_9}
+
+% CHAPTER 10
+\chapter{INVERSES AND COMPOSITES}
+\input{Chapters/Chapter_10}
+
+% CHAPTER 11
+\chapter{NUMBERS}
+\input{Chapters/Chapter_11}
+
+% CHAPTER 12
+\chapter{THE PEANO AXIOMS}
+\input{Chapters/Chapter_12}
+
+% CHAPTER 13
+\chapter{ARITHMETIC}
+\input{Chapters/Chapter_13}
+
+% CHAPTER 14
+\chapter{ORDER}
+\input{Chapters/Chapter_14}
+
+% CHAPTER 15
+\chapter{THE AXIOM OF CHOICE}
+\input{Chapters/Chapter_15}
+
+% CHAPTER 16
+\chapter{ZORN'S LEMMA}
+\input{Chapters/Chapter_16}
+
+% CHAPTER 17
+\chapter{WELL ORDERING}
+\input{Chapters/Chapter_17}
+
+% CHAPTER 18
+\chapter{TRANSFINITE RECURSION} 
+\input{Chapters/Chapter_18}
+
+% CHAPTER 19
+\chapter{ORDINAL NUMBERS}
+\input{Chapters/Chapter_19}
+
+% CHAPTER 20
+\chapter{SETS OF ORDINAL NUMBERS}
+\input{Chapters/Chapter_20}
+
+% CHAPTER 21
+\chapter{ORDINAL ARITHMETIC}
+\input{Chapters/Chapter_21}
+
+% CHAPTER 22
+\chapter{THE SCHRÖDER-BERNSTEIN THEOREM}
+\input{Chapters/Chapter_22}
+
+% CHAPTER 23
+\chapter{COUNTABLE SETS}
+\input{Chapters/Chapter_23}
+
+% CHAPTER 24
+\chapter{CARDINAL ARITHMETIC}
+\input{Chapters/Chapter_24}
+
+% CHAPTER 25
+\chapter{CARDINAL NUMBERS}
+\input{Chapters/Chapter_25}
+
+\end{document}

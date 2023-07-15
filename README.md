@@ -6,6 +6,6 @@
 
   The PDF used is public domain and, so, freely available in the internet. Therefore, the resulting re-edition of the book at the end of this project has no lucrative ends by any means. The final PDF will be written in LaTeX and available for download in the repository.
 
-## Last updated in july 14, 2023.
+## Last updated in july 15, 2023.
 
-Chapters Finished: All chapters finished and the final version of the book available "Naive_Set_Theory_Reedition"
+All chapters finished and the final version of the book available in the pdf "Naive_Set_Theory_Reedition". You can also view the LaTeX documents in the folder of same name or using this overleaf link < https://www.overleaf.com/read/mvcbkkqnmzby >
