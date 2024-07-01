@@ -10,6 +10,6 @@ and
 \{ x : x = a\neq x \} = \{ a \}.
 \end{equation*}
 
-In case $S(x)$ is $(x \in ' x)$, or in case $S(x)$ is $(x = x)$, the specified $x$'s do not constitute a set. 
+In case $S(x)$ is $(x \notin x)$, or in case $S(x)$ is $(x = x)$, the specified $x$'s do not constitute a set. 
 
 Despite the maxim about never getting something for nothing; it seems a little harsh to be told that certain sets are not really sets and even their names must never be mentioned. Some approaches to set theory try to soften the blow by making systematic use of such illegal sets but just not calling them sets; the customary word is "class". A precise explanation of what classes really are and how used is irrelevant in the present approach. Roughly speaking, class may be identified with condition (sentence), or, rather, with the "extension" of a condition.

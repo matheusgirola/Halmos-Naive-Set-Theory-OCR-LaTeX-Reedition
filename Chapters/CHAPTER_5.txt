@@ -6,7 +6,7 @@
 If A and B are sets, the \textit{difference} between $A$ and $B$, more often known as the \textit{relative complement} of $B$ in $A$, is the set $A - B$ defined by 
 
 \begin{equation*}
-A - B = \{ x \in A: x \in ' B \}.
+A - B = \{ x \in A: x \notin B \}.
 \end{equation*}
 
 Note that in this definition it is not necessary to assume that $B \subset A$. In order to record the basic facts about complementation as simply as possible, we assume nevertheless (in this section only) that all the sets to be mentioned are subsets of one the same set $E$ and that all complements (unless otherwise specified) are formed relative to that $E$. In such situations (and they are quite common) it is easier to remember the underlying set $E$ than to keep writing it down, and this makes it possible to simplify notation. An often used symbol for the temporarily absolute (as opposed to relative) complement of $A$ is $A'$. In terms of this symbol the basic facts about complementation can be stated as follows:
@@ -60,7 +60,7 @@ x \in X \text{ \textit{ for every } } X \: in \: \emptyset ?
 \end{equation*}
 
 
-As usual for questions about $ \emptyset $ the answer is easier to see for the corresponding negative question. Which $x$'s do \textit{not} satisfy the stated condition? If it is not true that $x \in X$ for every $X$ in $\emptyset$, then there must exist an $X$ in $\emptyset$ such that $x \in ' X$; since, however, there do not exist any $X$'s in $ \emptyset $ at all, this is absurd. Conclusion: no $x$ fails to satisfy the stated condition, or, equivalently, every $x$ does satisfy it. In other words, the $x$'s that the condition specifies exhaust the (nonexistent) universe. There is no profound problem here; it is merely a nuisance to be forced always to be making qualifications and exceptions just because some set somewhere along some construction might turn out to be empty. There is nothing to be done about this; it is just a fact of life. 
+As usual for questions about $ \emptyset $ the answer is easier to see for the corresponding negative question. Which $x$'s do \textit{not} satisfy the stated condition? If it is not true that $x \in X$ for every $X$ in $\emptyset$, then there must exist an $X$ in $\emptyset$ such that $x \notin X$; since, however, there do not exist any $X$'s in $ \emptyset $ at all, this is absurd. Conclusion: no $x$ fails to satisfy the stated condition, or, equivalently, every $x$ does satisfy it. In other words, the $x$'s that the condition specifies exhaust the (nonexistent) universe. There is no profound problem here; it is merely a nuisance to be forced always to be making qualifications and exceptions just because some set somewhere along some construction might turn out to be empty. There is nothing to be done about this; it is just a fact of life. 
 
 If we restrict our attention to subsets of a particular set $E$, as we have temporarily agreed to do, then the unpleasantness described in the preceding paragraph appears to go away. The point is that in that case we define the intersection of a collection $ \mathcal{C} $ (of subsets of $E$) to be the set 
 
@@ -108,7 +108,7 @@ If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal{
 (To be certain that the condition used in the definition of $ \mathcal{D} $ is a sentence in the precise technical sense, it must be rewritten in something like the form 
 
 \begin{equation*}
-for \: some \: Y \: [ Y \in \mathcal{C} \: and \: for \: all \: x ( x \in X \: if \: and \: only \: if \: (x \in E \: and \: x \in ' Y)) ] .  
+for \: some \: Y \: [ Y \in \mathcal{C} \: and \: for \: all \: x ( x \in X \: if \: and \: only \: if \: (x \in E \: and \: x \notin Y)) ] .  
 \end{equation*}
 
 Similar comments often apply when we wish to use defined abbreviations instead of logical and set-theoretic primitives only. The translation rarely requires any ingenuity and we shall usually omit it.) It is customary to denote the union and the intersection of the collection $ \mathcal{D} $ by the symbols  

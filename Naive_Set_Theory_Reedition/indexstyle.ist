@@ -1,0 +1,5 @@
+preamble "\\begin{theindex}\n  \\bfseries\n"
+
+group_skip "\n\n  \\indexspace\n  \\bfseries\n"
+
+delim_0 ", \\mdseries"

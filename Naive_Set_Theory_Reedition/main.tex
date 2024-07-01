@@ -4,12 +4,14 @@ pagesize=auto]{book}
 \usepackage{titlesec}
 \titlespacing*{\chapter}{0 pt}{-10.5\baselineskip}{8 pt}
 \usepackage[Conny]{fncychap}
+\usepackage{imakeidx}
 
 \usepackage[colorlinks = true,
             linkcolor = black,
             urlcolor  = blue,
             citecolor = black,
-            anchorcolor = black]{hyperref}
+            anchorcolor = black,
+            bookmarksnumbered = true]{hyperref}
 
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -18,9 +20,13 @@ pagesize=auto]{book}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
+\usepackage{bookmark}
+\usepackage{setspace}
+\usepackage[titles]{tocloft}
 \frenchspacing
 \usepackage{csquotes}
 \MakeOuterQuote{"}
+\makeindex[intoc, options= -s indexstyle.ist]
 
 %---- create the axioms enviroment -%
 
@@ -75,6 +81,8 @@ pagesize=auto]{book}
 %------------------------------%
 \begin{document}
 
+\frontmatter
+
 \begin{titlepage}
  \vspace*{1cm}
  {\huge\raggedright Naive Set Theory\par}
@@ -85,114 +93,127 @@ pagesize=auto]{book}
 \end{titlepage}
 
 \setlength{\headheight}{14.49998pt}
+\setlength{\parindent}{0.75\parindent}
 
 % PREFACES
-\chapter*{PREFACE BY THE EDITOR} 
+\chapter*{Preface by the Editor} 
+\addcontentsline{toc}{chapter}{Preface by the Editor}
 \input{Chapters/Editor_Preface}
 
-\chapter*{PREFACE BY THE AUTHOR} 
+\chapter*{Preface by the Author} 
+\addcontentsline{toc}{chapter}{Preface by the Author}
 \input{Chapters/Preface}
 
+\clearpage\phantomsection
+\pdfbookmark{\contentsname}{toc}
+\setlength{\cftparskip}{-10pt}
+\scshape
 \tableofcontents
+\upshape
+
+\mainmatter
 
 % CHAPTER 1
-\chapter{THE AXIOM OF EXTENSION}
+\chapter{The Axiom of Extension}
 \input{Chapters/Chapter_1}
 
 % CHAPTER 2
-\chapter{THE AXIOM OF SPECIFICATION}
+\chapter{The Axiom of Specification}
 \input{Chapters/Chapter_2}
 
 % CHAPTER 3
-\chapter{UNORDERED PAIRS}
+\chapter{Unordered Pairs}
 \input{Chapters/Chapter_3}
 
 % CHAPTER 4
-\chapter{UNIONS AND INTERSECTIONS}
+\chapter{Unions and Intersections}
 \input{Chapters/Chapter_4}
 
 % CHAPTER 5
-\chapter{COMPLEMENTS AND POWERS} 
+\chapter{Complements and Powers} 
 \input{Chapters/Chapter_5}
 
 % CHAPTER 6
-\chapter{ORDERED PAIRS}
+\chapter{Ordered Pairs}
 \input{Chapters/Chapter_6}
 
 % CHAPTER 7
-\chapter{RELATIONS}
+\chapter{Relations}
 \input{Chapters/Chapter_7}
 
 % CHAPTER 8
-\chapter{FUNCTIONS}
+\chapter{Functions}
 \input{Chapters/Chapter_8}
 
 % CHAPTER 9
-\chapter{FAMILIES}
+\chapter{Families}
 \input{Chapters/Chapter_9}
 
 % CHAPTER 10
-\chapter{INVERSES AND COMPOSITES}
+\chapter{Inverses and Composites}
 \input{Chapters/Chapter_10}
 
 % CHAPTER 11
-\chapter{NUMBERS}
+\chapter{Numbers}
 \input{Chapters/Chapter_11}
 
 % CHAPTER 12
-\chapter{THE PEANO AXIOMS}
+\chapter{The Peano Axioms}
 \input{Chapters/Chapter_12}
 
 % CHAPTER 13
-\chapter{ARITHMETIC}
+\chapter{Arithmetic}
 \input{Chapters/Chapter_13}
 
 % CHAPTER 14
-\chapter{ORDER}
+\chapter{Order}
 \input{Chapters/Chapter_14}
 
 % CHAPTER 15
-\chapter{THE AXIOM OF CHOICE}
+\chapter{The Axiom Of Choice}
 \input{Chapters/Chapter_15}
 
 % CHAPTER 16
-\chapter{ZORN'S LEMMA}
+\chapter{Zorn's Lemma}
 \input{Chapters/Chapter_16}
 
 % CHAPTER 17
-\chapter{WELL ORDERING}
+\chapter{Well Ordering}
 \input{Chapters/Chapter_17}
 
 % CHAPTER 18
-\chapter{TRANSFINITE RECURSION} 
+\chapter{Transfinite Recursion} 
 \input{Chapters/Chapter_18}
 
 % CHAPTER 19
-\chapter{ORDINAL NUMBERS}
+\chapter{Ordinal Numbers}
 \input{Chapters/Chapter_19}
 
 % CHAPTER 20
-\chapter{SETS OF ORDINAL NUMBERS}
+\chapter{Sets of Ordinal Numbers}
 \input{Chapters/Chapter_20}
 
 % CHAPTER 21
-\chapter{ORDINAL ARITHMETIC}
+\chapter{Ordinal Arithmetic}
 \input{Chapters/Chapter_21}
 
 % CHAPTER 22
-\chapter{THE SCHRÖDER-BERNSTEIN THEOREM}
+\chapter{The Schröder-Bernstein Theorem}
 \input{Chapters/Chapter_22}
 
 % CHAPTER 23
-\chapter{COUNTABLE SETS}
+\chapter{Countable Sets}
 \input{Chapters/Chapter_23}
 
 % CHAPTER 24
-\chapter{CARDINAL ARITHMETIC}
+\chapter{Cardinal Arithmetic}
 \input{Chapters/Chapter_24}
 
 % CHAPTER 25
-\chapter{CARDINAL NUMBERS}
+\chapter{Cardinal Numbers}
 \input{Chapters/Chapter_25}
+
+% INDEX
+\printindex
 
 \end{document}

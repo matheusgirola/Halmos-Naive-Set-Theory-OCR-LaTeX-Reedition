@@ -1,24 +1,24 @@
 %--- CHPATER 1 PAGES 14-16
 %--- MODIFIED LAST IN 01/06/2023 (DD/MM/YYYY)
 
-A pack of wolves, a bunch of grapes, or a flock of pigeons are all examples of sets of things. The mathematical concept of a set can be used as the foundation for all known mathematics. The purpose of this little book is to develop the basic properties of sets. Incidentally, to avoid terminological monotony, we shall sometimes say \textit{collection} instead of \textit{set}. The word "class" is also used in this context, but there is a slight danger in doing so. The reason is that in some approaches to set theory "class" has a special technical meaning. We shall have occasion to refer to this again a little later.
+A pack of wolves, a bunch of grapes, or a flock of pigeons are all examples of sets of things. The mathematical concept of a set can be used as the foundation for all known mathematics. The purpose of this little book is to develop the basic properties of sets. Incidentally, to avoid terminological monotony, we shall sometimes say \textit{collection}\index{collection} instead of \textit{set}\index{set}. The word "class"\index{class} is also used in this context, but there is a slight danger in doing so. The reason is that in some approaches to set theory "class" has a special technical meaning. We shall have occasion to refer to this again a little later.
 
 One thing that the development will not include is a definition of sets. The situation is analogous to the familiar axiomatic approach to elementary geometry. That approach does not offer a definition of points and lines; instead it describes what it is that one can do with those objects. The semi-axiomatic point of view adopted here assumes that the reader has the ordinary, human, intuitive (and frequently erroneous) understanding of what sets are; the purpose of the exposition is to delineate some of the many things that one can correctly do with them.
 
-Sets, as they are usually conceived, have \textit{elements} or \textit{members}. An element of a set may be a wolf, a grape, or a pigeon. It is important to know that a set itself may also be an element of some other set. Mathematics is full of examples of sets of sets. A line, for instance; is a set of points; the set of all lines in the plane is a natural example of a set of sets (of points). What may be surprising is not so much that sets may occur as elements, but that for mathematical purposes no other elements need ever be considered. In this book, in particular, we shall study set, and sets of sets, and similar towers of sometimes frightening height and complexity — and nothing else. By way of examples we might occasionally speak of sets of cabbages, and kings, and the like, but such usage is always to be construed as an illuminating parable only, and not as a part of the theory that is being developed. 
+Sets, as they are usually conceived, have \textit{elements}\index{element} or \textit{members}\index{member}. An element of a set may be a wolf, a grape, or a pigeon. It is important to know that a set itself may also be an element of some other set. Mathematics is full of examples of sets of sets. A line, for instance; is a set of points; the set of all lines in the plane is a natural example of a set of sets (of points). What may be surprising is not so much that sets may occur as elements, but that for mathematical purposes no other elements need ever be considered. In this book, in particular, we shall study set, and sets of sets, and similar towers of sometimes frightening height and complexity — and nothing else. By way of examples we might occasionally speak of sets of cabbages, and kings, and the like, but such usage is always to be construed as an illuminating parable only, and not as a part of the theory that is being developed. 
 
-The principal concept of set thoery, the one that in completely axiomatic studies is the principal primitive (undefined) concept, is that of \textit{belonging}. If $x$ belongs to $A$ ($x$ is an element of $A$, $x$ is \textit{contained} in $A$), we shall write 
+The principal concept of set thoery, the one that in completely axiomatic studies is the principal primitive (undefined) concept, is that of \textit{belonging}\index{belonging}. If $x$ belongs to $A$ ($x$ is an element of $A$, $x$ is \textit{contained}\index{contain} in $A$), we shall write 
 
 \begin{equation*}
 x \in A
 \end{equation*}
 
-This version of the Greek letter epsilon is so often used to denote belonging that its use to denote anything else is almost prohibited. Most authors relegate $\in$ to its set-theoretic use forever and use $\epsilon$ when they need the fifth letter of the Greek alphabet. 
+This version of the Greek letter epsilon is so often used to denote belonging that its use to denote anything else is almost prohibited. Most authors relegate $\in$ to its set-theoretic use forever and use $\varepsilon$ when they need the fifth letter of the Greek alphabet. 
 
 Perhaps a brief digression on alphabetic etiquette in set theory might be helpful. There is no compelling reason for using small and capital letters as in the preceding paragraph; we might have written, and often will write, things like $x \in y$ and $A \in B$. Whenever possible, however, we shall informally indicate the status of a set in a particular hierarchy under consideration by means of the convention that letters at the beginning of the alphabet denote elements, and letters at the end denote sets containing them; similarly letters of a relatively simple kind denote elements, and letters of the larger and gaudier fonts denote sets containing them. Examples: $x \in A$, $A \in X$, $X \in \mathcal{C}$.
 
 
-A possible relation between sets, more elementary than belonging, is \textit{equality}. The equality of two sets $A$ and $B$ is universally denoted by the familiar symbol 
+A possible relation between sets, more elementary than belonging, is \textit{equality}\index{equality}. The equality of two sets $A$ and $B$ is universally denoted by the familiar symbol 
 
 \begin{equation*}
 A = B;
@@ -32,14 +32,14 @@ A \neq B;
 
 The most basic property of belonging is its relation to equality, which can be formulated as follows. 
 
-\begin{named}[Axiom of extension. ] Two sets are equal if and only if they have the same elements.
+\begin{named}[Axiom of extension.]\index{axiom of extension} Two sets are equal if and only if they have the same elements.
 \end{named}
 
 With greater pretentiousness and less clarity: a set is determined by its extension. 
 
 It is valuable to understand that the axiom of extension is not just a logically necessary property of equality but a non-trivial statement about belonging. One way to come to understand the point is to consider a partially analogous situation in which the analogue of the axiom of extension does not hold. Suppose, for instance, that we consider human beings instead of sets, and that, if $x$ and $A$ are human beings, we write $x \in A$ whenever $x$ is an ancestor of $A$. (The ancestors of a human being are his parents, his parents' parents, their parents, etc., etc.) The analogue of the axiiom of extension would say here that if two human beings are equal, then they have the same ancestors (this is the "only if" part, and it is true), and also that if two human being the same ancestors, then they are equal (this is the "if" part, and it is false). 
 
-If $A$ and $B$ are sets if every element of $A$ is an element of $B$, we say that $A$ is a \textit{subset} of $B$, or $B$ \textit{includes} $A$, and we write 
+If $A$ and $B$ are sets and if every element of $A$ is an element of $B$, we say that $A$ is a \textit{subset}\index{subset} of $B$, or $B$ \textit{includes}\index{inclusion} $A$, and we write 
 
 \begin{equation*}
 A \subset B
@@ -51,8 +51,8 @@ or
 A \supset B
 \end{equation*}
 
-The wording of the definition implies that each set must be considered to be included in itself ($A \subset A$); this fact is described by saying that set inclusion is \textit{reflexive}. (Note that; in the same sense of the word, equality also is reflexive.) If $A$ and $B$ are sets such that $A \subset B$ and $A \neq B$, the word $proper$ is used (proper subset, proper inclusion). If $A$, $B$, and $C$ are sets such that $A \subset B$ and $B \subset C$, then $A \subset C$; this fact is described by saying that set inclusion is \textit{transitive}. (This property is also shared by equality.)
+The wording of the definition implies that each set must be considered to be included in itself ($A \subset A$); this fact is described by saying that set inclusion is \textit{reflexive}\index{reflexive}. (Note that; in the same sense of the word, equality also is reflexive.) If $A$ and $B$ are sets such that $A \subset B$ and $A \neq B$, the word $proper$\index{proper} is used (proper subset, proper inclusion). If $A$, $B$, and $C$ are sets such that $A \subset B$ and $B \subset C$, then $A \subset C$; this fact is described by saying that set inclusion is \textit{transitive}\index{transitive}. (This property is also shared by equality.)
 
-If $A$ and $B$ are sets such that $A \subset B$ and $B \subset A$, then $A$ and $B$ have the same elements and therefore, by the axiom of extension, $A = B$. This fact is described by saying that set inclusion is \textit{antisymmetric}. (In this respect set inclusion behaves differently from equality. Equality is \textit{symmetric}, in the sense that if $A = B$, then necessarily $B = A$.) The axiom of extension can, in fact, be reformulated in these terms: if $A$ and $B$ are sets, then a necessary and sufficient condition that $A = B$ is that both $A \subset B$ and $B \subset A$. Correspondingly , almost all proofs of equalities between two sets $A$ and $B$ are split into two parts; first show that $A \subset B$, and then show that $B \subset A$. 
+If $A$ and $B$ are sets such that $A \subset B$ and $B \subset A$, then $A$ and $B$ have the same elements and therefore, by the axiom of extension, $A = B$. This fact is described by saying that set inclusion is \textit{antisymmetric}\index{antisymmetric}. (In this respect set inclusion behaves differently from equality. Equality is \textit{symmetric}\index{symmetric}, in the sense that if $A = B$, then necessarily $B = A$.) The axiom of extension can, in fact, be reformulated in these terms: if $A$ and $B$ are sets, then a necessary and sufficient condition that $A = B$ is that both $A \subset B$ and $B \subset A$. Correspondingly , almost all proofs of equalities between two sets $A$ and $B$ are split into two parts; first show that $A \subset B$, and then show that $B \subset A$. 
 
 Observe that belonging ($ \in $) and inclusion ($ \subset$) are conceptually very different indeed. One important difference has already manifested itself above: inclusion is always reflexive, whereas it is at all clear that belonging is ever reflexive. That is: $A \subset A$ is always true; is $A \in A $ ever true? It is certainly not true of any reasonable set that anyone has ever seen. Observe, along the same lines, that inclusion is transitive, whereas belonging is not. Everyday examples, involving, for instance, super-organizations whose members are organizations, will readily occur to the interested reader.

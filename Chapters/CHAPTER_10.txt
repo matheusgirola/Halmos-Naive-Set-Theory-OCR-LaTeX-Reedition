@@ -68,7 +68,7 @@ The proofs are straightforward. If, for instance, $x \in f^{-1}( \bigcap_{i} B_{
 f^{1}(Y - B) = X - f^{-1}(B)
 \end{equation*}
 
-for each subset $B$ of $Y$. Indeed: if $x \in f^{-1}(Y - B)$, then $f(x) \in Y - B$, so that $x \in ' f^{-1}(B)$, and therefore $x \in X - f^{-1}(B)$; the steps are reversible. (Observe that the last equation is indeed a kind of commutative law: it says that complementation followed by inversion is the same as inversion followed by complementation.) 
+for each subset $B$ of $Y$. Indeed: if $x \in f^{-1}(Y - B)$, then $f(x) \in Y - B$, so that $x \notin f^{-1}(B)$, and therefore $x \in X - f^{-1}(B)$; the steps are reversible. (Observe that the last equation is indeed a kind of commutative law: it says that complementation followed by inversion is the same as inversion followed by complementation.) 
 
 The discussion of inverses shows that what a function does ean in a certain sense be undone; the next thing we shall see is that what two functions do can sometimes be done in one step. If, to be explicit, $f$ is a function from $X$ to $Y$ and $g$ is a function from $Y$ to $Z$, then every element in the range of $f$ belongs to the domain of $g$, and, consequently, $g(f(x))$ makes sense for each $x$ in $X$. The function $h$ from $X$ to $Z$, defined by $h(x) = g(f(x))$ is called the \textit{composite} of the functions $f$ and $g$; it is denoted by $g \circ f$ or, more simply, by $gf$. (Since we shall not have occasion to consider any other kind of multiplication for functions, in this book we shall use the latter, simpler notation only.) 
 

@@ -3,7 +3,7 @@
 
 If $A$ and $B$ are sets, it is sometimes natural to wish to unite their elements into one comprehensive set. One way of describing such a comprehensive set is to require it to contain all the elements that belong to at least one of the two members of the pair $ \{ A, B \}$. This formulation suggests a sweeping  generalization of itself; surely a similar construction should apply to arbitrary collections of sets and not just to pairs of them. What is wanted, in other words, is the following principle of set construction.
 
-\begin{named}[Axiom of unions. ]  For every collection of sets there exists a set that contains all the elements that belong to at least one set of the given collection.
+\begin{named}[Axiom of unions.]\index{axiom of unions}  For every collection of sets there exists a set that contains all the elements that belong to at least one set of the given collection.
 \end{named}
 
 Here it is again: for every collection $\mathcal{C}$ there exists a set $U$ such that if $x \in X$ for some $X$ in $\mathcal{C}$, then $ x \in U$. (Note that "at least one" is the same as "some.") 
@@ -14,13 +14,13 @@ The comprehensive set $U$ described above may be too comprehensive; it may conta
 \{ x \in U: x \in X \text{ \textit{for some} } X \text{ \textit{in} } \mathcal{C} \}.
 \end{equation*}
 
-The condition here is a translation into idiomatic usage of the mathematically more acceptable "\textit{for some} $X(x \in X \text{ \textit{and} } X \in \mathcal{C})$.") It follows that, for every $x$, a necessary and sufficient condition that $x$ belong to this set is that $x$ belong to $X$ for some $X$ in $\mathcal{C}$. If we change notation and call the new set $U$ again, then
+The condition here is a translation into idiomatic usage of the mathematically more acceptable "\textit{for some} $X\ (x \in X \text{ \textit{and} } X \in \mathcal{C})$.") It follows that, for every $x$, a necessary and sufficient condition that $x$ belong to this set is that $x$ belong to $X$ for some $X$ in $\mathcal{C}$. If we change notation and call the new set $U$ again, then
 
 \begin{equation*}
 U = \{ x: x \in X \text{ \textit{ for some } } X \text{ \textit{in} }  \mathcal{C} \}
 \end{equation*}.
 
-This set $U$ is called the \textit{union} of the collection $\mathcal{C}$ of sets; note that the axiom of extension guarantees its uniqueness. The simplest symbol for $U$ that is in use at all is not very popular in mathematical circles; it is 
+This set $U$ is called the \textit{union}\index{union} of the collection $\mathcal{C}$ of sets; note that the axiom of extension guarantees its uniqueness. The simplest symbol for $U$ that is in use at all is not very popular in mathematical circles; it is 
 
 \begin{equation*}
 \bigcup \mathcal{C}.
@@ -38,7 +38,7 @@ or
 \bigcup_{X \in \mathcal{C}} X.
 \end{equation*}
 
-F urther alternatives are available in certain important special cases; they will be described in due course.
+Further alternatives are available in certain important special cases; they will be described in due course.
 
 For the time being we restrict our study of the theory of unions to the simplest facts only. The simplest fact of all is that
 
@@ -81,11 +81,11 @@ Here are some easily proved facts about the unions of pairs:
 \begin{center}
 $A \cup \emptyset = A,$
 
-$A \cup B =  B \cup A \: (commutatitivity),$
+$A \cup B =  B \cup A \: (commutatitivity)\index{commutative},$
 
-$A \cup (B \cup C) = (A \cup B) \cup C \: (associativity),$
+$A \cup (B \cup C) = (A \cup B) \cup C \: (associativity)\index{associative},$
 
-$A \cup A = A \:(idempotence),$
+$A \cup A = A \:(idempotence)\index{idempotent},$
 
 $ A \subset B \text{ \textit{ if and only if} } A \cup B = B.$
 \end{center}
@@ -98,21 +98,21 @@ An equally simple but quite suggestive fact is that
 \{ a \} \cup \{ b \} = \{ a, b \}.
 \end{equation*}
 
-What this suggests is the way to generalize pairs.   Specifically, we write 
+What this suggests is the way to generalize pairs. Specifically, we write 
 
 \begin{equation*}
  \{ a, b, c \} = \{ a \} \cup \{ b \} \cup \{ c \}.
 \end{equation*}
 
-The equation defines its left side. The right side should by rights have at least one pair of parentheses in it, but, in view of the associative law, their omission cen lead to no misunderstanding. Since it is easy to prove that 
+The equation defines its left side. The right side should by rights have at least one pair of parentheses in it, but, in view of the associative law, their omission can lead to no misunderstanding. Since it is easy to prove that 
 
 \begin{equation*}
  \{ a, b, c \} = \{ x: x = a \: or \: x = b \: or \: x = c \},
 \end{equation*}
 
-we know now that for every three sets there exists a set that contains them and nothing else; it is natural to call that uniquely determined set the (\textit{unordered}) \textit{triple} formed by them. The extension of the notation and terminology thus introduced to more terms (\textit{quadruples}, etc.) is obvious.
+we know now that for every three sets there exists a set that contains them and nothing else; it is natural to call that uniquely determined set the (\textit{unordered}) \textit{triple}\index{triple} formed by them. The extension of the notation and terminology thus introduced to more terms (\textit{quadruples}\index{quadruple}, etc.) is obvious.
 
-The formation of unions has many points of similarity with another set-theoretic operation. If $A$ and $B$ are sets, the \textit{intersection} of $A$ and $B$ is the set 
+The formation of unions has many points of similarity with another set-theoretic operation. If $A$ and $B$ are sets, the \textit{intersection}\index{intersection} of $A$ and $B$ is the set 
 
 \begin{equation*}
 A \cap B
@@ -150,16 +150,17 @@ $A \cap A = A,$
 $A \subset B \text{ \textit{ if and only if} } A \cap B = A.$
 \end{center}
 
-Pairs of sets with an empty intersection occur frequently enough to justify the use of a special word: if $A \cap B =  \emptyset $, the sets $A$ and $B$ are called \textit{disjoint}. The same word is sometimes applied to a collection of sets indicate that any two distinct sets of the collection are disjoint; alternatively we may speak in such a situation of a \textit{pairwise disjoint} collection.
+Pairs of sets with an empty intersection occur frequently enough to justify the use of a special word: if $A \cap B =  \emptyset $, the sets $A$ and $B$ are called \textit{disjoint}\index{disjoint}. The same word is sometimes applied to a collection of sets to indicate that any two distinct sets of the collection are disjoint; alternatively we may speak in such a situation of a \textit{pairwise disjoint}\index{pairwise disjoint} collection.
  
 Two useful facts about unions and intersections involve both the operations at the same time: 
 
-\begin{equation*}
-A \cap (B \cup C) = (A \cap B) \cup (A \cap C),\\
-A \cup (B \cap C) = (A \cup B) \cap (A \cup C).\\
-\end{equation*}
+\begin{center}
+$A \cap (B \cup C) = (A \cap B) \cup (A \cap C),$
 
-These identities are called the \textit{distributive laws}. By way of a sample of a set-theoretic proof, we prove the second one. If $x$ belongs to the left side, then $x$ belongs either to $A$ or to both $B$ and $C$; if $x$ is in $A$, then $x$ is in both $A \cup B$ and $A \cup C$, and if $x$ is in both $B$ and $C$, then, again, $x$ is in both $A \cup B$ and $A \cup C$; it follows that, in any case, $x$ belongs to the right side. This proves that the right side includes the left. To prove the reverse inclusion, just observe that if $x$ belongs to both $A \cup B$ and $A \cup C$, then $x$ belongs either to $A$ or to both $B$ and $C$. 
+$A \cup (B \cap C) = (A \cup B) \cap (A \cup C).$
+\end{center}
+
+These identities are called the \textit{distributive laws}\index{distributive}. By way of a sample of a set-theoretic proof, we prove the second one. If $x$ belongs to the left side, then $x$ belongs either to $A$ or to both $B$ and $C$; if $x$ is in $A$, then $x$ is in both $A \cup B$ and $A \cup C$, and if $x$ is in both $B$ and $C$, then, again, $x$ is in both $A \cup B$ and $A \cup C$; it follows that, in any case, $x$ belongs to the right side. This proves that the right side includes the left. To prove the reverse inclusion, just observe that if $x$ belongs to both $A \cup B$ and $A \cup C$, then $x$ belongs either to $A$ or to both $B$ and $C$. 
 
 The formation of the intersection of two sets $A$ and $B$, or, we might as well say, the formation of the intersection of a pair $ \{ A, B \} $ of sets, is a special case of a much more general operation. (This is another respect in which the theory of intersections imitates that of unions.) The existence of the general operation of intersection depends on the fact that for each non-empty collection of sets there exists a set that contains exactly those elements that belong to every set of the given collection. In other words: for each collection $\mathcal{C}$, other than $ \emptyset $, there exists a set $V$ such that $x \in V$ if and only if $x \in X$ for every $X$ in $\mathcal{C}$. To prove this assertion, let $A$ be any articular set in $\mathcal{C}$ (this step is justified by the fact that $\mathcal{C} \neq \emptyset$) and write
 
@@ -167,13 +168,14 @@ The formation of the intersection of two sets $A$ and $B$, or, we might as well 
 V = \{ x \in A: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
 \end{equation*}
 
-(The condition means "\textit{for all $X$ (if $X \in \mathcal{C}$, then $x \in X$)."}) The dependence of $V$ on the arbitrary choice of $A$ is illusory; in fact
+(The condition means "\textit{for all $X$ (if $X \in \mathcal{C}$, then $x \in X$).}") The dependence of $V$ on the arbitrary choice of $A$ is illusory; in fact
 
 \begin{equation*}
 V = \{ x \in X: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
 \end{equation*}
 
-The set $V$ is called the \textit{intersection} of the collection $ \mathcal{C} $ of sets; the axiom of extension guarantees its uniqueness. The customary notation is similar the one for unions: instead of the unobjectionable but unpopular
+
+The set $V$ is called the \textit{intersection}\index{intersection} of the collection $ \mathcal{C} $ of sets; the axiom of extension guarantees its uniqueness. The customary notation is similar the one for unions: instead of the unobjectionable but unpopular
 
 \begin{equation*}
 \bigcap \mathcal{C} ,

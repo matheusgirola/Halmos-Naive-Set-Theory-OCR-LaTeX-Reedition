@@ -21,7 +21,7 @@ If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal 
 (To be certain that the condition used in the definition of $ \mathcal{D} $ is a sentence in the precise technical sense, it must be rewritten in something like the form 
 
 \begin{equation*}
-for /: some /: Y \[ Y \in \mathcal{C} /: and /: for /: all /: x ( x \in X if /: and /: only ? if (x \in E /: and /: x \in ' Y)) \] .  
+for /: some /: Y \[ Y \in \mathcal{C} /: and /: for /: all /: x ( x \in X if /: and /: only ? if (x \in E /: and /: x \notin Y)) \] .  
 \end{equation*}
 
 Similar comments often apply when we wish to use defined abbreviations instead of logical and set-theoretic primitives only. The translation rarely requires any ingenuity and we shall usually omit it.) It is customary to denote the union and the intersection of the collection $ \mathcal{D} $ by the symbols  

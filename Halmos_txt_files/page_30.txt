@@ -3,7 +3,7 @@
 If A and B are sets, the \textit{difference} between $A$ and $B$, more often known as the \textit{relative complement} of $B$ in $A$, is the set $A — B$ defined by 
 
 \begin{equation*}
-A — B = \{ x \in A: x \in ' B \}.
+A — B = \{ x \in A: x \notin B \}.
 \end{equation*}
 
 Note that in this definition it is not necessary to assume that $B \subset A$. In order to record the basic facts about complementation as simply as possible, we assume nevertheless (in this section only) that all the sets to be mentioned are subsets of one the same set $E$ and that all complements (unless otherwise specified) are formed relative to that $E$. In such situations (and they are quite common) it is easier to remember the underlying set $E$ than to keep writing it down, and this makes it possible to simplify notation. An often used symbol for the temporarily absolute (as opposed to relative) complement of $A$ is $A'$. In terms of this symbol the basic facts about complementation can be stated as follows:
