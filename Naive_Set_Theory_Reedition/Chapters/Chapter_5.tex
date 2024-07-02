@@ -1,10 +1,10 @@
 %--- CHPATER 5 PAGES 30-34
 %--- MODIFIED LAST IN 05/06/2023 
 
-If A and B are sets, the \textit{difference} between $A$ and $B$, more often known as the \textit{relative complement} of $B$ in $A$, is the set $A - B$ defined by 
+If A and B are sets, the \textit{difference}\index{difference} between $A$ and $B$, more often known as the \textit{relative complement}\index{complement}\index{relative complement} of $B$ in $A$, is the set $A - B$ defined by 
 
 \begin{equation*}
-A - B = \{ x \in A: x \in ' B \}.
+A - B = \{ x \in A: x \notin B \}.
 \end{equation*}
 
 Note that in this definition it is not necessary to assume that $B \subset A$. In order to record the basic facts about complementation as simply as possible, we assume nevertheless (in this section only) that all the sets to be mentioned are subsets of one the same set $E$ and that all complements (unless otherwise specified) are formed relative to that $E$. In such situations (and they are quite common) it is easier to remember the underlying set $E$ than to keep writing it down, and this makes it possible to simplify notation. An often used symbol for the temporarily absolute (as opposed to relative) complement of $A$ is $A'$. In terms of this symbol the basic facts about complementation can be stated as follows:
@@ -19,13 +19,13 @@ $ A \cap A' = \emptyset, \: A \cup A' = E,$
 $A \subset B \text{ \textit{ if and only if } } B' \subset A'.$
 \end{center}
 
-The most important statements about complements are the so-called \textit{De Morgan laws}:
+The most important statements about complements are the so-called \textit{De Morgan laws}\index{De Morgan}:
 
 \begin{equation*}
 (A \cup B)' = A' \cap B', \: (A \cap B)' = A' \cup B'
 \end{equation*}
 
-(We shall see presently that the De Morgan laws hold for the unions and intersections of larger collections of sets than just pairs.) These facts about complementation imply that the theorems of set usually come in pairs. If in an inclusion equation involving unions, intersections, and complements of subsets of $E$ we replace each set by its complement, interchange unions and intersections, and reverse all  inclusions, the result is other theorem. This fact is sometimes referred to as the \textit{principle of duality} for sets.
+(We shall see presently that the De Morgan laws hold for the unions and intersections of larger collections of sets than just pairs.) These facts about complementation imply that the theorems of set usually come in pairs. If in an inclusion equation involving unions, intersections, and complements of subsets of $E$ we replace each set by its complement, interchange unions and intersections, and reverse all  inclusions, the result is other theorem. This fact is sometimes referred to as the \textit{principle of duality}\index{duality} for sets.
 
 Here are some easy exercises on complementation. 
 
@@ -43,7 +43,7 @@ $A \cap B  \subset (A \cap C) \cup (B \cap C').$
 $(A \cup C) \cap (B \cup C') \subset A \cup B$
 \end{center}
 
-If $A$ and $B$ are sets, the s\textit{symmetric difference} (Or \textit{Boolean sum}) of $A$ and $B$ is the set $A + B$ defined 
+If $A$ and $B$ are sets, the s\textit{symmetric difference}\index{symmetric difference} (Or \textit{Boolean sum}\index{Boolean sum}) of $A$ and $B$ is the set $A + B$ defined 
 
 \begin{equation*}
 A + B = (A - B) \cup (B - A). 
@@ -58,7 +58,7 @@ x \in X \text{ \textit{ for every } } X \: in \: \emptyset ?
 \end{equation*}
 
 
-As usual for questions about $ \emptyset $ the answer is easier to see for the corresponding negative question. Which $x$'s do \textit{not} satisfy the stated condition? If it is not true that $x \in X$ for every $X$ in $\emptyset$, then there must exist an $X$ in $\emptyset$ such that $x \in ' X$; since, however, there do not exist any $X$'s in $ \emptyset $ at all, this is absurd. Conclusion: no $x$ fails to satisfy the stated condition, or, equivalently, every $x$ does satisfy it. In other words, the $x$'s that the condition specifies exhaust the (nonexistent) universe. There is no profound problem here; it is merely a nuisance to be forced always to be making qualifications and exceptions just because some set somewhere along some construction might turn out to be empty. There is nothing to be done about this; it is just a fact of life. 
+As usual for questions about $ \emptyset $ the answer is easier to see for the corresponding negative question. Which $x$'s do \textit{not} satisfy the stated condition? If it is not true that $x \in X$ for every $X$ in $\emptyset$, then there must exist an $X$ in $\emptyset$ such that $x \notin X$; since, however, there do not exist any $X$'s in $ \emptyset $ at all, this is absurd. Conclusion: no $x$ fails to satisfy the stated condition, or, equivalently, every $x$ does satisfy it. In other words, the $x$'s that the condition specifies exhaust the (nonexistent) universe. There is no profound problem here; it is merely a nuisance to be forced always to be making qualifications and exceptions just because some set somewhere along some construction might turn out to be empty. There is nothing to be done about this; it is just a fact of life. 
 
 If we restrict our attention to subsets of a particular set $E$, as we have temporarily agreed to do, then the unpleasantness described in the preceding paragraph appears to go away. The point is that in that case we define the intersection of a collection $ \mathcal{C} $ (of subsets of $E$) to be the set 
 
@@ -70,7 +70,7 @@ This is nothing revolutionary; for each non-empty collection, the new definition
 
 We have been considering the subsets of a set $E$; do those subsets themselves constitute a set? The following principle guarantees that the answer is yes.
 
-\begin{named}[Axiom of powers.  ]  For each set there exists a collection of sets that contains among its elements all the subsets of the given set. 
+\begin{named}[Axiom of powers.]\index{axiom of powers}  For each set there exists a collection of sets that contains among its elements all the subsets of the given set. 
 \end{named}
 
 In other words, if $E$ is a set, then there exists a set (collection) $ \mathcal{P} $ such that if $X \subset E$, then $X \in \mathcal{P}$.
@@ -81,7 +81,7 @@ The set $ \mathcal{P} $ described above may be larger than wanted; it may contai
 \mathcal{P} = \{ X : X \subset E \} .
 \end{equation*}
 
-The set $ \mathcal{P} $ is called the \textit{power set} of $E$; the axiom of extension guarantees its uniqueness. The dependence of $ \mathcal{P} $ on $E$ is denoted by writing $ \mathcal{P} (E) $ instead of just $ \mathcal{P} $.
+The set $ \mathcal{P} $ is called the \textit{power set}\index{power set} of $E$; the axiom of extension guarantees its uniqueness. The dependence of $ \mathcal{P} $ on $E$ is denoted by writing $ \mathcal{P} (E) $ instead of just $ \mathcal{P} $.
 
 Because the set $ \mathcal{P} (E) $ is very big in comparison with $E$, it is not easy to give examples. If $E = \emptyset $, the situation is clear enough; the set $ \mathcal{P} ( \emptyset ) $ is the singleton $\{ \emptyset \}$. The power sets of singletons and paira are also easily describable; we have 
 
@@ -95,7 +95,7 @@ and
 \mathcal{P} ( \{ a, b \} ) = \{ \emptyset, \{ a \} , \{ b \} , \{ a,b \} \} .
 \end{equation*}
 
-The power set of a triple has eight elements. The reader cen probably guess (and is hereby challenged to prove) the generalization that includes all these stetements: the power set of a finite set with, say, $n$ elements has $2^{n}$ elements. (Of course concepts like "finite" and "$2^{n}$" have no official standing for us yet; this should not prevent them from being unofficially understood.) The occurrence of $n$ as an exponent (the $n$-th power of 2) has something to do with the reason why power set bears its name. 
+The power set of a triple has eight elements. The reader can probably guess (and is hereby challenged to prove) the generalization that includes all these stetements: the power set of a finite set with, say, $n$ elements has $2^{n}$ elements. (Of course concepts like "finite" and "$2^{n}$" have no official standing for us yet; this should not prevent them from being unofficially understood.) The occurrence of $n$ as an exponent (the $n$-th power of 2) has something to do with the reason why power set bears its name. 
 
 If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal{C} $ is a subcollection of $ \mathcal{P} (E) $), then write
 
@@ -106,7 +106,7 @@ If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal{
 (To be certain that the condition used in the definition of $ \mathcal{D} $ is a sentence in the precise technical sense, it must be rewritten in something like the form 
 
 \begin{equation*}
-for \: some \: Y \: [ Y \in \mathcal{C} \: and \: for \: all \: x ( x \in X \: if \: and \: only \: if \: (x \in E \: and \: x \in ' Y)) ] .  
+for \: some \: Y \:\ [ Y \in \mathcal{C} \: and \: for \: all \: x\ ( x \in X \: if \: and \: only \: if \: (x \in E \: and \: x \notin Y)) ] .  
 \end{equation*}
 
 Similar comments often apply when we wish to use defined abbreviations instead of logical and set-theoretic primitives only. The translation rarely requires any ingenuity and we shall usually omit it.) It is customary to denote the union and the intersection of the collection $ \mathcal{D} $ by the symbols  
@@ -127,7 +127,7 @@ and
 ( \bigcap_{X \in \mathcal{C}} X)' = \bigcup_{X \in \mathcal{C}} X' .
 \end{equation*}
 
-The proofs of these equations are immediate consequences of the appro priate definitions. 
+The proofs of these equations are immediate consequences of the appropriate definitions. 
 
 \begin{exercise}[\textsc{Exercise}.  ] Prove that $ \mathcal{P} (E) \cap \mathcal{P} (F) = \mathcal{P}(E \cap F) $ and $ \mathcal{P} (E) \cup \mathcal{P} (F) \subset \mathcal{P}(E \cup F) $ These assertions can be generalized to 
 

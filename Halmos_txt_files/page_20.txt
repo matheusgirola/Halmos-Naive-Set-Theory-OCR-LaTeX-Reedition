@@ -6,4 +6,4 @@ there is no universe.
 
 "Universe" here is used in the sense of "universe of discourse," meaning, in any particular discussion, a set that contains all the objects that enter into that discussion. 
 
-In older (pre-axiomatic) approaches to set theory, the existence of universe was taken for granted, and the argument in the preceding paragraph was known as the \textit{Russell paradox}. The moral is that it is impossible, especially in mathematics, to get something for nothing. To specify a set, it is not enough to pronounce some magic words (which may form a sentence such as "$x \in ' z$"); it is necessary also to have at hand a set to whose elements the magic words apply. 
+In older (pre-axiomatic) approaches to set theory, the existence of universe was taken for granted, and the argument in the preceding paragraph was known as the \textit{Russell paradox}. The moral is that it is impossible, especially in mathematics, to get something for nothing. To specify a set, it is not enough to pronounce some magic words (which may form a sentence such as "$x \notin z$"); it is necessary also to have at hand a set to whose elements the magic words apply. 

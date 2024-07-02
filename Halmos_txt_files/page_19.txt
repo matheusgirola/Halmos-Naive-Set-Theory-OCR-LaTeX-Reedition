@@ -17,19 +17,19 @@ To obtain an amusing and instructive application of the axiom of specification, 
 not (x \in x)
 \end{equation*}
 
-It will be convenient, here and throughout, to write "$x \in '  A$" (alternatively "$ x \notin A $") instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
+It will be convenient, here and throughout, to write "$x \notin  A$" (alternatively "$ x \notin A $") instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
 
 \begin{equation*}
-x \in ' x.
+x \notin x.
 \end{equation*}
 
-It follows that, whatever the set $A$ may be, if $B = {x \in A: x \in ' x}$, then, for all $y$,
+It follows that, whatever the set $A$ may be, if $B = {x \in A: x \notin x}$, then, for all $y$,
 %Preciso saber como botar um asterisco nessa equação pra referenciar ela
 \begin{equation*}
-y \in B if and only if ( y \in A and y \in ' y).
+y \in B if and only if ( y \in A and y \notin y).
 \end{equation*}
 
-Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \in ' B$. If $B \in B$, then, by (*), the assumption $B \in A$ yields $B \in ' B$—a contradiction. If $B \in ' B$, then, by (*) again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \in ' A$. The most interesting part of this conclusion is that there exists something (namely $B$) that doesnot belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
+Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \notin B$. If $B \in B$, then, by (*), the assumption $B \in A$ yields $B \notin B$—a contradiction. If $B \notin B$, then, by (*) again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \notin A$. The most interesting part of this conclusion is that there exists something (namely $B$) that doesnot belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
 
 \begin{equation*}
 nothing contains everything,

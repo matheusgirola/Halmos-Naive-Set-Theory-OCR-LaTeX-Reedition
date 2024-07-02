@@ -21,7 +21,7 @@ is the get of all bachelors;
 \{ x \in A: \text{ \textit{the father of x is Adam}} \} 
 \end{equation*}
 
-is the set that contains Cain and Abel and nothing else, and
+is the set that contains Seth, Cain and Abel and nothing else, and
 
 \begin{equation*}
 \{ x \in A: x \text{ \textit{is the father of Abel}} \}  
@@ -29,7 +29,7 @@ is the set that contains Cain and Abel and nothing else, and
 
 is the set that contains Adam and nothing else. Warning: a box that contains a hat and nothing else is not the same thing as a hat, and, in the same way, the last set in this list of examples is not to be confused with Adam. The analogy between sets and boxes has many weak points, but sometimes it gives a helpful picture of the facts. 
 
-All that is lacking for the precise general formulation that underlies the examples above is a definition of \textit{sentence}. Here is a quick and informal one. There are two basic types of sentences, namely, assertions of belonging,
+All that is lacking for the precise general formulation that underlies the examples above is a definition of \textit{sentence}\index{sentence}. Here is a quick and informal one. There are two basic types of sentences, namely, assertions of belonging,
 
 \begin{equation*}
 x \in A
@@ -41,28 +41,28 @@ and assertions of equality,
 A = B
 \end{equation*}
 
-all other sentences are obtained from such \textit{atomic} sentences by repeated applications of the usual logical operators, subject only to the minimal courtesies of grammar and unambiguity. To make the definition more explicit (and longer) it is necessary to append to it a list of the "usual logical operators" and the rules of syntax. An adequate (and, in fact, redundant) list of the former contains seven items:
+all other sentences are obtained from such \textit{atomic} sentences\index{atomic sentence} by repeated applications of the usual logical operators\index{logical operators}, subject only to the minimal courtesies of grammar and unambiguity. To make the definition more explicit (and longer) it is necessary to append to it a list of the "usual logical operators" and the rules of syntax. An adequate (and, in fact, redundant) list of the former contains seven items:
 
 %This create an list of items without numbers or bullet points
 \begin{itemize}[label={}]
   \itemsep0em
-  \item \textit{and,}
-  \item \textit{or (in the sense of "either — or — or both"), }
-  \item \textit{not,}
-  \item \textit{if—then—(or implies),}
+  \item \textit{and,}\index{and}
+  \item \textit{or (in the sense of "either — or — or both"), }\index{or}
+  \item \textit{not,}\index{not}
+  \item \textit{if—then—(or implies),}\index{imply}\index{if}
   \item \textit{if and only if,}
-  \item \textit{for some (or there exists),}
-  \item \textit{for all.}
+  \item \textit{for some (or there exists),}\index{some}
+  \item \textit{for all.}\index{all}
 \end{itemize}
 
-As for the rules of sentence construction, they can be described as follows. (i) Put "not" before a sentence and enclose the result between parentheses. (The reason for parentheses, here and below, is to guarantee unambiguity. Note, incidentally, that they make all other punctuation marks unnecessary. The complete parenthetical equipment that the definition of sentences calls for is rarely needed. We shall always omit as many perentheses as it seems safe to omit without leading to confusion. In normal mathematical practice, to be followed in this book, several different sizes and shapes of parentheses are used, but that is for visual convenience only.) (ii) Put "and" or "or" or "if and only if" between two sentences and enclose the result between parentheses. (iii) Replace the dashes in "if—then—" by sentences and enclose the result in parentheses. (iv) Replace the dash in "for some—" or in "for all—" by a letter, follow the result by a sentence, and enclose the whole in parentheses. (If the letter used does not occur in the sentence, no harm is done. According to the usual and natural convention "for some $y (x \in A)$" just means "$ x \in A$". It is equally harmless if the letter used has already been used with "for some—." Recall that "for some $x (x \in A)$" means the same as  "for some $ y (y \in A)$"; it follows that a judicious change of notation will always avert alphabetic collisions.)
+As for the rules of sentence construction, they can be described as follows. (i) Put "not" before a sentence and enclose the result between parentheses. (The reason for parentheses, here and below, is to guarantee unambiguity. Note, incidentally, that they make all other punctuation marks unnecessary. The complete parenthetical equipment that the definition of sentences calls for is rarely needed. We shall always omit as many perentheses as it seems safe to omit without leading to confusion. In normal mathematical practice, to be followed in this book, several different sizes and shapes of parentheses are used, but that is for visual convenience only.) (ii) Put "and" or "or" or "if and only if" between two sentences and enclose the result between parentheses. (iii) Replace the dashes in "if—then—" by sentences and enclose the result in parentheses. (iv) Replace the dash in "for some—" or in "for all—" by a letter, follow the result by a sentence, and enclose the whole in parentheses. (If the letter used does not occur in the sentence, no harm is done. According to the usual and natural convention "for some $y\ (x \in A)$" just means "$ x \in A$". It is equally harmless if the letter used has already been used with "for some—." Recall that "for some $x\ (x \in A)$" means the same as  "for some $y\ (y \in A)$"; it follows that a judicious change of notation will always avert alphabetic collisions.)
 
-We are now ready to formulate the major principle of set theory, often referred to by its German name $Aussonderungsaxiom$. 
+We are now ready to formulate the major principle of set theory, often referred to by its German name $Aussonderungsaxiom$\index{Aussonderungsaxiom}. 
 
-\begin{named}[Axiom of specification. ] To every set $A$ and to every condition $S(x)$ corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
+\begin{named}[Axiom of specification.]\index{axiom of specification} To every set $A$ and to every condition $S(x)$ corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
 \end{named}
 
-A "condition" here is just a sentence. The symbolism is intended to indicate the letter $x$ is /textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
+A "condition"\index{condition} here is just a sentence. The symbolism is intended to indicate the letter $x$ is \textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
 
 \begin{equation*}
 B  = \{ x \in A: S(x) \} 
@@ -74,20 +74,20 @@ To obtain an amusing and instructive application of the axiom of specification, 
 \text{not } (x \in x)
 \end{equation*}
 
-It will be convenient, here and throughout, to write "$x \in '  A$" (alternatively "$ x \notin A $") instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
+It will be convenient, here and throughout, to write "$x \notin  A$" instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
 
 \begin{equation*}
-x \in ' x.
+x \notin x.
 \end{equation*}
 
-It follows that, whatever the set $A$ may be, if $B = {x \in A: x \in ' x}$, then, for all $y$,
+It follows that, whatever the set $A$ may be, if $B = {x \in A: x \notin x}$, then, for all $y$,
 
 \begin{equation}
 \label{eq2.1}
-y \in B \text{ \textit{if and only if }} ( y \in A \text{ \textit{and} } y \in ' y). \tag{$\ast$}
+y \in B \text{ \textit{if and only if }} ( y \in A \text{ \textit{and} } y \notin y). \tag{$\ast$}
 \end{equation}
 
-Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \in ' B$. If $B \in B$, then, by \eqref{eq2.1}, the assumption $B \in A$ yields $B \in ' B$—a contradiction. If $B \in ' B$, then, by \eqref{eq2.1} again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \in ' A$. The most interesting part of this conclusion is that there exists something (namely $B$) that doesnot belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
+Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \notin B$. If $B \in B$, then, by \eqref{eq2.1}, the assumption $B \in A$ yields $B \notin B$—a contradiction. If $B \notin B$, then, by \eqref{eq2.1} again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \notin A$. The most interesting part of this conclusion is that there exists something (namely $B$) that does not belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
 
 \begin{equation*}
 \text{ \textit{nothing contains everything,}}
@@ -99,6 +99,6 @@ or, more spectacularly
 \text{\textit{there is no universe.}}
 \end{equation*}
 
-"Universe" here is used in the sense of "universe of discourse," meaning, in any particular discussion, a set that contains all the objects that enter into that discussion. 
+"Universe"\index{universe} here is used in the sense of "universe of discourse," meaning, in any particular discussion, a set that contains all the objects that enter into that discussion. 
 
-In older (pre-axiomatic) approaches to set theory, the existence of universe was taken for granted, and the argument in the preceding paragraph was known as the \textit{Russell paradox}. The moral is that it is impossible, especially in mathematics, to get something for nothing. To specify a set, it is not enough to pronounce some magic words (which may form a sentence such as "$x \in ' z$"); it is necessary also to have at hand a set to whose elements the magic words apply. 
+In older (pre-axiomatic) approaches to set theory, the existence of universe was taken for granted, and the argument in the preceding paragraph was known as the \textit{Russell's paradox}\index{Russell}. The moral is that it is impossible, especially in mathematics, to get something for nothing. To specify a set, it is not enough to pronounce some magic words (which may form a sentence such as "$x \notin z$"); it is necessary also to have at hand a set to whose elements the magic words apply. 
