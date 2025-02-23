@@ -30,7 +30,7 @@ Note that this is just the affirmative answer to the second question above.
 
 To reassure worriers, let us hasten to observe that words such as "two", "three", and "four," used above, do not refer to the mathematical concepts bearing those names, which will be defined later; at present such words are merely the ordinary linguistic abbreviations for "something and then something else" repeated an appropriate number of times. Thus, for instance, the axiom of pairing, in unabbreviated form, says that if $a$ and $b$ are sets, then there exists a set $A$ such that $a \in A$ and $b \in A$.
 
-One consequence (in fact an equivalent formulation) of the axiom of pairing is that for any two sets there exists a set that contains both of them and nothing else. Indeed, if $a$ and $b$ are sets, and if $A$ is a set such that $a \in A$ and $b \in A$, then we can apply the axiom of specificetion to $A$ whit the sentence "$x = a \text{ \texit{or} } x = b$." The result is the set 
+One consequence (in fact an equivalent formulation) of the axiom of pairing is that for any two sets there exists a set that contains both of them and nothing else. Indeed, if $a$ and $b$ are sets, and if $A$ is a set such that $a \in A$ and $b \in A$, then we can apply the axiom of specification to $A$ with the sentence "$x = a \text{ \texit{or} } x = b$." The result is the set 
 
 \begin{equation*}
 \{ x \in A: x = a \text{ \textit{or} } x = b \},
@@ -56,7 +56,7 @@ The axiom of specification, applied to a set $A$, asserts the existence of a set
 x \in B \text{ \textit{if and only if} } (x \in A \text{ \textit{and} }  S(x)). \tag(\ast \ast)
 \end{equation}
 
-The reletion between (*) and (**) typifies something that occurs quite frequently. All the remaining principles of set construction are pseudo-special cases of the axiom of specification in the sense in which (*) is a pseudo-special case of (**). They all assert the existence of a set specified by a certain condition; if it were known in advance that there exists a set containing all the specified elements, then the existence of a set containing just them would indeed follow as a special case of the axiom of specificetion. 
+The relation between (*) and (**) typifies something that occurs quite frequently. All the remaining principles of set construction are pseudo-special cases of the axiom of specification in the sense in which (*) is a pseudo-special case of (**). They all assert the existence of a set specified by a certain condition; if it were known in advance that there exists a set containing all the specified elements, then the existence of a set containing just them would indeed follow as a special case of the axiom of specificetion. 
 
 If $a$ is a set, we may form the unordered pairs ${a, a}$. That unordered pair is denoted by 
 
@@ -90,7 +90,7 @@ In case $A$ is a set and $S(x)$ is $(x \in A)$, then it is permissible to form $
 \{ x : x \in A \} = A
 \end{equation*}
 
-If $A$ is a set and $S(x)$ is an arbitrary sentence, it is permissible to form $ \{ x : x \in A \text{ \textit{and} } S(z) \}$; this set is the same as $\{x \in A: S(x) \}$. As further examples, we note that 
+If $A$ is a set and $S(x)$ is an arbitrary sentence, it is permissible to form $ \{ x : x \in A \text{ \textit{and} } S(x) \}$; this set is the same as $\{x \in A: S(x) \}$. As further examples, we note that 
 
 \begin{equation*}
 \{ x : x \neq x \} = \emptyset
