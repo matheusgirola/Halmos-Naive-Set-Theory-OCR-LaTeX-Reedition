@@ -19,7 +19,7 @@ Similarly
 \{ x \in A: x is not married \}
 \end{equation*}
 
-is the get of all bachelors; 
+is the set of all bachelors; 
 
 \begin{equation*}
 \{ x \in A: the father of x is Adam \} 
@@ -62,7 +62,7 @@ We are now ready to formulate the major principle of set theory, often referred 
 \begin{named}[Axiom of specification. ] To every set $A$ and to every condition $S(x)$ corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
 \end{named}
 
-A "condition" here is just a sentence. The symbolism is intended to indicate the letter $x$ is /textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
+A "condition" here is just a sentence. The symbolism is intended to indicate the letter $x$ is \textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
 
 \begin{equation*}
 B  = \{ x \in A: S(x) \} 
@@ -86,7 +86,7 @@ It follows that, whatever the set $A$ may be, if $B = {x \in A: x \notin x}$, th
 y \in B if and only if ( y \in A and y \notin y).
 \end{equation*}
 
-Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \notin B$. If $B \in B$, then, by (*), the assumption $B \in A$ yields $B \notin B$—a contradiction. If $B \notin B$, then, by (*) again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \notin A$. The most interesting part of this conclusion is that there exists something (namely $B$) that doesnot belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
+Can it be that $B \in A$? We proceed to prove that the answer is no. Indeed, if $B \in A$, then either $B \in B$ also (unlikely, but not obviously impossible), or else $B \notin B$. If $B \in B$, then, by (*), the assumption $B \in A$ yields $B \notin B$—a contradiction. If $B \notin B$, then, by (*) again, the assumption $B \in A$ yields $B \in B$—a contradiction again. This completes the proof that is impossible, so that we must have $B \notin A$. The most interesting part of this conclusion is that there exists something (namely $B$) that does not belong to $A$. The set $A$ in this argument was quite arbitrary. We have proved, in other words, that 
 
 \begin{equation*}
 nothing contains everything,
