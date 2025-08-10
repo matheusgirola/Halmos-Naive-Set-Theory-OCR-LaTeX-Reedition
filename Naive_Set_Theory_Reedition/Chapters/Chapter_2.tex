@@ -32,13 +32,13 @@ is the set that contains Adam and nothing else. Warning: a box that contains a h
 All that is lacking for the precise general formulation that underlies the examples above is a definition of \textit{sentence}\index{sentence}. Here is a quick and informal one. There are two basic types of sentences, namely, assertions of belonging,
 
 \begin{equation*}
-x \in A
+x \in A,
 \end{equation*}
 
 and assertions of equality, 
 
 \begin{equation*}
-A = B
+A = B;
 \end{equation*}
 
 all other sentences are obtained from such \textit{atomic} sentences\index{atomic sentence} by repeated applications of the usual logical operators\index{logical operators}, subject only to the minimal courtesies of grammar and unambiguity. To make the definition more explicit (and longer) it is necessary to append to it a list of the "usual logical operators" and the rules of syntax. An adequate (and, in fact, redundant) list of the former contains seven items:
@@ -57,7 +57,7 @@ all other sentences are obtained from such \textit{atomic} sentences\index{atomi
 
 As for the rules of sentence construction, they can be described as follows. (i) Put "not" before a sentence and enclose the result between parentheses. (The reason for parentheses, here and below, is to guarantee unambiguity. Note, incidentally, that they make all other punctuation marks unnecessary. The complete parenthetical equipment that the definition of sentences calls for is rarely needed. We shall always omit as many perentheses as it seems safe to omit without leading to confusion. In normal mathematical practice, to be followed in this book, several different sizes and shapes of parentheses are used, but that is for visual convenience only.) (ii) Put "and" or "or" or "if and only if" between two sentences and enclose the result between parentheses. (iii) Replace the dashes in "if—then—" by sentences and enclose the result in parentheses. (iv) Replace the dash in "for some—" or in "for all—" by a letter, follow the result by a sentence, and enclose the whole in parentheses. (If the letter used does not occur in the sentence, no harm is done. According to the usual and natural convention "for some $y\ (x \in A)$" just means "$ x \in A$". It is equally harmless if the letter used has already been used with "for some—." Recall that "for some $x\ (x \in A)$" means the same as  "for some $y\ (y \in A)$"; it follows that a judicious change of notation will always avert alphabetic collisions.)
 
-We are now ready to formulate the major principle of set theory, often referred to by its German name $Aussonderungsaxiom$\index{Aussonderungsaxiom}. 
+We are now ready to formulate the major principle of set theory, often referred to by its German name \textit{Aussonderungsaxiom}\index{Aussonderungsaxiom}. 
 
 \begin{named}[Axiom of specification.]\index{axiom of specification} To every set $A$ and to every condition $S(x)$ corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
 \end{named}
@@ -65,13 +65,13 @@ We are now ready to formulate the major principle of set theory, often referred 
 A "condition"\index{condition} here is just a sentence. The symbolism is intended to indicate the letter $x$ is \textit{free} in the sentence $S(x)$; that means that $x$ occurs in $S(x)$ at least once without being introduced by one of the phrases "for some $x$" or "for all $x$". It is an immediate consequence of the axiom of extension that the axiom of specification determines the set $B$ uniquely. To indicate the way $B$ is obtained from $A$ and from $S(x)$ it is customary to write 
 
 \begin{equation*}
-B  = \{ x \in A: S(x) \} 
+B  = \{ x \in A: S(x) \}. 
 \end{equation*}
 
 To obtain an amusing and instructive application of the axiom of specification, consider, in the role of $S(x)$, the sentence
 
 \begin{equation*}
-\text{not } (x \in x)
+\text{not } (x \in x).
 \end{equation*}
 
 It will be convenient, here and throughout, to write "$x \notin  A$" instead of "not $(x \in A)$"; in this notation, the role of $S(x)$ is now played by
