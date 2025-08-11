@@ -7,7 +7,7 @@ For all that has been said so far, we might have been operating in a vacuum. To 
 \text{ \textit{there exists a set} }
 \end{equation*}
  
-Since later on we shall formulate a deeper and more useful existential assumption, this  assumption  plays  a temporary role only. One consequence of this innocuous seeming assumption is that there exists a set without any elements at all. Indeed, if $A$ is a set, apply the axiom of specification to $A$ with the sentence "$ x \neq x $"  (or, for that matter, with any other universally false sentence). The result is the set ${x \in A: x \neq x}$, and that set, clearly, has no elements. The axiom of extension implies that there can be only one set with no elements. The usual symbol for that set is 
+Since later on we shall formulate a deeper and more useful existential assumption, this  assumption  plays  a temporary role only. One consequence of this innocuous seeming assumption is that there exists a set without any elements at all. Indeed, if $A$ is a set, apply the axiom of specification to $A$ with the sentence "$ x \neq x $"  (or, for that matter, with any other universally false sentence). The result is the set $\{x \in A: x \neq x\}$, and that set, clearly, has no elements. The axiom of extension implies that there can be only one set with no elements. The usual symbol for that set is 
 
 \begin{equation*}
 \emptyset ;
@@ -16,9 +16,9 @@ Since later on we shall formulate a deeper and more useful existential assumptio
 
 the set is called the \textit{empty set}\index{empty}. 
 
-The empty set is a subset of every set, or, in other words, $ \emptyset \subset A$ for every $A$. To establish this, we might argue as follows. It is to be proved that every element in $ \emptyset $ belongs to $A$; since there are no elements in $ \emptyset $, the condition is automatically fulfilled. The reasoning is correct but perhaps unsatisfying. Since it is a typical example of a frequent phenomenon, a condition holding in the "vacuous" sense, a word of advice to the inexperienced reader might be in order. To prove that something is true about the empty set, prove that it cannot be false. How, for instance, could it be false that $ \emptyset \subset A$? It could be false only if $ \emptyset $ had an element that did not belong to $A$. Since $ \emptyset $ has no elements at all, this is absurd. Conclusion: $ \emptyset \subset A$ is not false, and therefore $ \emptyset \subset A$ for every $A$.
+The empty set is a subset of every set, or, in other words, $\emptyset \subset A$ for every $A$. To establish this, we might argue as follows. It is to be proved that every element in $ \emptyset $ belongs to $A$; since there are no elements in $ \emptyset $, the condition is automatically fulfilled. The reasoning is correct but perhaps unsatisfying. Since it is a typical example of a frequent phenomenon, a condition holding in the "vacuous" sense, a word of advice to the inexperienced reader might be in order. To prove that something is true about the empty set, prove that it cannot be false. How, for instance, could it be false that $ \emptyset \subset A$? It could be false only if $ \emptyset $ had an element that did not belong to $A$. Since $ \emptyset $ has no elements at all, this is absurd. Conclusion: $ \emptyset \subset A$ is not false, and therefore $ \emptyset \subset A$ for every $A$.
 
-The set theory developed so far is still a pretty poor thing; for all we know there is only one set and that one is empty. Are there enough sets to ensure that every set is an element of some set? Is it true that for any two sets there is a third one that they both belong to? What about three sets, or four, or any number? We need a new principle of set construction to resolve such questions. The following principle is a good beginning 
+The set theory developed so far is still a pretty poor thing; for all we know there is only one set and that one is empty. Are there enough sets to ensure that every set is an element of some set? Is it true that for any two sets there is a third one that they both belong to? What about three sets, or four, or any number? We need a new principle of set construction to resolve such questions. The following principle is a good beginning. 
 
 \begin{named}[Axiom of pairing.]\index{axiom of pairing}  For any two sets there exists a set that they both belong to.
 \end{named}
@@ -42,7 +42,7 @@ and that set, clearly, contains just $a$ and $b$. The axiom of extension implies
 
 the set is called the \textit{pair}\index{pair} (or, by way of emphatic comparison with a subsequent concept, the \textit{unordered pair}\index{unordered pair}) formed by $a$ and $b$. 
 
-If, temporarily, we refer to the sentence "$x = a \text{ \textit{or} } x = b$." as $S(x)$ , we may express the axiom of pairing by saying that there exists a set $B$ such that 
+If, temporarily, we refer to the sentence "$x = a \text{ \textit{or} } x = b$" as $S(x)$ , we may express the axiom of pairing by saying that there exists a set $B$ such that 
 
 \begin{equation}
 \label{eq3.1}
@@ -56,9 +56,9 @@ The axiom of specification, applied to a set $A$, asserts the existence of a set
 x \in B \text{ \textit{if and only if} } (x \in A \text{ \textit{and} }  S(x)). \tag{$\ast \ast$}
 \end{equation}
 
-The reletion between \eqref{eq3.1} and \eqref{eq3.2} typifies something that occurs quite frequently. All the remaining principles of set construction are pseudo-special cases of the axiom of specification in the sense in which \eqref{eq3.1} is a pseudo-special case of \eqref{eq3.2}. They all assert the existence of a set specified by a certain condition; if it were known in advance that there exists a set containing all the specified elements, then the existence of a set containing just them would indeed follow as a special case of the axiom of specification. 
+The relation between \eqref{eq3.1} and \eqref{eq3.2} typifies something that occurs quite frequently. All the remaining principles of set construction are pseudo-special cases of the axiom of specification in the sense in which \eqref{eq3.1} is a pseudo-special case of \eqref{eq3.2}. They all assert the existence of a set specified by a certain condition; if it were known in advance that there exists a set containing all the specified elements, then the existence of a set containing just them would indeed follow as a special case of the axiom of specification. 
 
-If $a$ is a set, we may form the unordered pairs ${a, a}$. That unordered pair is denoted by 
+If $a$ is a set, we may form the unordered pairs $\{a, a\}$. That unordered pair is denoted by 
 
 \begin{equation*}
 \{ a \}
@@ -81,13 +81,13 @@ Before continuing our study of set theory, we pause for a moment to discuss a no
 We shall use this symbolism whenever it is convenient and permissible to do so. If, that is, $S(x)$ is a condition on $x$ such that the $x$'s that $S(x)$ specifies constitute a set, then we may denote that set by 
 
 \begin{equation*}
-\{ x : S(X) \}.
+\{ x : S(x) \}.
 \end{equation*}
 
-In case $A$ is a set and $S(x)$ is $(x \in A)$, then it is permissible to form ${x: S(x)}$; in fact 
+In case $A$ is a set and $S(x)$ is $(x \in A)$, then it is permissible to form $\{x: S(x)\}$; in fact 
 
 \begin{equation*}
-\{ x : x \in A \} = A
+\{ x : x \in A \} = A.
 \end{equation*}
 
 If $A$ is a set and $S(x)$ is an arbitrary sentence, it is permissible to form $ \{ x : x \in A \text{ \textit{and} } S(x) \}$; this set is the same as $\{x \in A: S(x) \}$. As further examples, we note that 
