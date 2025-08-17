@@ -40,7 +40,7 @@ or
 \bigcup_{X \in \mathcal{C}} X.
 \end{equation*}
 
-F urther alternatives are available in certain important special cases; they will be described in due course.
+Further alternatives are available in certain important special cases; they will be described in due course.
 
 For the time being we restrict our study of the theory of unions to the simplest facts only. The simplest fact of all is that
 
@@ -106,7 +106,7 @@ What this suggests is the way to generalize pairs.   Specifically, we write
  \{ a, b, c \} = \{ a \} \cup \{ b \} \cup \{ c \}.
 \end{equation*}
 
-The equation defines its left side. The right side should by rights have at least one pair of parentheses in it, but, in view of the associative law, their omission cen lead to no misunderstanding. Since it is easy to prove that 
+The equation defines its left side. The right side should by rights have at least one pair of parentheses in it, but, in view of the associative law, their omission can lead to no misunderstanding. Since it is easy to prove that 
 
 \begin{equation*}
  \{ a, b, c \} = \{ x: x = a \: or \: x = b \: or \: x = c \},
