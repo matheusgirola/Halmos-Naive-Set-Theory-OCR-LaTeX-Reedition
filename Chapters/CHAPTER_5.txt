@@ -45,7 +45,7 @@ $A \cap B  \subset (A \cap C) \cup (B \cap C').$
 $(A \cup C) \cap (B \cup C') \subset A \cup B$
 \end{center}
 
-If $A$ and $B$ are sets, the s\textit{symmetric difference} (Or \textit{Boolean sum}) of $A$ and $B$ is the set $A + B$ defined 
+If $A$ and $B$ are sets, the \textit{symmetric difference} (Or \textit{Boolean sum}) of $A$ and $B$ is the set $A + B$ defined 
 
 \begin{equation*}
 A + B = (A - B) \cup (B - A). 
@@ -85,7 +85,7 @@ The set $ \mathcal{P} $ described above may be larger than wanted; it may contai
 
 The set $ \mathcal{P} $ is called the \textit{power set} of $E$; the axiom of extension guarantees its uniqueness. The dependence of $ \mathcal{P} $ on $E$ is denoted by writing $ \mathcal{P} (E) $ instead of just $ \mathcal{P} $.
 
-Because the set $ \mathcal{P} (E) $ is very big in comparison with $E$, it is not easy to give examples. If $E = \emptyset $, the situation is clear enough; the set $ \mathcal{P} ( \emptyset ) $ is the singleton $\{ \emptyset \}$. The power sets of singletons and paira are also easily describable; we have 
+Because the set $ \mathcal{P} (E) $ is very big in comparison with $E$, it is not easy to give examples. If $E = \emptyset $, the situation is clear enough; the set $ \mathcal{P} ( \emptyset ) $ is the singleton $\{ \emptyset \}$. The power sets of singletons and pairs are also easily describable; we have 
 
 \begin{equation*}
 \mathcal{P} ( \{ a \} ) = \{ \emptyset, \{ a \} \} 
@@ -97,7 +97,7 @@ and
 \mathcal{P} ( \{ a, b \} ) = \{ \emptyset, \{ a \} , \{ b \} , \{ a,b \} \} .
 \end{equation*}
 
-The power set of a triple has eight elements. The reader cen probably guess (and is hereby challenged to prove) the generalization that includes all these stetements: the power set of a finite set with, say, $n$ elements has $2^{n}$ elements. (Of course concepts like "finite" and "$2^{n}$" have no official standing for us yet; this should not prevent them from being unofficially understood.) The occurrence of $n$ as an exponent (the $n$-th power of 2) has something to do with the reason why power set bears its name. 
+The power set of a triple has eight elements. The reader cen probably guess (and is hereby challenged to prove) the generalization that includes all these statements: the power set of a finite set with, say, $n$ elements has $2^{n}$ elements. (Of course concepts like "finite" and "$2^{n}$" have no official standing for us yet; this should not prevent them from being unofficially understood.) The occurrence of $n$ as an exponent (the $n$-th power of 2) has something to do with the reason why power set bears its name. 
 
 If $ \mathcal{C} $ is a collection of subsets of a set $E$ (that is, $ \mathcal{C} $ is a subcollection of $ \mathcal{P} (E) $), then write
 
@@ -129,7 +129,7 @@ and
 ( \bigcap_{X \in \mathcal{C}} X)' = \bigcup_{X \in \mathcal{C}} X' .
 \end{equation*}
 
-The proofs of these equations are immediate consequences of the appro priate definitions. 
+The proofs of these equations are immediate consequences of the appropriate definitions. 
 
 \begin{named}[EXERCISE.  ] Prove that $ \mathcal{P} (E) \cap \mathcal{P} (F) = \mathcal{P}(E \cap F) $ and $ \mathcal{P} (E) \cup \mathcal{P} (F) \subset \mathcal{P}(E \cup F) $ These assertions can be generalized to 
 
