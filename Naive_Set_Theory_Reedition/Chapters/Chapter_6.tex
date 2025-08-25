@@ -11,7 +11,7 @@ What does it mean to arrange the elements of a set $A$ in some order? Suppose, f
 Even without a precise definition of what this means, we can do something set-theoretically intelligent with it. We can, namely, consider, for each particular spot in the ordering, the set of all those elements that occur at or before that spot; we obtain in this way the sets 
 
 \begin{center}
- \{ $c$ \}  \{ $c, b$ \} \{ $c, b, d$ \} \{ $c, b, d, a$ \} 
+ \{ $c$ \}  \{ $c, b$ \} \{ $c, b, d$ \} \{ $c, b, d, a$ \}. 
 \end{center}
 
 We can go on then to consider the set (or collection, if that sounds better) 
@@ -20,7 +20,7 @@ We can go on then to consider the set (or collection, if that sounds better)
 $\mathcal{C} = $ \{ \{ $a, b, c, d$ \}, \{ $b, c$ \}, \{ $b, c, d$ \}, \{ $c$ \} \} 
 \end{center}
 
-that has exactly those sets for its elements. In order to emphasize that the intuitively based and possibly unclear concept of order has succeeded producing something solid and simple, namely plain,  unembellished set $ \mathcal{C} $, the elements of $ \mathcal{C} $, and \textit{their} elements, are presented above in a scrambled manner. (The lexicographically inclined reader might be able to see a method in the manner of scrambling.) 
+that has exactly those sets for its elements. In order to emphasize that the intuitively based and possibly unclear concept of order has succeeded in producing something solid and simple, namely a plain,  unembellished set $ \mathcal{C} $, the elements of $ \mathcal{C} $, and \textit{their} elements, are presented above in a scrambled manner. (The lexicographically inclined reader might be able to see a method in the manner of scrambling.) 
 
 Let us continue to pretend for a while that we do know what order means. Suppose that in a hasty glance at the preceding paragraph all we could catch is the set $\mathcal{C}$; can we use it to recapture the order that gave rise to it? The answer is easily seen to be yes. Examine the elements of $ \mathcal{C} $ (they themselves are sets, of course) to find one that is included in all the others; since $ \{c \}$ fills the bill (and nothing else does) we know that $c$ must have been the first element. Look next for the next smallest element of $ \mathcal{C}$, i.e., the one that is included in all the ones that remain after $ \{ c \} $ is removed; since $ \{ b, c \} $ fills the bill (and nothing else does), we know that $b$ must have been the second element. Proceeding thus (only two more steps are needed) we pass from the set $ \mathcal{C} $ to the given ordering of the given set $A$. 
 
@@ -32,7 +32,7 @@ The \textit{ordered pair}\index{ordered pair} of $a$ and $b$, with \textit{first
 (a, b) = \{ \{a \} , \{ a, b \} \}.
 \end{equation*}
 
-However convincing the motivation of this definition may be, we must still prove that the result has the main property that an ordered must have to deserve its name. We must show that if $(a,b)$ and $(x, y)$ are ordered pairs and if $(a,b) = (x,y)$, then $ a = x $ and $b = y$. To prove this, we note first that if $a$ and $b$ happen to be equal, then the ordered pair $(a,b)$ is the same as the singleton $ \{ \{ a \} \} $. If, conversely, $(a,b)$ is a singleton, then $ \{ a \} =  \{ a , b \}$, so that $ b \in \{ a \} $, and therefore $a = b$. Suppose now that $ (a, b) = (x, y)$. If $ a = b $, then both $(a, b)$ and $(x,y)$ are singletons, so that $ x = y $; since $ \{ x \} \in (a,b)$ and $ \{ a \} \in (x,y)$, it follows that \textit{a, b, x,} and $y$ are all equal. If $a \neq b$, then both $(a, b)$ and $(x, y)$ contain exactly one singleton, namely $ \{a \}$ and $ \{ x \} $ respectively, so that $a = x$. Since in this case it is also true that both $(a,b)$ and $(x, y)$ contain exactly one unordered pair that is not a singleton, namely $ \{a, b \}$ and $ \{ x, y \}$. respectively, it follows that $ \{ a, b \} = \{ x,y \} $, and therefore, in particular, $b \in \{ x,y \} $. Since $b$ cannot be $x$ (for then we should have $ a = x $ and $ b = x $, and, therefore, $ a = b $), we must have $b = y $, and the proof is complete. 
+However convincing the motivation of this definition may be, we must still prove that the result has the main property that an ordered pair must have to deserve its name. We must show that if $(a,b)$ and $(x, y)$ are ordered pairs and if $(a,b) = (x,y)$, then $ a = x $ and $b = y$. To prove this, we note first that if $a$ and $b$ happen to be equal, then the ordered pair $(a,b)$ is the same as the singleton $ \{ \{ a \} \} $. If, conversely, $(a,b)$ is a singleton, then $ \{ a \} =  \{ a , b \}$, so that $ b \in \{ a \} $, and therefore $a = b$. Suppose now that $ (a, b) = (x, y)$. If $ a = b $, then both $(a, b)$ and $(x,y)$ are singletons, so that $ x = y $; since $ \{ x \} \in (a,b)$ and $ \{ a \} \in (x,y)$, it follows that \textit{a, b, x,} and $y$ are all equal. If $a \neq b$, then both $(a, b)$ and $(x, y)$ contain exactly one singleton, namely $ \{a \}$ and $ \{ x \} $ respectively, so that $a = x$. Since in this case it is also true that both $(a,b)$ and $(x, y)$ contain exactly one unordered pair that is not a singleton, namely $ \{a, b \}$ and $ \{ x, y \}$ respectively, it follows that $ \{ a, b \} = \{ x,y \} $, and therefore, in particular, $b \in \{ x,y \} $. Since $b$ cannot be $x$ (for then we should have $ a = x $ and $ b = x $, and, therefore, $ a = b $), we must have $b = y $, and the proof is complete. 
 
 If $A$ and $B$ are sets, does there exist a set that contains all the ordered pairs $(a,b)$ with $a$ in $A$ and $b$ in $B$? It is quite easy to see that the answer is yes. Indeed, if $a \in A$ and $b \in B$, then $ \{ a \} \subset A$ and $ \{ b \}  \subset B$, and therefore $ \{ a, b \} \subset A \cup B$. Since also $ \{ a \} \subset A \cup B$, it follows that both $ \{ a \}$ and $ \{ a, b \} $ are elements of $ \mathcal{P} (A \cup B)$. This implies that $ \{ \{ a \}, \{ a,b \} \} $ is a subset of $ \mathcal{P} (A \cup B) $, and hence that it is an element of $ \mathcal{P} ( \mathcal{P} (A \cup B))$; in other words $(a, b) \in \mathcal{P} ( \mathcal{P} (A \cup B))$ whenever $ a \in  A$ and $ b \in B$. Once this is known, it is a routine matter to apply the axiom of specification and the axiom of extension to produce the unique set $A \times B$ that consists exactly of the ordered pairs $(a, b)$ with $a$ in $A$ and $b$ in $B$. This set is called the \textit{Cartesian product}\index{Cartesian product} of $A$ and $B$; it is characterized by the fact that 
 
@@ -49,7 +49,7 @@ A = \{ a : \: for \: some \: b\ ((a,b) \in R) \}
 and 
 
 \begin{equation*}
-B = \{ b : \: for \: some \: a\ ((a,b) \in R) \}
+B = \{ b : \: for \: some \: a\ ((a,b) \in R) \}.
 \end{equation*}
 
 These sets are called the \textit{projections}\index{projection} of $R$ onto the first and second coordinates respectively.
