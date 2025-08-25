@@ -14,7 +14,7 @@ The comprehensive set $U$ described above may be too comprehensive; it may conta
 \{ x \in U: x \in X \text{ \textit{for some} } X \text{ \textit{in} } \mathcal{C} \}.
 \end{equation*}
 
-The condition here is a translation into idiomatic usage of the mathematically more acceptable "\textit{for some} $X\ (x \in X \text{ \textit{and} } X \in \mathcal{C})$.") It follows that, for every $x$, a necessary and sufficient condition that $x$ belong to this set is that $x$ belong to $X$ for some $X$ in $\mathcal{C}$. If we change notation and call the new set $U$ again, then
+(The condition here is a translation into idiomatic usage of the mathematically more acceptable "\textit{for some} $X\ (x \in X \text{ \textit{and} } X \in \mathcal{C})$.") It follows that, for every $x$, a necessary and sufficient condition that $x$ belong to this set is that $x$ belong to $X$ for some $X$ in $\mathcal{C}$. If we change notation and call the new set $U$ again, then
 
 \begin{equation*}
 U = \{ x: x \in X \text{ \textit{ for some } } X \text{ \textit{in} }  \mathcal{C} \}
@@ -90,7 +90,7 @@ $A \cup A = A \:(idempotence)\index{idempotent},$
 $ A \subset B \text{ \textit{ if and only if} } A \cup B = B.$
 \end{center}
 
-Every student of mathematics should prove these things for himself at least once in his life. The proofs are based on the corresponding elementary properties of the logical operator $or$.
+Every student of mathematics should prove these things for himself at least once in his life. The proofs are based on the corresponding elementary properties of the logical operator \texit{or}.
 
 An equally simple but quite suggestive fact is that 
 
@@ -162,7 +162,7 @@ $A \cup (B \cap C) = (A \cup B) \cap (A \cup C).$
 
 These identities are called the \textit{distributive laws}\index{distributive}. By way of a sample of a set-theoretic proof, we prove the second one. If $x$ belongs to the left side, then $x$ belongs either to $A$ or to both $B$ and $C$; if $x$ is in $A$, then $x$ is in both $A \cup B$ and $A \cup C$, and if $x$ is in both $B$ and $C$, then, again, $x$ is in both $A \cup B$ and $A \cup C$; it follows that, in any case, $x$ belongs to the right side. This proves that the right side includes the left. To prove the reverse inclusion, just observe that if $x$ belongs to both $A \cup B$ and $A \cup C$, then $x$ belongs either to $A$ or to both $B$ and $C$. 
 
-The formation of the intersection of two sets $A$ and $B$, or, we might as well say, the formation of the intersection of a pair $ \{ A, B \} $ of sets, is a special case of a much more general operation. (This is another respect in which the theory of intersections imitates that of unions.) The existence of the general operation of intersection depends on the fact that for each non-empty collection of sets there exists a set that contains exactly those elements that belong to every set of the given collection. In other words: for each collection $\mathcal{C}$, other than $ \emptyset $, there exists a set $V$ such that $x \in V$ if and only if $x \in X$ for every $X$ in $\mathcal{C}$. To prove this assertion, let $A$ be any articular set in $\mathcal{C}$ (this step is justified by the fact that $\mathcal{C} \neq \emptyset$) and write
+The formation of the intersection of two sets $A$ and $B$, or, we might as well say, the formation of the intersection of a pair $ \{ A, B \} $ of sets, is a special case of a much more general operation. (This is another respect in which the theory of intersections imitates that of unions.) The existence of the general operation of intersection depends on the fact that for each non-empty collection of sets there exists a set that contains exactly those elements that belong to every set of the given collection. In other words: for each collection $\mathcal{C}$, other than $ \emptyset $, there exists a set $V$ such that $x \in V$ if and only if $x \in X$ for every $X$ in $\mathcal{C}$. To prove this assertion, let $A$ be any particular set in $\mathcal{C}$ (this step is justified by the fact that $\mathcal{C} \neq \emptyset$) and write
 
 \begin{equation*}
 V = \{ x \in A: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
@@ -171,9 +171,8 @@ V = \{ x \in A: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \math
 (The condition means "\textit{for all $X$ (if $X \in \mathcal{C}$, then $x \in X$).}") The dependence of $V$ on the arbitrary choice of $A$ is illusory; in fact
 
 \begin{equation*}
-V = \{ x \in X: x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
+V = \{ x : x \in X \text{ \textit{for every} } X \text{ \textit{in} } \mathcal{C} \}.
 \end{equation*}
-
 
 The set $V$ is called the \textit{intersection}\index{intersection} of the collection $ \mathcal{C} $ of sets; the axiom of extension guarantees its uniqueness. The customary notation is similar the one for unions: instead of the unobjectionable but unpopular
 
@@ -193,5 +192,5 @@ or
 \bigcap_{X \in \mathcal{C}} X.
 \end{equation*}
 
-\begin{exercise}[\textsc{Exercise}. ]  A necessary and sufficient condition that $(A \cap B) \cup C = A \cap (B \cup C)$ is that $C \subset A$. Observe that the condition has nothing to do with the set B.
+\begin{exercise}[\textsc{Exercise}. ]  A necessary and sufficient condition that $(A \cap B) \cup C = A \cap (B \cup C)$ is that $C \subset A$. Observe that the condition has nothing to do with the set $B$.
 \end{exercise}
