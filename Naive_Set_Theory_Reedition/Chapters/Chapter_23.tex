@@ -21,7 +21,7 @@ If $f$ is a function from $\omega$ \textit{onto} a set $X$, then $X$ is countabl
 
 It follows from the preceding paragraph that a set $X$ is countable if and only if there exists a function from some countable set onto $X$. A closely related result is this: if $Y$ is any particular countably infinite set, then a necessary and sufficient condition that a non-empty set $X$ be countable is that there exist a function $Y$ onto $X$.
 
-The mapping $n \rightarrow 2n$ is a one-to-one correspondence between $\omega$ and the set $A$ of all even numbers, so that $A$ is countably infinite. This implies that if $X$ is a countable set, then there exists a function $f$ that maps $A$ onto $X$. Since, similarly, the mapping $n \rightarrow 2n + 1$ is a one-to-one correspondence between $\omega$ and the set $B$ of all odd numbers, it follows that if $Y$ is a countable set, then there exists a function $g$ that maps $B$ onto $Y$. The function $h$ that agrees with $f$ on $A$ and with $g$ on $B$ (i.e., h(x) = f(x) when $x \in A$ and $h(x) = g(x)$ when $x \in B$) maps $\omega$ onto $X \cup Y$. Conclusion: the union of two countable sets is countable: From here on an easy argument by mathematical induction proves that the union of a finite set of countable sets is countable. The same result can be obtained by imitating the trick that worked for two sets; the basis of the method is the fact that for each non-zero natural number $n$ there exists a pairwise disjoint family $\{ A_{i} \} (i < n)$ of infinite subsets of $\omega$ whose union is equal to $\omega$.
+The mapping $n \rightarrow 2n$ is a one-to-one correspondence between $\omega$ and the set $A$ of all even numbers, so that $A$ is countably infinite. This implies that if $X$ is a countable set, then there exists a function $f$ that maps $A$ onto $X$. Since, similarly, the mapping $n \rightarrow 2n + 1$ is a one-to-one correspondence between $\omega$ and the set $B$ of all odd numbers, it follows that if $Y$ is a countable set, then there exists a function $g$ that maps $B$ onto $Y$. The function $h$ that agrees with $f$ on $A$ and with $g$ on $B$ (i.e., $h(x) = f(x)$ when $x \in A$ and $h(x) = g(x)$ when $x \in B$) maps $\omega$ onto $X \cup Y$. Conclusion: the union of two countable sets is countable. From here on an easy argument by mathematical induction proves that the union of a finite set of countable sets is countable. The same result can be obtained by imitating the trick that worked for two sets; the basis of the method is the fact that for each non-zero natural number $n$ there exists a pairwise disjoint family $\{ A_{i} \} (i < n)$ of infinite subsets of $\omega$ whose union is equal to $\omega$.
 
 The same method can be used to prove still more. Assertion: there exists a pairwise disjoint family $\{ A_{n} \} (n \in \omega)$ of infinite subsets of $\omega$ whose union is equal to $\omega$. One way to prove this is to write down the elements of $\omega$ in an infinite array by counting down the diagonals, thus: 
 
@@ -45,7 +45,7 @@ An interesting and useful corollary is that the Cartesian product of two countab
 X \times Y = \bigcup_{y \in Y}(X \times \{ y \}),
 \end{equation*}
 
-and since, if $X$ is countable, then, for each fixed $y$ in $Y$, the set $X \times \{ y \}$ is obviously countable (use the one-to-one correspondence $x \rightarrow (x,y)$), the result follows the preceding paragraph. 
+and since, if $X$ is countable, then, for each fixed $y$ in $Y$, the set $X \times \{ y \}$ is obviously countable (use the one-to-one correspondence $x \rightarrow (x,y)$), the result follows from the preceding paragraph. 
 
 \begin{exercise}[\textsc{Exercise}. ] Prove that the set of all finite subsets of a countable set is countable. Prove that if every countable subset of a totally ordered set $X$ is well ordered, then $X$ itself is well ordered. 
 \end{exercise}
@@ -63,7 +63,7 @@ for all $X$.
 \end{named}
 \end{samepage}
 
-\textsc{Proof}. There is a natural one-to-one mapping $X$ into $\mathcal{P}(X)$, namely, the mapping that associates with each element $x$ of $X$ the singleton $\{ x \}$. The existence of this mapping proves that $X \precsim \mathcal{P}(X)$; it remains to prove that $X$ is not equivalent to $\mathcal{P}(X)$. 
+\textsc{Proof}. There is a natural one-to-one mapping from $X$ into $\mathcal{P}(X)$, namely, the mapping that associates with each element $x$ of $X$ the singleton $\{ x \}$. The existence of this mapping proves that $X \precsim \mathcal{P}(X)$; it remains to prove that $X$ is not equivalent to $\mathcal{P}(X)$. 
 
 Assume that $f$ is a one-to-one mapping from $X$ onto $\mathcal{P}(X)$; our purpose is to show that this assumption  leads to a contradiction. Write $A = \{ x \in X: x \notin f(x) \}$; in words, $A$ consists of those elements of $X$ that are not contained in the corresponding set. Since $A \in \mathcal{P}(X)$ and since $f$ maps $X$ onto $\mathcal{P}(X)$, there exists an element $a$ in $X$ such that $f(a) = A$. The element $a$ either belongs to the set $A$ or it does not. If $a \in A$, then, by the definition of $A$, we must have $a \notin f(a)$, and since $f(a) = A$ this is impossible. If $a \notin A$, then, again by the definition of $A$, we must have $a \in f(a)$, and this too is impossible. The contradiction has arrived and the proof of Cantor's theorem is complete.
 
