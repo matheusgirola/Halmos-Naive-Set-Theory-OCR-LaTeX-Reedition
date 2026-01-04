@@ -6,6 +6,8 @@
 
   The PDF used is public domain and, so, freely available in the internet. Therefore, the resulting re-edition of the book at the end of this project has no lucrative ends by any means. The final PDF will be written in LaTeX and available for download in the repository.
 
-## Last updated in july 1, 2024.
+## Last updated in january 4, 2026.
 
-All chapters finished and the final version of the book available in the pdf "Naive_Set_Theory_Reedition". You can also view the LaTeX documents in the folder of same name or using this overleaf link < [https://www.overleaf.com/read/mvcbkkqnmzby](https://www.overleaf.com/read/rtbqbpnyrtbq#1131f7) >
+All chapters finished and the final version of the book available in the pdf "Naive_Set_Theory_Reedition". You can also view the LaTeX documents in the folder of same name or using this overleaf link < [https://www.overleaf.com/read/mvcbkkqnmzby](https://www.overleaf.com/read/rtbqbpnyrtbq#1131f7) >.
+
+Luiz (https://github.com/luifrancgom) made a lot of typo corrections and also published a version of the re-edition in Quarto HTML freely available at https://luifrancgom.github.io/halmos_naive_set_theory_quarto/, and also a PDF version (https://luifrancgom.github.io/halmos_naive_set_theory_quarto/Naive-Set-Theory.pdf)
