@@ -1,7 +1,7 @@
 %--- CHAPTER 21 PAGES 94-98
 %--- MODIFIED LAST IN 07/07/2023
 
-For natural numbers we used the recursion theorem to define the arithmetic operations, and, subsequently, we proved that those operations are related to the operations of set in various desirable ways. Thus, instance, we know that the number of elements in the union of two disjoint finite sets $E$ and $F$ is equal to $\# (E) + \# (F)$. We observe now that this fact could have been used to define addition. If $m$ and $n$ are natural numbers, we could have defined their sum by finding disjoint sets $E$ and $F$, with $\# (E) = m$ and $\# (F) = n$, and writing $m+ n = \# (E U F)$.
+For natural numbers we used the recursion theorem to define the arithmetic operations, and, subsequently, we proved that those operations are related to the operations of set theory in various desirable ways. Thus, for instance, we know that the number of elements in the union of two disjoint finite sets $E$ and $F$ is equal to $\# (E) + \# (F)$. We observe now that this fact could have been used to define addition. If $m$ and $n$ are natural numbers, we could have defined their sum by finding disjoint sets $E$ and $F$, with $\# (E) = m$ and $\# (F) = n$, and writing $m+ n = \# (E \cup F)$.
 
 Corresponding to what was done and to what could have been done for natural numbers, there are two standard approaches to ordinal arithmetic. Partly for the sake of variety, and partly because in this context recursion seems less natural, we shall emphasize the set-theoretic approach instead of the recursive one. 
 
@@ -37,7 +37,7 @@ Almost all the bad behavior of addition stems from the failure of the commutativ
 
 The main use of infinite sums is to motivate and facilitate the study of products. If $A$ and $B$ are well ordered sets, it is natural to define their product as the result of adding $A$ to itself $B$ times. To make sense out of this, we must first of all manufacture a disjoint family of well ordered sets, each of which is similar to $A$, indexed by the set $B$. The general prescription for doing this works well here; all we need to do is to write $A_{b} = A \times \{  b \}$ for each $b$ in $B$. If now we examine the definition of ordinal sum as it applies to the family $\{ A_{b} \}$, we are led to formulate the following definition. The \textit{ordinal product}\index{ordinal product} of two well ordered sets $A$ and $B$ is the Cartesian product $A \times B$ with the reverse lexicographic order. In other words, if $(a,b)$ and $(c, d)$ are in $A \times B$, then $(a, b) < (c, d)$ means that either $b < d$ or else $b = d$ and $a < c$. 
 
-If $\alpha$ and $\beta$ are ordinal numbers, let $A$ and $B$ be well ordered sets with ord $A = \alpha$, and ord $B = \beta$, and let $C$ be the ordinal product of $A$ and $B$. The product $\alpha \beta$ is, by definition, the ordinal number of $C$, so that (ord $A$)(ord $B$) = ord $C$. The product is unambiguously  defined, independently of the arbitrary choice of the well ordered sets $A$ and $B$. Alternatively, at this point we could have avoided any arbitrariness at all by recalling that the most easily available well ordered set whose  ordinal number is $\alpha$ is the ordinal number $\alpha$ itself (and similarly for $\beta$). 
+If $\alpha$ and $\beta$ are ordinal numbers, let $A$ and $B$ be well ordered sets with ord $A = \alpha$, and ord $B = \beta$, and let $C$ be the ordinal product of $A$ and $B$. The \textit{product} $\alpha \beta$ is, by definition, the ordinal number of $C$, so that (ord $A$)(ord $B$) = ord $C$. The product is unambiguously  defined, independently of the arbitrary choice of the well ordered sets $A$ and $B$. Alternatively, at this point we could have avoided any arbitrariness at all by recalling that the most easily available well ordered set whose  ordinal number is $\alpha$ is the ordinal number $\alpha$ itself (and similarly for $\beta$). 
 
 Like addition, multiplication has its good and bad properties.   Among the good ones are the identities 
 
@@ -60,7 +60,7 @@ the left distributive law
 \alpha ( \beta  +\gamma) = ( \alpha \beta ) + \alpha \gamma , 
 \end{equation*}
 
-and the fact that if the product of two ordinal numbers is zero, then one of the factors must be zero. (Note that we use the standard convention about multiplication precedence over addition; $\alpha \beta + \alpha \gamma$ denotes $(\alpha \beta) + (\alpha \gamma)$.) 
+and the fact that if the product of two ordinal numbers is zero, then one of the factors must be zero. (Note that we use the standard convention about multiplication taking precedence over addition; $\alpha \beta + \alpha \gamma$ denotes $(\alpha \beta) + (\alpha \gamma)$.) 
 
 The commutative law for multiplication fails, and so do many of its consequences. Thus, for instance, $2 \omega = \omega$ (think of an infinite sequence of ordered pairs), but $\omega 2 \neq \omega$ (think of an ordered pair of infinite sequences). The right distributive law also fails; that is $(\alpha + \beta) \gamma$ is in general different from $\alpha \gamma + \beta \gamma$. Example: $(1 + 1) \omega = 2 \omega = \omega$, but $1 \omega + 1 \omega = \omega + \omega = \omega 2$. 
 
@@ -73,6 +73,6 @@ Just as repeated addition led to the definition of ordinal products, repeated mu
 \alpha^{\beta \gamma} &= (\alpha^{\beta})^{\gamma}.
 \end{align*}
 
-Not all the familiar laws of exponents hold; thus, for instance, $( \alpha \beta)^{\gamma}$ is in general different from $\alpha^{\gamma} \beta^{\gamma}$. Example: $(2 \cdot 2)^{\omega} = 4^{\omega} = \omega$, but $2^{\omega} \cdot 2^{\omega} = \omega \cdot \omega =  \omega^{2}$ 
+Not all the familiar laws of exponents hold; thus, for instance, $( \alpha \beta)^{\gamma}$ is in general different from $\alpha^{\gamma} \beta^{\gamma}$. Example: $(2 \cdot 2)^{\omega} = 4^{\omega} = \omega$, but $2^{\omega} \cdot 2^{\omega} = \omega \cdot \omega =  \omega^{2}$. 
 
 Warning: the exponent notation for ordinal numbers, here and below, is not consistent with our earlier use of it. The unordered set $2^{\omega}$ of all functions from $\omega$ to $2$, and the well ordered set $2^{\omega}$ that is the least upper bound of the sequence of ordinal numbers $2, 2 \cdot 2, 2 \cdot 2 \cdot 2$, etc., are not the same thing at all. There is no help for it; mathematical usage is firmly established in both camps. If, in a particular situation, the context does not reveal which of the two interpretations is to be used, then explicit verbal indication must be given. 
